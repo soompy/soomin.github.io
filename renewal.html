@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>renewal</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/renewal_gnb.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="inner">
+        <h1><a href="index.html"><img src="" alt="logo">logo</a></h1>
+        <ul id="gnb">
+            <li><a href="#" class="active">아파트</a></li>
+            <li><a href="#">빌라/투룸</a></li>
+            <li><a href="#">원룸</a></li>
+            <li><a href="#">오피스텔</a></li>
+        </ul>
+        <ul class="join">
+            <li><a href="#">로그인</a></li>
+            <li><a href="#">회원가입</a></li>
+        </ul>
+
+        <div class="m_gnb">
+            <a href="m_menu_bar">menu</a>
+            <ul class="m_burger">
+                <li><a href="#" class="active">아파트</a></li>
+                <li><a href="#">빌라/투룸</a></li>
+                <li><a href="#">원룸</a></li>
+                <li><a href="#">오피스텔</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="visual">
+    <div class="inner_vi">
+
+        <div class="search_box">
+            <input type="text" placeholder="입력">
+            <button class="search_btn">찾기</button>
+        </div>
+
+    </div>
+</section>
+
+<section class="content">
+    <div class="area_common">
+        <h2 class="con_h2"></h2>
+    </div>
+
+    <div class="area_common">
+        <button type="button" class="btn btn-info btn-lg" id="myBtn">Open Modal</button>
+
+    </div>
+
+</section>
+
+
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">시세 조회</h4>
+                <button type="button" class="close" data-dismiss="modal">×</button>
+            </div>
+
+            <div class="modal-body">
+                <div class="modal_check_tab">
+                    <ul>
+                        <li class="active">시세/면적으로 조회</li>
+                        <li>동호수로 조회</li>
+                    </ul>
+                </div>
+                <div class="modal_select_box">
+                    <div class="select_content">
+                        <div class="classify">지역</div>
+                        <div class="select_area">
+                            <div class="dropdown">
+                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
+                                        data-toggle="dropdown" aria-expanded="true">
+                                    시/도
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">서울특별시</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">강원도</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">경기도</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">경상도</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">전라도</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">제주도</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
+                                        data-toggle="dropdown" aria-expanded="true">
+                                    지역구
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
+                                        data-toggle="dropdown" aria-expanded="true">
+                                    읍/면/동
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="select_content">
+                        <div class="classify">유형</div>
+                        <div class="select_area select_type">
+                            <ul class="select_structure">
+                                <li class="on">아파트</li>
+                                <li>오피스텔</li>
+                            </ul>
+                            <div class="dropdown">
+                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
+                                        data-toggle="dropdown" aria-expanded="true">
+                                    전체 아파트
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">A아파트</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">B아파트</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="select_content">
+                        <div class="classify">거래유형</div>
+                        <div class="select_area">
+                            <div class="form-group">
+          <span class="custom_form _user_used_news_letter" style="margin-right:16px;">
+            <input type="checkbox" class="input_cus" id="news_mail" checked="checked">
+            <label for="news_mail">전체</label>
+          </span>
+                                <span class="custom_form _user_used_news_letter" style="margin-right:16px;">
+            <input type="checkbox" class="input_cus" id="news_mail" checked="checked">
+            <label for="news_mail">매매</label>
+          </span>
+                                <span class="custom_form _user_used_news_letter" style="margin-right:16px;">
+            <input type="checkbox" class="input_cus" id="news_mail" checked="checked">
+            <label for="news_mail">전세</label>
+          </span>
+                                <span class="custom_form _user_used_sms">
+            <input type="checkbox" class="input_cus" id="news_sms" checked="checked">
+            <label for="news_sms">월세</label>
+          </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="select_content">
+                        <div class="classify">면적</div>
+                        <div class="select_area select_type">
+                            <strong>전체면적</strong>
+                            <div id="slider-range"></div> <!--슬라이딩 바 띄우기-->
+                            <ul class="select_structure">
+                                <li class="on">전체</li>
+                                <li>~33m²</li>
+                                <li>33~66m²</li>
+                                <li>66~99m²</li>
+                                <li>99~132m²</li>
+                                <li>132~165m²</li>
+                                <li>165~198m²</li>
+                                <li>198m²~</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="select_content">
+                        <div class="classify">시세</div>
+                        <div class="select_area">
+                            <!--이런건 어떻게 만드는거..-->
+                            <ul class="select_structure" style="height: 70px;">
+                                <li class="on">전체</li>
+                                <li>~1억</li>
+                                <li>1억</li>
+                                <li>2억</li>
+                                <li>3억</li>
+                                <li>4억</li>
+                                <li>5억</li>
+                                <li>6억</li>
+                                <li>7억</li>
+                                <li>8억</li>
+                                <li>9억</li>
+                                <li>10억</li>
+                                <li>11억</li>
+                                <li>12억</li>
+                                <li>13억</li>
+                                <li>14억</li>
+                                <li>15억</li>
+                                <li>15억~</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div><!--modal-body-->
+
+            <div class="modal-footer">
+                <button type="button">조회</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button">초기화</button>
+            </div>
+        </div>
+    </div>
+</div><!--modal-->
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+<script src="js/renewal.js"></script>
+
+
+</body>
+</html>

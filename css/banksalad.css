@@ -1,0 +1,294 @@
+.bold{
+    font-weight: bold;
+}
+h4,p{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.pd{
+    padding: 10px 15px;
+}
+.pd_lr_15{
+    padding: 0 15px;
+}
+/*뱅셀 인덱스*/
+.bs_wrap{
+    max-width: 530px;
+    margin: auto;
+    border: 1px solid #000;
+}
+#nav{
+    display: none;
+}
+
+.sec_budget{
+    display: flex;
+}
+.sec_budget li{
+    flex: 1;
+    text-align: center;
+    padding: 8px;
+}
+.sec_budget li.active{
+    border-bottom: 2px solid #333;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+
+.cont{
+    width: 100%;
+}
+.inner{
+    padding: 0 15px;
+}
+.sum_asset{
+    position: relative;
+    background: #ccc;
+    color: #fff;
+    padding: 25px 15px;
+}
+.sum_asset span,.sum_asset strong{
+    display: block;
+    font-size: 20px;
+}
+.sum_asset span{
+    font-size: 13px;
+}
+.add_asset{
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    background: darkslategrey;
+    border-radius: 15px;
+    font-size: 10px;
+    padding: 3px 7px;
+    color: #fff;
+}
+
+.score{
+    display: flex;
+    padding: 20px 15px;
+    justify-content: center;
+    align-items: center;
+}
+.score h4{
+    flex: 1;
+    font-size: 16px;
+}
+.score strong{
+    flex: 3;
+    text-align: right;
+}
+.cash_flow{
+    display: flex;
+    padding: 20px 15px;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.1);
+}
+.score h4{
+
+}
+.cash_flow strong{
+    flex: 1;
+}
+.cash_flow strong:last-child{
+    text-align: right;
+}
+
+
+.money_flow{
+
+}
+.flow_top{
+    display: block;
+    clear: both;
+    content: '';
+    height: 30px;
+    padding: 8px 15px;
+    background: #eee;
+    font-size: 12px;
+    color: #666;
+}
+.flow_top h4{
+    float: left;
+    font-size: 12px;
+}
+.sum_cash{
+    float: right;
+}
+
+
+.depo{
+
+}
+.depo li{
+    display: flex;
+    padding: 10px 15px;
+}
+.depo li:nth-child(odd){
+    border-bottom: 1px solid #ccc;
+}
+.depo li div{
+    flex: 1;
+}
+.depo li div:last-child{
+    text-align: right;
+}
+.depo li p{
+    font-size: 14px;
+}
+.depo li span{
+    display: block;
+}
+.depo li a{
+    display: block;
+    font-size: 13px;
+    color: #ccc;
+}
+
+
+
+
+/*뱅크셀러드 가계부*/
+.data{
+
+}
+.list{
+    display: flex;
+}
+.list li{
+    flex: 1;
+    text-align: center;
+    border: 1px solid #999;
+    background: #fff;
+}
+.list li:nth-child(n+1){
+    margin-left: -1px;
+}
+.list li.active{
+    background: #eee;
+}
+.state{
+    display: flex;
+    font-size: 12px;
+    padding-top: 15px;
+}
+.state dl{
+    flex: 1;
+}
+.state dd{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.money_book{
+    font-size: 14px;
+}
+.money_book li span{
+    display: inline;
+    padding: 5px 15px;
+    border-radius: 20px;
+    background: deepskyblue;
+    color: #fff;
+    width: 150px;
+    font-size: 12px;
+}
+.money_book li div:nth-child(2){
+    flex: 2;
+}
+.state dl{
+    margin: 0;
+}
+.state input{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/*뱅크샐러드 가계부 통계영역*/
+#chartdiv {
+    width: 100%;
+    height: 220px;
+}
+
+
+/*my금융*/
+.chart{
+    width: auto;
+}
+.top_fin_box{
+    background: #666;
+    color: #eee;
+}
+.grade{
+    display: flex;
+}
+#chartdiv{
+    font: 1;
+}
+.my_fin_box{
+    font: 1;
+}
+.my_fin_btn{
+    background: #999;
+    padding: 3px 10px;
+    text-align: center;
+    color: #222;
+    border-radius: 7px;
+    margin-top: 20px;
+    display: block;
+}
+.maintain{
+    background: #333;
+    border-radius: 7px;
+    padding: 10px;
+}
+.maintain a{
+    display: block;
+    color: #eee;
+}
+
+
+
+
+
+
+
+.top_banner{
+    text-align: center;
+    padding: 20px 0;
+}
+.top_banner h2{
+    font-size: 24px;
+}
+.net_asset{
+    font-size: 20px;
+}
+.sum_asset_box{
+    display: flex;
+    padding: 10px 0;
+}
+.sum_asset_box strong,.sum_asset_box span{
+    flex: 1;
+}
+.sum_asset_box span{
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
