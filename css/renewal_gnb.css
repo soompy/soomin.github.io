@@ -1,0 +1,196 @@
+/*메뉴*/
+.navbar{
+    padding: 30px 0;
+    width: 100%;
+    background: #eee;
+}
+.inner{
+    display: flex;
+    width: 1400px;
+    margin: 0 auto;
+}
+h1{
+    flex: 1;
+
+}
+#gnb{
+    display: flex;
+    flex: 3;
+}
+#gnb li{
+    flex: 1;
+    margin: auto 0;
+}
+#gnb li a{
+    display: block;
+    text-align: center;
+}
+.join{
+    display: flex;
+    width: 180px;
+}
+.join li{
+    margin-left: auto;
+    text-align: center;
+    border: 1px solid #ccc;
+    background: #fff;
+    height: 35px;
+}
+.join li:last-child{
+    margin-left: -2px;
+}
+.join li a{
+    display: block;
+    padding: 10px;
+}
+.m_gnb{
+    display: none;
+}
+
+/*비주얼*/
+.visual{
+    width: 100%;
+    height: 400px;
+    background: #e0e0e0;
+}
+.inner_vi{
+    position: relative;
+    width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+}
+.search_box{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+}
+.search_box input{
+    width: 84%;
+    height: 45px;
+    padding: 10px;
+    border: 2px solid #000;
+}
+.search_btn{
+    margin-left: auto;
+    width: 15%;
+    height: 45px;
+    padding: 10px;
+    border: 2px solid #000;
+    margin-left: -1%;
+
+}
+.area_common{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 70px 16px 80px;
+}
+
+
+
+
+
+
+
+
+/*모달*/
+.modal.show .modal-dialog{
+    max-width: 1200px;
+    font-size: 14px;
+}
+.modal_select_box{
+
+}
+
+.modal_check_tab{
+    display: block;
+    clear: both;
+    content: '';
+    height: 47px;
+    border-bottom: 1px solid navy;
+}
+.modal_check_tab li{
+    float: left;
+    font-size: 16px;
+    padding: 15px 20px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+.modal_check_tab li.active{
+    background: navy;
+    color: #fff;
+}
+
+.select_content{
+    display: flex;
+    padding: 10px 0;
+}
+.select_content>div{
+
+}
+.dropdown{
+    float: left;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+.btn:not(:disabled):not(.disabled){
+    font-size: 14px;
+}
+.classify{
+    flex: 1;
+}
+.select_area{
+    flex: 6;
+}
+.select_type{
+    display: block;
+    clear: both;
+    content: '';
+}
+.select_structure{
+    float: left;
+    height: 35px;
+    margin-right: 10px;
+}
+.select_structure li{
+    float: left;
+    width: 100px;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10.5px;
+}
+.select_structure li.on{
+    background: yellow;
+}
+.select_structure li:last-child{
+    margin-left: -1px;
+}
+
+
+
+
+
+
+/*반응형*/
+@media (max-width: 1400px){
+    .inner{
+        width: 100%;
+    }
+    #gnb{
+        display: none;
+    }
+    .m_gnb{
+        display: block;
+        margin-left: auto;
+    }
+    .visual{
+        padding: 0 20px;
+    }
+    .inner_vi{
+        width: 100%;
+    }
+    .area_common{
+        padding: 40px 16px 50px;
+    }
+}
