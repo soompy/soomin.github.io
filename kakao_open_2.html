@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>금융 모바일 웹 메인페이지</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/kakao.css" rel="stylesheet">
+  <link href="css/kakao.scss" rel="stylesheet">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<body>
+
+<!--카피 참고 페이지 링크-->
+<!--https://mainia.tistory.com/5525-->
+
+
+<div class="deposit_wrap">
+  <div class="top_area">
+    <h1 class="title">계좌개설</h1>
+    <a class="cancel_btn">
+      <span class="hide"><a href="#none">취소</a></span>
+    </a>
+  </div>
+
+  <div class="main">
+    <div class="percentage">
+      <div class="calculator">
+        <p><strong>연 2.00</strong> %</p>
+        <span class="fin_12">12개월 만기</span>
+        <div class="set">
+          <span class="btn_set">직접설정</span>
+        </div>
+      </div>
+      <div class="slider_wrap">
+        <div id="slider" class="slider ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
+          <!--slider-->
+        </div>
+        <div class="dot_box">
+          <span><em><i></i><br>1</em></span>
+          <span><em><i></i><br>6</em></span>
+          <span><em><i></i><br>12</em></span>
+          <span><em><i></i><br>18</em></span>
+          <span><em><i></i><br>24</em></span>
+          <span><em><i></i><br>30</em></span>
+          <span><em><i></i><br>36</em></span>
+          <span><em><i></i><br>41</em></span>
+        </div>
+      </div>
+
+      <div class="deposit_sum">
+        <div class="deposit_box">
+          <strong>예금금액</strong>
+          <div class="input_sum">
+            <p>
+              <input type="number" placeholder="금액입력"> 원
+            </p>
+            <span class="mt5">최소 100만원이상</span>
+          </div>
+        </div><!--deposit_box-->
+      </div><!--deposit_sum-->
+    </div>
+
+    <div class="cal_btn active">
+      <a href="#">만기 예상액 계산</a>
+    </div><!--next_btn-->
+
+    <div class="interest">
+      <ul>
+        <li>
+          <strong>
+            <span>만기 예상이자</span>
+            <span class="text_right">(세전) 100,000원</span>
+          </strong>
+        </li>
+        <hr>
+        <li>
+          <strong>
+            <span>비과세종합저축</span>
+            <span class="text_right"><a href="#">한도 조회</a></span>
+          </strong>
+        </li>
+      </ul>
+    </div>
+
+    <div class="deposit_sum mt30">
+      <div class="deposit_box">
+        <strong>만기 시</strong>
+        <div class="input_sum pl20">
+          <p>
+            <select class="form-control choose_form ng-pristine ng-valid ng-touched bold" name="form"
+                    ng-reflect-name="form" ng-reflect-model=""> x
+              <option value="" ng-reflect-value="">선택</option>
+              <option value="만기 시 자동해지" ng-reflect-value="만기 시 자동해지"> 만기 시 자동해지</option>
+              <option value="만기 시 수동해지" ng-reflect-value="만기 시 수동해지"> 만기 시 수동해지</option>
+              <option value="만기 시 가간연장" ng-reflect-value="만기 시 가간연장"> 만기 시 가간연장</option>
+            </select>
+          </p>
+        </div>
+      </div><!--deposit_box-->
+    </div><!--deposit_sum-->
+
+    <p class="deposit_info mt5 fz12">
+      *만기일에 자동으로 해지되어 원금과 이자가 고객님의 입출금 계좌로 입금됩니다.
+    </p>
+
+    <div class="mt30">
+      <div class="deposit_sum">
+        <div class="deposit_box">
+          <strong>출금계좌</strong>
+          <div class="input_sum pl20">
+            <p>
+              <select class="form-control choose_form ng-pristine ng-valid ng-touched bold" name="form"
+                      ng-reflect-name="form" ng-reflect-model=""> x
+                <option value="" ng-reflect-value="">선택</option>
+                <option value="" ng-reflect-value=""></option>
+                <option value="" ng-reflect-value=""></option>
+                <option value="" ng-reflect-value=""></option>
+              </select>
+            </p>
+          </div>
+        </div><!--deposit_box-->
+      </div><!--deposit_sum-->
+      <div class="balance">
+        <span>출금가능 잔액부족</span>
+        <strong>0원</strong>
+      </div>
+    </div>
+
+    <div class="join_btn active">
+      <a href="#">정기예금 가입하기</a>
+    </div><!--next_btn-->
+  </div><!--main-->
+
+  <!--layer-->
+  <div class="layer ly_fade">
+    <div class="ly_bg">
+    </div>
+      <div class="ask_join">
+        <div class="confirm">
+          <h3 class="text-center fz20 bold">카카오뱅크 정기예금을 <br> 가입하시겠어요?</h3>
+          <ul class="join">
+            <li>
+              <span>예금 가입액</span>
+              <strong>100,000원</strong>
+            </li>
+            <li>
+              <span>만기일자</span>
+              <strong>2019.06.13</strong>
+            </li>
+            <li>
+              <span>적용금리</span>
+              <strong>연 <em></em>2.00%</strong>
+            </li>
+          </ul>
+        </div>
+        <ul class="check_btn">
+          <li><a href="#" class="no">아니요</a></li>
+          <li><a href="#" class="ys">예</a></li>
+        </ul>
+      </div> <!--ask_join-->
+
+  </div><!--layer-->
+</div><!--deposit_wrap-->
+
+
+
+
+<script>
+
+    var ly = $(".layer");
+    // var lybg = $(".ly_bg");
+
+    $(".join_btn a").on("click",function () {
+        ly.css({display: "block"});
+    })
+
+
+  
+</script>
+
+</body>
+</html>

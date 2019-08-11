@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>금융 모바일 웹 메인페이지</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/kakao.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<body>
+
+<!--카피 참고 페이지 링크-->
+<!--https://mainia.tistory.com/5525-->
+
+
+  <div class="wrap">
+    <nav class="navbar">
+      <div id="gnb">
+        <ul>
+          <li>자동이체 <em class="go">&gt;</em></li>
+          <li>스마트출금 <em class="go">&gt;</em></li>
+          <li>이체내역조회 <em class="go">&gt;</em></li>
+        </ul>
+        <p>상품가입</p>
+        <ul>
+          <li>카카오뱅크 계좌개설 <em class="go">&gt;</em></li>
+          <li>매일 이자가 느는 정기예금 <em class="go">&gt;</em></li>
+          <li>매일/매주/매월 자유적금 <em class="go">&gt;</em></li>
+        </ul>
+        <p>대출신청</p>
+        <ul>
+          <li>비생금 대출 <em class="go">&gt;</em></li>
+          <li>마이너스 통장대출 <em class="go">&gt;</em></li>
+        </ul>
+      </div><!--gnb-->
+      <div class="main_menu">
+        <ul>
+          <li>MY</li>
+          <li>추천</li>
+          <li>가이드</li>
+        </ul>
+      </div><!--main_menu-->
+    </nav><!--navbar 네비게이션 메뉴 영역-->
+
+    <div class="top_area deposit_index">
+      <h1 class="title">정기예금</h1>
+      <a class="cancel_btn">
+        <span class="hide"><a href="#none">관리</a></span>
+      </a>
+    </div>
+
+    <div class="main deposit_account">
+      <div class="day_count">
+        <div class="interest_tit">
+          <h3>적용금리 연 2.00%</h3>
+          <p>3333-3333-3333</p>
+          <span>만기일 : 2019.06.14</span>
+        </div>
+
+        <div class="dday">
+          <div class="slider_wrap">
+            <div id="slider" class="slider ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
+              <!--slider-->
+            </div>
+            <strong class="fin_day">D-365</strong>
+          </div>
+          <p>
+            <span>2018.06.15 개설</span>
+            <span>만기일</span>
+          </p>
+        </div>
+      </div><!--day_count-->
+    </div><!--main-->
+
+
+    <div class="deposit_con">
+      <div class="interest_val">
+        <strong>지금까지 쌓인 이자</strong>
+        <p>0 <span>.00</span>원</p>
+        <em>만기해지 시</em>
+      </div>
+      <div class="deposit_join">
+        <ul>
+          <li>
+            <em>06.14</em>
+            <strong>예금 가입</strong>
+            <p>3333-3333-3333</p>
+          </li>
+        </ul>
+      </div>
+    </div><!--deposit_con-->
+
+  </div><!--wrap-->
+
+
+<script>
+
+  $("#slider").slider({
+
+  })
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>my금융</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/banksalad.css" rel="stylesheet">
+  <script src="https://www.amcharts.com/lib/4/core.js"></script>
+  <script src="https://www.amcharts.com/lib/4/charts.js"></script>
+  <script src="https://www.amcharts.com/lib/4/themes/dark.js"></script>
+  <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+
+  <!-- Chart code -->
+  <script>
+      am4core.ready(function() {
+
+// Themes begin
+          am4core.useTheme(am4themes_dark);
+          am4core.useTheme(am4themes_animated);
+// Themes end
+
+          var chart = am4core.create("chartdiv", am4charts.PieChart);
+          chart.hiddenState.properties.opacity = 0; // this creates initial fade-in
+
+          chart.data = [
+              {
+                  country: "Lithuania",
+                  value: 401
+              },
+              {
+                  country: "Czech Republic",
+                  value: 300
+              },
+              {
+                  country: "Ireland",
+                  value: 200
+              },
+              {
+                  country: "Germany",
+                  value: 165
+              },
+              {
+                  country: "Australia",
+                  value: 139
+              },
+              {
+                  country: "Austria",
+                  value: 128
+              }
+          ];
+          chart.radius = am4core.percent(70);
+          chart.innerRadius = am4core.percent(40);
+          chart.startAngle = 180;
+          chart.endAngle = 360;
+
+          var series = chart.series.push(new am4charts.PieSeries());
+          series.dataFields.value = "value";
+          series.dataFields.category = "country";
+
+          series.slices.template.cornerRadius = 10;
+          series.slices.template.innerCornerRadius = 7;
+          series.slices.template.draggable = true;
+          series.slices.template.inert = true;
+          series.alignLabels = false;
+
+      }); // end am4core.ready()
+  </script>
+
+</head>
+
+<body>
+
+<div class="bs_wrap">
+  <div class="top_fin_box">
+    <div class="inner">
+      <div class="standard">
+        <p>2019-06-27 기준</p>
+        <p><strong>재평가일 D-30</strong><img src="/img/,png" alt="재평가일"></p>
+      </div>
+      <div class="grade">
+        <div id="chartdiv" class="chart"></div>
+        <div class="my_fin_box">
+          <p>내 상태</p>
+          <p><strong>상위 1</strong>% <span>매우 우수</span></p>
+          <a href="#" class="my_fin_btn">내 금융 현황</a>
+        </div><!--my_fin_box-->
+      </div><!--grade-->
+      <div class="maintain"><a href="#">지금처럼 1등급을 유지하세요! &gt;</a></div>
+    </div>
+  </div>
+
+  <div class="cont">
+    <div class="inner">
+      <h4>신용점수 올리기</h4>
+      <div class="up_btn">
+        <p>나의 신용도를 증명하고 <br> 점수를 올리세요!</p>
+        <a href="#">지금 올리기</a>
+      </div>
+    </div>
+  </div><!--cont-->
+</div>
+
+
+
+<script>
+
+</script>
+
+</body>
+</html>

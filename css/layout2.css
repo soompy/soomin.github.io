@@ -1,0 +1,159 @@
+body{
+    text-align: center;
+}
+a{
+    color: #1a1a1a;
+}
+a:hover{
+    text-decoration: none;
+    color: #1a1a1a;
+}
+.blind{
+    display: none;
+    opacity: 0;
+    text-indent: -9999px;
+}
+.content{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #eee;
+}
+.content-inner{
+    display: table;
+    flex-direction: column;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+.portal-content{
+    display: table-cell;
+    vertical-align: middle;
+    flex-shrink: 0;
+    text-align: center;
+    background: #e0e0e0;
+}
+.area_top{
+    position: relative;
+    margin-top: -20%;
+}
+#gnb{
+    display: inline-block;
+    padding: 20px;
+    /*position: absolute;*/
+    /*left: 50%;*/
+    /*top: 0;*/
+    /*margin-left: -208.5px;*/
+}
+#gnb li{
+    float: left;
+    margin: 0 30px;
+}
+.search{
+
+}
+.search_bd{
+    position: relative;
+    display: block;
+}
+.search_bd button{
+    height: 45px;
+    background: #fff;
+}
+.btn_key{
+    position: absolute;
+    right: 59px;
+    top: 0;
+}
+.btn_search{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60px;
+}
+#query{
+    width: 100%;
+    height: 45px;
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+}
+.complete{
+    text-indent: -9999px;
+}
+
+
+
+
+.active{
+
+}
+#newTab.active{
+    background: rgba(252,220,12,1);
+}
+.panel_bloc{
+    position: relative;
+    margin: 30px 0;
+}
+.tit_tabcont{
+    width: 100px;
+    height: 40px;
+    border-bottom: 1px solid #999;
+    text-align: left;
+    padding: 8px;
+    cursor: pointer;
+}
+.tit_tabcont span{
+    text-align: center;
+    line-height: 26px;
+}
+
+.wrap_tabcont{
+    display: none;
+    position: absolute;
+    left: 100px;
+    top: 0;
+    width: 568px;
+    padding: 0 15px;
+}
+.wrap_tabcont.active{
+    display: block;
+}
+
+
+.wrap_tabcont{
+
+}
+.wrap_tabcont li{
+    width: 225px;
+    float: left;
+    margin: 0 20px;
+}
+.cont_item{
+    margin-top: 11px;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: initial;
+}
+
+
+
+/*날씨*/
+.weather{
+    padding: 20px;
+    color: #f8f9fa;
+    /*background: #118eff;*/
+    background: #ccc;
+    font-weight: 200;
+}
+
+
+
+
+
+
+
+
+
+
+
