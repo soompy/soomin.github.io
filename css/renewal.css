@@ -152,26 +152,51 @@ h1{
     height: 100%;
     margin: 0 auto;
 }
-.search_box{
+.type_tab{
+    display: flex;
+    padding: 20px 0;
+}
+.type_tab li{
+    margin-right: 40px;
+}
+.type_tab li strong{
+    font-size: 20px;
+    font-weight: bold;
+}
+.type_tab li.active{
+    color: #ccc;
+    text-shadow: 1px 1px 1px #333;
+}
+.vi_search{
     position: absolute;
-    bottom: 20px;
+    bottom: 35px;
     left: 0;
     width: 100%;
 }
+.search_box{
+    position: relative;
+    width: 100%;
+    height: 45px;
+}
 .search_box input{
-    width: 84%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 85%;
     height: 45px;
     padding: 10px;
     border: 2px solid #000;
 }
+
 .search_btn{
-    margin-left: auto;
+    position: absolute;
+    right: 2px;
+    bottom: 0;
     width: 15%;
     height: 45px;
     padding: 10px;
     border: 2px solid #000;
-    margin-left: -1%;
-
+    margin-left: -3px;
 }
 .area_common{
     max-width: 1400px;
@@ -238,7 +263,26 @@ h1{
 .check_list em{
     margin-left: auto;
 }
-
+.check_list li:hover em{
+    -webkit-animation: here;
+    -o-animation: here;
+    animation-name: here;
+    -webkit-animation-duration: 0.5s;
+    -moz-animation-duration: 0.5s;
+    -o-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+}
+@keyframes here {
+    0%{
+        padding-right: 6px;
+    }
+    50%{
+        padding-right: 3px;
+    }
+    100%{
+        padding-right: 0;
+    }
+}
 
 
 /*쉬운 방 찾기 - con2*/
