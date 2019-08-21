@@ -52,8 +52,9 @@
 </nav>
 
 <section class="visual">
-    <div class="inner_vi">
-        <div class="vi_search">
+    <div class="inner_vi"></div>
+    <div class="vi_search">
+        <div class="vi_search_wrap">
             <ul class="type_tab">
                 <li class="active"><strong>아파트</strong>(매매/전월세/신축분양)</li>
                 <li><strong>빌라, 투룸+</strong>(매매/전월세)</li>
@@ -77,51 +78,53 @@
         <div class="row">
             <div class="col-sm-8">
                 <div class="apart_tab">
-                    <ul class="row">
-                        <li class="col-sm-6 active">인기단지</li>
-                        <li class="col-sm-6">맞춤단지</li>
+                    <ul class="row nav nav-tabs" role="tablist">
+                        <li class="col-sm-6 active" role="presentation"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">인기단지</a></li>
+                        <li class="col-sm-6" role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">맞춤단지</a></li>
                     </ul>
                 </div>
-                <ul class="apart_list row">
-                    <li class="col-sm-4">
-                        <img src="img/sell_apt_01.jpg" alt="단지 이미지">
-                        <p class="sell_title"><em>분양중</em>여의도 아리스타</p>
-                        <span>서울특별시 영등포구 당산동</span>
-                        <strong>분양가 1억9700 ~</strong>
-                    </li>
-                    <li class="col-sm-4">
-                        <img src="img/sell_apt_02.jpg" alt="단지 이미지">
-                        <p class="sell_title"><em>분양중</em>서충주 신도시 시그니처시티</p>
-                        <span>충청북도 충주시 주덕읍</span>
-                        <strong>분양가 9023 ~ </strong>
-                    </li>
-                    <li class="col-sm-4">
-                        <img src="img/sell_apt_03.jpg" alt="단지 이미지">
-                        <p class="sell_title"><em>청약중</em>명동 M퍼스트 플레이스(시행사 보유분 특별분양)</p>
-                        <span>서울특별시 중구 충무로2가</span>
-                        <strong>분양가 2억2480 ~ </strong>
-                    </li>
-                </ul>
-                <ul class="apart_list row">
-                    <li class="col-sm-4">
-                        <img src="img/sell_apt_04.jpg" alt="단지 이미지">
-                        <p class="sell_title"><em>분양중</em>여의도 아리스타</p>
-                        <span>서울특별시 영등포구 당산동</span>
-                        <strong>분양가 1억9700 ~</strong>
-                    </li>
-                    <li class="col-sm-4">
-                        <img src="img/sell_apt_05.jpg" alt="단지 이미지">
-                        <p class="sell_title"><em>분양중</em>서충주 신도시 시그니처시티</p>
-                        <span>충청북도 충주시 주덕읍</span>
-                        <strong>분양가 9023 ~ </strong>
-                    </li>
-                    <li class="col-sm-4">
-                        <img src="img/sell_apt_06.jpg" alt="단지 이미지">
-                        <p class="sell_title"><em>청약중</em>명동 M퍼스트 플레이스(시행사 보유분 특별분양)</p>
-                        <span>서울특별시 중구 충무로2가</span>
-                        <strong>분양가 2억2480 ~ </strong>
-                    </li>
-                </ul>
+                <div class="tab-content">
+                    <ul class="apart_list row tab-pane active" role="tabpanel" id="home">
+                        <li class="col-sm-4">
+                            <img src="img/sell_apt_01.jpg" alt="단지 이미지">
+                            <p class="sell_title"><em>분양중</em>여의도 아리스타</p>
+                            <span>서울특별시 영등포구 당산동</span>
+                            <strong>분양가 1억9700 ~</strong>
+                        </li>
+                        <li class="col-sm-4">
+                            <img src="img/sell_apt_02.jpg" alt="단지 이미지">
+                            <p class="sell_title"><em>분양중</em>서충주 신도시 시그니처시티</p>
+                            <span>충청북도 충주시 주덕읍</span>
+                            <strong>분양가 9023 ~ </strong>
+                        </li>
+                        <li class="col-sm-4">
+                            <img src="img/sell_apt_03.jpg" alt="단지 이미지">
+                            <p class="sell_title"><em>청약중</em>명동 M퍼스트 플레이스(시행사 보유분 특별분양)</p>
+                            <span>서울특별시 중구 충무로2가</span>
+                            <strong>분양가 2억2480 ~ </strong>
+                        </li>
+                    </ul>
+                    <ul class="apart_list row tab-pane" role="tabpanel" id="profile">
+                        <li class="col-sm-4">
+                            <img src="img/sell_apt_04.jpg" alt="단지 이미지">
+                            <p class="sell_title"><em>분양중</em>여의도 아리스타</p>
+                            <span>서울특별시 영등포구 당산동</span>
+                            <strong>분양가 1억9700 ~</strong>
+                        </li>
+                        <li class="col-sm-4">
+                            <img src="img/sell_apt_05.jpg" alt="단지 이미지">
+                            <p class="sell_title"><em>분양중</em>서충주 신도시 시그니처시티</p>
+                            <span>충청북도 충주시 주덕읍</span>
+                            <strong>분양가 9023 ~ </strong>
+                        </li>
+                        <li class="col-sm-4">
+                            <img src="img/sell_apt_06.jpg" alt="단지 이미지">
+                            <p class="sell_title"><em>청약중</em>명동 M퍼스트 플레이스(시행사 보유분 특별분양)</p>
+                            <span>서울특별시 중구 충무로2가</span>
+                            <strong>분양가 2억2480 ~ </strong>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="col-sm-4">
                 <ul class="check_list">
