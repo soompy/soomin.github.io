@@ -168,7 +168,7 @@ h1 {
     position: relative;
     width: 100%;
     height: 500px;
-    background-image: url(//s.zigbang.com/v1/web/main/main_2018.png);
+    /*background-image: url(//s.zigbang.com/v1/web/main/main_2018.png);*/
     background-position: 50% 0;
     background-repeat: no-repeat;
 }
@@ -330,9 +330,11 @@ h1 {
     margin-top: -1px;
     cursor: pointer;
 }
+
 .check_list li:hover {
     font-weight: bold;
 }
+
 .check_list em {
     margin-left: auto;
 }
@@ -394,11 +396,13 @@ h1 {
     width: 100%;
     height: 100px;
 }
-.find .bg img{
+
+.find .bg img {
     width: 100%;
     height: 100%;
 
 }
+
 .info {
     padding: 15px;
     font-size: 14px;
@@ -568,20 +572,22 @@ h1 {
     margin-left: -1px;
 }
 
-
 /*swiper*/
 .swiper-test {
     position: relative;
     height: 100%;
 }
+
 body {
     background-color: #fff;
 }
+
 .swiper-container {
     width: 1200px;
     height: 164px;
     background-color: #fff;
 }
+
 .swiper-slide {
     width: 185px;
     text-align: center;
@@ -601,7 +607,6 @@ body {
     -webkit-align-items: center;
     align-items: center;
 }
-
 
 /*반응형*/
 @media (max-width: 1200px) {
@@ -626,6 +631,10 @@ body {
         width: 100%;
     }
 
+    .type_tab {
+        display: none;
+    }
+
     .area_common {
         padding: 40px 16px 50px;
     }
@@ -633,5 +642,15 @@ body {
     /*swiper 적용 부분*/
     .swiper-container {
         width: 100%;
+    }
+
+    .market_price {
+        display: inherit;
+        flex-direction: column;
+    }
+
+    .market_price a {
+        margin: 8px 0;
+        text-align: center;
     }
 }
