@@ -568,6 +568,41 @@ h1 {
     margin-left: -1px;
 }
 
+
+/*swiper*/
+.swiper-test {
+    position: relative;
+    height: 100%;
+}
+body {
+    background-color: #fff;
+}
+.swiper-container {
+    width: 1200px;
+    height: 164px;
+    background-color: #fff;
+}
+.swiper-slide {
+    width: 185px;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
 /*반응형*/
 @media (max-width: 1200px) {
     .inner {
@@ -593,5 +628,10 @@ h1 {
 
     .area_common {
         padding: 40px 16px 50px;
+    }
+
+    /*swiper 적용 부분*/
+    .swiper-container {
+        width: 100%;
     }
 }
