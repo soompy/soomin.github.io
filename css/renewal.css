@@ -573,9 +573,11 @@ h1 {
 }
 
 /*swiper*/
-.swiper-test {
+
+#swiper-sell.swiper-area {
     position: relative;
     height: 100%;
+    display: none;
 }
 
 body {
@@ -640,6 +642,10 @@ body {
     }
 
     /*swiper 적용 부분*/
+    #swiper-sell.swiper-area {
+        display: block;
+    }
+
     .swiper-container {
         width: 100%;
     }
