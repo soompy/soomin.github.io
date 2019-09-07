@@ -3,8 +3,5 @@
 
 <br>
 ##### 목차
-[link keyword][id]
-[id]: URL "Optional Title here"
-
-Link: [Google][googlelink]
-[googlelink]: https://google.com "Go google"
+1. [GOOGLE](https://google.com)
+2. [GOOGLE](https://google.com)
