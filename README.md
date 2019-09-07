@@ -2,7 +2,7 @@
 웹 퍼블리셔(프론트앤드) 포트폴리오 작업물 모음 by SMLEE!!
 
 <br>
-##### about SMLEE
+##### I'm SMLEE
 저에 대해 알고 싶나요??
 [자기소개](https://soompy.github.io/pf19.github.io/about.html)
 
