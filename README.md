@@ -3,8 +3,8 @@
 
 <br>
 ##### I'm SMLEE
-저에 대해 알고 싶나요??
-[자기소개](https://soompy.github.io/pf19.github.io/about.html)
+저에 대해 알고 싶나요?? >>
+[이수민 자기소개 페이지입니다.](https://soompy.github.io/pf19.github.io/about.html)
 
 <br>
 ##### 2019 작업물 리스트
