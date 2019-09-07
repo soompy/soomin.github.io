@@ -5,4 +5,4 @@
 ##### 2019 작업물 리스트
 1. [직방 리뉴얼](https://soompy.github.io/pf19.github.io/renewal.html)
   반응형 / bootstrap4 / html / css / javascript / jQuery
-2. [GOOGLE](https://google.com)
+2. [카카오뱅크 모바일 웹 마크업](https://soompy.github.io/pf19.github.io/banksal_index.html)
