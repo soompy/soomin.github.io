@@ -29,34 +29,75 @@
 
 <body>
 
-<nav class="navbar">
-    <div class="inner">
-        <div class="pc_gnb">
-            <h1><a href="index.html"><img src="/img/logo_r.jpg" alt="로고">logo</a></h1>
-            <ul id="gnb">
-                <li><a href="#" class="active">아파트</a></li>
-                <li><a href="#">빌라/투룸</a></li>
-                <li><a href="#">원룸</a></li>
-                <li><a href="#">오피스텔</a></li>
+
+<header class="header_wrap">
+    <div class="header_tit_area">
+        <h1 class="title_header">
+            <a href="/"><img src="/img/logo_r.jpg" alt="직방"></a>
+        </h1>
+        <div class="header_toggle">
+            <a class="menu-trigger" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div><!--모바일 햄버거 메뉴-->
+    </div>
+
+    <div class="header_lst_area">
+        <div class="gnb_area">
+            <ul class="gnb_g">
+                <li class="gnb_li">
+                    <a href="#">아파트 <small>(매매/전월세/신축분양)</small> </a>
+                    <div class="gnb_s">
+                        <ul class="gnb_s_lst">
+                            <li class="gnb_s_li"><a href="">매매/전·월세</a></li>
+                            <li class="gnb_s_li"><a href="">신축분양</a></li>
+                            <li class="gnb_s_li"><a href="">인구흐름</a></li>
+                            <li class="gnb_s_li"><a href="">우리집 내놓기</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="gnb_li">
+                    <a href="#">빌라, 투룸+ <small>(매매/전월세)</small> </a>
+                    <div class="gnb_s">
+                        <ul class="gnb_s_lst">
+                            <li class="gnb_s_li"><a href="">빌라, 투룸 찾기</a></li>
+                            <li class="gnb_s_li"><a href="">찜한 매물</a></li>
+                            <li class="gnb_s_li"><a href="">빌라 내놓기(전월세만)</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="gnb_li">
+                    <a href="#">원룸 <small>(전/월세)</small> </a>
+                    <div class="gnb_s">
+                        <ul class="gnb_s_lst">
+                            <li class="gnb_s_li"><a href="">방 찾기</a></li>
+                            <li class="gnb_s_li"><a href="">찜한 매물</a></li>
+                            <li class="gnb_s_li"><a href="">방 내놓기(전월세만)</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="gnb_li">
+                    <a href="#">오피스텔/도시형생활주택 <small>(전/월세)</small> </a>
+                    <div class="gnb_s">
+                        <ul class="gnb_s_lst">
+                            <li class="gnb_s_li"><a href="">오피스텔 찾기</a></li>
+                            <li class="gnb_s_li"><a href="">찜한 매물</a></li>
+                            <li class="gnb_s_li"><a href="">오피스텔 내놓기(전월세만)</a></li>
+                        </ul>
+                    </div>
+                </li>
             </ul>
             <ul class="join">
                 <li><a href="#">로그인</a></li>
                 <li><a href="#">회원가입</a></li>
             </ul>
         </div>
-
-        <div class="m_gnb">
-            <h1><a href="index.html"><img src="/img/logo_m.png" alt="로고">logo</a></h1>
-            <a href="m_menu_bar">menu</a>
-            <ul class="m_burger">
-                <li><a href="#" class="active">아파트</a></li>
-                <li><a href="#">빌라/투룸</a></li>
-                <li><a href="#">원룸</a></li>
-                <li><a href="#">오피스텔</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
+        <div class="gnb_area_bg" style="display: none"></div>
+    </div><!--메뉴 리스트-->
+</header>
+<!--헤더-->
 
 <section class="visual">
     <div class="inner_vi"></div>

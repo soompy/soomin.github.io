@@ -1,62 +1,71 @@
 /*메뉴*/
-.navbar {
-    padding: 30px 0;
+.header_wrap {
     width: 100%;
     background: #eee;
 }
 
-.inner {
-    width: 1200px;
+.header_tit_area {
+    position: relative;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 16px;
+    z-index: 500;
 }
 
-.pc_gnb {
-    display: flex;
-}
-
-h1 {
-    flex: 1;
-}
-
-#gnb {
-    display: flex;
-    flex: 3;
-}
-
-#gnb li {
-    flex: 1;
-    margin: auto 0;
-}
-
-#gnb li a {
-    display: block;
-    text-align: center;
-}
-
-.join {
-    display: flex;
-    width: 180px;
-}
-
-.join li {
-    margin-left: auto;
-    text-align: center;
-    border: 1px solid #ccc;
+.header_lst_area {
+    position: relative;
+    border-bottom: 1px solid #f7f7f7;
     background: #fff;
-    height: 35px;
 }
 
-.join li:last-child {
-    margin-left: -2px;
+.title_header {
+    padding: 12px 0 0;
+    font-size: 0;
+    line-height: 0;
 }
 
-.join li a {
-    display: block;
-    padding: 10px;
+.gnb_area {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
 }
 
-.m_gnb {
-    display: none;
+.gnb_g {
+    display: flex;
+}
+
+.gnb li {
+    text-align: center;
+}
+
+.gnb_li > a {
+    display: inline-block;
+    padding: 8px 14px;
+    line-height: 36px;
+    color: #1a1a1a;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.gnb_li small {
+    font-size: 12px;
+    color: #999;
+}
+.gnb_s li a{
+    font-size: 14px;
+    padding: 5px 14px;
+}
+
+/*햄버거메뉴*/
+.header_toggle {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 24px;
+    height: 24px;
+    padding: 4px;
+    z-index: 30;
 }
 
 /*푸터*/
@@ -616,22 +625,6 @@ body {
 
 /*반응형*/
 @media (max-width: 1200px) {
-    .inner {
-        width: 100%;
-    }
-
-    #gnb {
-        display: none;
-    }
-
-    .pc_gnb {
-        display: none;
-    }
-
-    .m_gnb {
-        display: block;
-        margin-left: auto;
-    }
 
     .visual {
         padding: 0 20px;
