@@ -6,9 +6,12 @@
 }
 
 .inner {
-    display: flex;
     width: 1200px;
     margin: 0 auto;
+}
+
+.pc_gnb {
+    display: flex;
 }
 
 h1 {
@@ -171,6 +174,7 @@ h1 {
     /*background-image: url(//s.zigbang.com/v1/web/main/main_2018.png);*/
     background-position: 50% 0;
     background-repeat: no-repeat;
+    background: #e0e0e0;
 }
 
 .inner_vi {
@@ -617,6 +621,10 @@ body {
     }
 
     #gnb {
+        display: none;
+    }
+
+    .pc_gnb {
         display: none;
     }
 
