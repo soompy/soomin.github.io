@@ -1,7 +1,7 @@
 /*메뉴*/
 .header_wrap {
     width: 100%;
-    background: #eee;
+    background: #fff;
 }
 
 .header_tit_area {
@@ -35,6 +35,11 @@
     display: flex;
 }
 
+.gnb_s {
+    position: absolute;
+
+}
+
 .gnb li {
     text-align: center;
 }
@@ -48,13 +53,51 @@
     text-decoration: none;
 }
 
+.gnb_li > a:after {
+    display: none;
+}
+
 .gnb_li small {
     font-size: 12px;
     color: #999;
 }
-.gnb_s li a{
+
+.gnb_s li a {
+    text-decoration: none;
     font-size: 14px;
     padding: 5px 14px;
+}
+
+.join {
+    position: absolute;
+    right: 230px;
+    top: 50%;
+    margin-top: -13px;
+    display: flex;
+}
+
+.join a {
+    font-size: 14px;
+    border: 1px solid #999;
+    background: #fff;
+    padding: 5px 8px;
+}
+
+.join a:last-child {
+    margin-left: -2px;
+}
+
+.contact {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 13px;
+    background: #ff3300;
+    color: #fff;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    padding: 6px 12px;
 }
 
 /*햄버거메뉴*/
@@ -625,6 +668,83 @@ body {
 
 /*반응형*/
 @media (max-width: 1200px) {
+    .header_tit_area {
+        height: 64px;
+    }
+
+    .header_lst_area {
+        /*height: 1px;*/
+        /*visibility: hidden;*/
+    }
+
+    .gnb_g {
+        display: block;
+    }
+
+    .gnb_area {
+        padding: 0;
+    }
+
+    .gnb_li > a {
+        display: block;
+        border-bottom: 1px solid #f7f7f7;
+    }
+
+    .gnb_li > a:after {
+        display: block;
+        clear: both;
+        content: '';
+        position: absolute;
+        right: 17px;
+        top: 18px;
+        background-image: url(/img/menu_down.svg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        width: 12px;
+        height: 12px;
+        z-index: 30;
+    }
+
+    .gnb_s {
+        position: relative;
+    }
+
+    .gnb_s {
+        visibility: hidden;
+        height: 0;
+    }
+
+    .gnb_s li {
+        background: #f7f7f7;
+    }
+
+    .gnb_s li a {
+        padding: 12px 14px;
+    }
+
+    .contact {
+        font-size: 12px;
+        margin-top: -45px;
+        right: 16px;
+    }
+
+    .join {
+        left: 0;
+        top: 100%;
+        display: block;
+        z-index: 30;
+    }
+
+    .join a {
+        padding: 12px 14px;
+        border: none;
+        border-bottom: 1px solid #f7f7f7;
+        line-height: 25px;
+    }
+
+    .join a:last-child {
+        margin: 0;
+    }
 
     .visual {
         padding: 0 20px;
