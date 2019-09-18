@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5e44250-697b-44b5-ae59-2d8de051c225" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/banksal_sign_in.html" beforeDir="false" afterPath="$PROJECT_DIR$/banksal_sign_in.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/banksalad.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/banksalad.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,14 +27,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="2683" />
-          <entry key="html" value="2072" />
+          <entry key="css" value="2711" />
+          <entry key="html" value="2075" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="2683" />
-          <entry key="HTML" value="2013" />
+          <entry key="CSS" value="2711" />
+          <entry key="HTML" value="2016" />
           <entry key="Svelte" value="59" />
         </counts>
       </usages-collector>
@@ -93,8 +94,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/banksal_sign_in.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="18" column="33" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="33" />
+                <state relative-caret-position="595">
+                  <caret line="35" column="73" selection-start-line="35" selection-start-column="73" selection-end-line="35" selection-end-column="73" />
                 </state>
               </provider>
             </entry>
@@ -129,8 +130,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/banksalad.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="466">
-                  <caret line="324" column="22" selection-start-line="324" selection-start-column="22" selection-end-line="324" selection-end-column="22" />
+                <state relative-caret-position="581">
+                  <caret line="379" column="1" selection-start-line="379" selection-start-column="1" selection-end-line="379" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -261,12 +262,12 @@
       <workItem from="1565536564499" duration="3215000" />
       <workItem from="1565540464710" duration="207000" />
       <workItem from="1565540684018" duration="263000" />
-      <workItem from="1568788254260" duration="727000" />
+      <workItem from="1568788254260" duration="1416000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24232000" />
+    <option name="totallyTimeSpent" value="24921000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1169" y="-1669" width="1924" height="1669" extended-state="0" />
@@ -354,15 +355,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/banksal_sign_in.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="33" />
+        <state relative-caret-position="595">
+          <caret line="35" column="73" selection-start-line="35" selection-start-column="73" selection-end-line="35" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/banksalad.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="324" column="22" selection-start-line="324" selection-start-column="22" selection-end-line="324" selection-end-column="22" />
+        <state relative-caret-position="581">
+          <caret line="379" column="1" selection-start-line="379" selection-start-column="1" selection-end-line="379" selection-end-column="1" />
         </state>
       </provider>
     </entry>

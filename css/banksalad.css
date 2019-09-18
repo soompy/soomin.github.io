@@ -372,16 +372,50 @@ li {
 }
 
 .login_form .login_btn:hover {
-    border: 1px solid #17bd85;
-}
-
-.login_form .login_btn:hover {
     background: #17bd85;
     border: 1px solid #17bd85;
     border: none;
     color: #fff;
     text-shadow: 0 1px 1px #c0c0c0;
 }
+
+/*로딩효과*/
+.loader {
+    margin: 5px auto;
+    height: 20px;
+    width: 20px;
+    border: 3px solid #fff;
+    border-right-color: #fc3c35;
+    border-top-color: #fc3c35;
+    border-radius: 100%;
+    -webkit-animation: spin 800ms infinite linear;
+    animation: spin 800ms infinite linear;
+    display: none;
+}
+
+@-webkit-keyframes "spin" {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes "spin" {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+
 
 .sign_in_status input[id="keepLogin"] {
     display: none;
