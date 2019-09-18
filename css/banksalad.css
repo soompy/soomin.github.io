@@ -66,9 +66,9 @@ li {
 
 .sum_asset {
     position: relative;
-    background: #ccc;
+    background: #17bd85;
     color: #fff;
-    padding: 25px 15px;
+    padding: 55px 16px 30px;
 }
 
 .sum_asset span, .sum_asset strong {
@@ -84,23 +84,24 @@ li {
     position: absolute;
     top: 25px;
     right: 15px;
-    background: darkslategrey;
-    border-radius: 15px;
-    font-size: 10px;
-    padding: 3px 7px;
+    background: #28363a;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px 12px;
     color: #fff;
 }
 
 .score {
     display: flex;
-    padding: 20px 15px;
+    padding: 15px 16px;
     justify-content: center;
     align-items: center;
+    font-size: 14px;
 }
 
 .score h4 {
     flex: 1;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .score strong {
@@ -110,8 +111,9 @@ li {
 
 .cash_flow {
     display: flex;
-    padding: 20px 15px;
+    padding: 15px 16px;
     box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.1);
+    font-size: 14px;
 }
 
 .score h4 {
@@ -151,7 +153,7 @@ li {
 }
 
 .depo {
-
+    font-size: 14px;
 }
 
 .depo li {
@@ -172,7 +174,7 @@ li {
 }
 
 .depo li p {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .depo li span {
@@ -181,8 +183,8 @@ li {
 
 .depo li a {
     display: block;
-    font-size: 13px;
-    color: #ccc;
+    font-size: 12px;
+    color: #999;
 }
 
 /*뱅크셀러드 가계부*/
@@ -556,9 +558,17 @@ li {
 
 
 
+/*푸터*/
+.footer{
 
-
-
-
-
+}
+.footer_list{
+    display: flex;
+}
+.footer_list li{
+    flex: 1;
+}
+.footer_list li a{
+    margin: auto 0;
+}
 

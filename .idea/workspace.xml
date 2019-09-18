@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5e44250-697b-44b5-ae59-2d8de051c225" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/banksal_sign_in.html" beforeDir="false" afterPath="$PROJECT_DIR$/banksal_sign_in.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/book_ico.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/money_ico.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banksal_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/banksal_index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/banksalad.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/banksalad.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,14 +30,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="2711" />
-          <entry key="html" value="2075" />
+          <entry key="css" value="2833" />
+          <entry key="html" value="2114" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="2711" />
-          <entry key="HTML" value="2016" />
+          <entry key="CSS" value="2833" />
+          <entry key="HTML" value="2055" />
           <entry key="Svelte" value="59" />
         </counts>
       </usages-collector>
@@ -91,11 +94,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/banksal_sign_in.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="595">
-                  <caret line="35" column="73" selection-start-line="35" selection-start-column="73" selection-end-line="35" selection-end-column="73" />
+                <state relative-caret-position="238">
+                  <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
                 </state>
               </provider>
             </entry>
@@ -114,11 +117,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/banksal_index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+                <state relative-caret-position="935">
+                  <caret line="100" column="49" selection-start-line="100" selection-start-column="49" selection-end-line="100" selection-end-column="49" />
                 </state>
               </provider>
             </entry>
@@ -130,8 +133,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/banksalad.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="581">
-                  <caret line="379" column="1" selection-start-line="379" selection-start-column="1" selection-end-line="379" selection-end-column="1" />
+                <state relative-caret-position="1057">
+                  <caret line="571" column="18" selection-start-line="571" selection-start-column="18" selection-end-line="571" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -145,6 +148,8 @@
       <find>footer</find>
       <find>다음</find>
       <find>inp_chk</find>
+      <find>로그인</find>
+      <find>sum_asset</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -160,6 +165,7 @@
         <option value="$PROJECT_DIR$/css/kakao.css" />
         <option value="$PROJECT_DIR$/banksal_sign_in.html" />
         <option value="$PROJECT_DIR$/css/banksalad.css" />
+        <option value="$PROJECT_DIR$/banksal_index.html" />
       </list>
     </option>
   </component>
@@ -169,11 +175,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1169" />
-    <option name="y" value="-1669" />
-    <option name="width" value="1924" />
-    <option name="height" value="1669" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1103" />
+    <option name="y" value="-1112" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -262,18 +268,18 @@
       <workItem from="1565536564499" duration="3215000" />
       <workItem from="1565540464710" duration="207000" />
       <workItem from="1565540684018" duration="263000" />
-      <workItem from="1568788254260" duration="1416000" />
+      <workItem from="1568788254260" duration="3251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24921000" />
+    <option name="totallyTimeSpent" value="26756000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1169" y="-1669" width="1924" height="1669" extended-state="0" />
+    <frame x="753" y="-1669" width="3008" height="1669" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1508145" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09608303" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -346,24 +352,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/banksal_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/banksal_sign_in.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="73" selection-start-line="35" selection-start-column="73" selection-end-line="35" selection-end-column="73" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/banksalad.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="379" column="1" selection-start-line="379" selection-start-column="1" selection-end-line="379" selection-end-column="1" />
+        <state relative-caret-position="1057">
+          <caret line="571" column="18" selection-start-line="571" selection-start-column="18" selection-end-line="571" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/banksal_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="100" column="49" selection-start-line="100" selection-start-column="49" selection-end-line="100" selection-end-column="49" />
         </state>
       </provider>
     </entry>
