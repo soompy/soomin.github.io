@@ -97,6 +97,7 @@ li {
     justify-content: center;
     align-items: center;
     font-size: 14px;
+    border-bottom: 1px solid #ccc;
 }
 
 .score h4 {
@@ -112,7 +113,7 @@ li {
 .cash_flow {
     display: flex;
     padding: 15px 16px;
-    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.1);
+    /*box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.1);*/
     font-size: 14px;
 }
 
@@ -161,7 +162,7 @@ li {
     padding: 10px 15px;
 }
 
-.depo li:nth-child(odd) {
+.depo li:nth-child(odd),.depo li:last-of-type {
     border-bottom: 1px solid #ccc;
 }
 
@@ -564,11 +565,27 @@ li {
 }
 .footer_list{
     display: flex;
+    margin-top: 40px;
 }
 .footer_list li{
     flex: 1;
+    padding: 10px 0;
+    background: #f7f7f7;
+}
+.footer_list li:hover{
+    background: #eee;
 }
 .footer_list li a{
     margin: auto 0;
 }
-
+.footer_list li img{
+    display: block;
+    margin: 0 auto;
+    width: 30px;
+}
+.footer_list li span{
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #000;
+}
