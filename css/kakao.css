@@ -196,7 +196,7 @@ a,a:hover{
     color: #868e96;
 }
 .next_btn.active {
-    background: yellow;
+    background: #fee61e;
 }
 .next_btn.active a{
     color: #333;

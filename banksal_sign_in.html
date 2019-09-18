@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>뱅크샐러드 로그인</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/banksalad.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+<div class="bs_wrap">
+    <div class="cont">
+        <div class="login_layout">
+            <div class="close_box">
+                <a href="#" class="close_btn"><img src="./img/close.svg" alt="close" width="30px"></a>
+                <h1><img src="./img/banksalad.png" alt="logo" width="150px"></h1>
+            </div>
+            <div class="term owners_box">
+                <p class="login_title"><strong class="underline"> </strong>뱅셀 서비스 <br>시작하기</p>
+            </div>
+
+            <div class="login_form">
+                <form method="post" id="authForm" action="https://banksalad.com/users/login">
+                    <div class="sign_in_form">
+                        <label for="loginId">먼저 로그인을 해주세요 :)</label>
+                        <input type="email" id="loginId" name="loginId" placeholder="이메일 주소를 입력해 주세요.">
+                        <label for="loginPw">비밀번호</label>
+                        <input type="password" id="loginPw" name="password" placeholder="비밀번호를 입력해 주세요.">
+                    </div>
+
+                    <button type="submit" disabled="disabled" class="login_btn">로그인</button>
+
+                    <div class="login_append login_status">
+                        <div class="inp_chk sign_in_status">
+                            <input type="checkbox" id="keepLogin" class="inp_radio" name="keepLogin">
+                            <label for="keepLogin" class="lab_g">
+                                <span class="img_top ico_check"></span>
+                                <span class="txt_lab"> 로그인 상태 유지</span>
+                            </label>
+                        </div>
+                        <div class="sign_in_status">
+                            <a href="#">아이디</a> /
+                            <a href="#">비밀번호 찾기</a>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="easy_login">
+                    <p class="simple_title"> <span>간편 로그인</span></p>
+                    <div class="social_login">
+                        <button type="button" class="sns kakao_login"><span>카카오로 시작</span></button>
+                        <button type="button" class="sns facebook_login"><span>페이스북으로 시작</span></button>
+                    </div>
+                </div>
+            </div>
+            <p class="service_policy">
+                회원가입 시 <a href="" target="_blank">서비스 이용 약관</a>과
+                <a href="" target="_blank">개인정보 보호정책</a>에 동의하게 됩니다.
+            </p>
+
+
+        </div>
+    </div><!--cont-->
+
+</div>
+
+
+<script>
+
+</script>
+
+</body>
+</html>
