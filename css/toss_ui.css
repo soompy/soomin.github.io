@@ -198,7 +198,7 @@ li {
 .gotodown {
     border: 1px solid #fff;
     border-radius: 12px;
-    padding: 10px 20px;
+    padding: 15px 25px;
     color: #fff;
 }
 
@@ -208,10 +208,29 @@ li {
     bottom: 50px;
     margin-left: -24px;
     cursor: pointer;
+    animation-name: downarr;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 
 .btn img {
     display: block;
+    width: 25px;
+}
+
+@keyframes downarr {
+    0% {
+        bottom: 50px;
+        opacity: 0.3;
+    }
+    50% {
+        bottom: 60px;
+        opacity: 1;
+    }
+    100% {
+        bottom: 50px;
+        opacity: 0.3;
+    }
 }
 
 .p1, .p2, .p3, .pn {
@@ -225,7 +244,7 @@ li {
     position: relative;
     padding: 240px 0;
     height: -webkit-fill-available;
-    background-attachment:fixed
+    background-attachment: fixed
 }
 
 .p1 .wrapper {
@@ -238,7 +257,7 @@ li {
     padding: 0 24px;
 }
 
-.article{
+.article {
     display: flex;
 }
 
@@ -302,32 +321,30 @@ li {
     position: relative;
 }
 
-.feature {
-    display: flex;
-}
-
-.feature .item {
-    padding: 15px 30px;
+.tab button {
     cursor: pointer;
+    background: #FFF;
+    border: none;
+    text-align: center;
+    color: #999;
 }
 
-.feature .item.active {
+.tab button:hover, .tab button.active {
     font-weight: bold;
     border-bottom: 2px solid #000;
+    color: #333;
 }
 
-.description {
-    position: absolute;
-    left: 0;
-    top: 80px;
-}
-
-.description .con {
+.tabcontent {
     display: none;
+    width: 100%;
+    border-top: none;
 }
 
-.description .con.active {
-    display: block;
+.tabcontent p {
+    padding: 40px 0 0;
+    line-height: 25px;
+    color: #333;
 }
 
 .iphone_frame {
@@ -345,7 +362,8 @@ li {
     width: 274px;
     height: auto;
 }
-.p3{
+
+.p3 {
     background: #eee;
 }
 
@@ -398,29 +416,24 @@ li {
     font-weight: 500;
     line-height: initial;
 }
-.title{
+
+.title {
     position: absolute;
     right: 0;
 }
 
-.pn{
+.pn {
     background-image: url(https://static.toss.im/web-general/homepage/static/images/legacy/3.0/pay.png);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: contain;
     background-color: #eee;
 }
-.card_box{
+
+.card_box {
 
     /*<img src="" alt="토스결제 비밀번호 입력 이미지">*/
 }
-
-
-
-
-
-
-
 
 /*반응형*/
 @media (max-width: 1200px) {
@@ -502,69 +515,80 @@ li {
         box-sizing: border-box;
     }
 
-    .content_area{
+    .content_area {
         width: 100%;
     }
-    .page .wrapper{
+
+    .page .wrapper {
         width: 100%;
     }
 
     .article {
         flex-direction: column;
     }
-    .article a{
+
+    .article a {
         margin: auto;
     }
-    .article img{
+
+    .article img {
         margin-bottom: 20px;
         width: 180px;
     }
-    .text{
+
+    .text {
         font-size: 32px;
         text-align: center;
     }
-    .security{
+
+    .security {
         display: inline-block;
         padding: 0;
         height: 30px;
         font-size: 14px;
         line-height: 30px;
     }
-    .terms{
+
+    .terms {
         text-align: right;
     }
-    .main_title{
+
+    .main_title {
         font-size: 32px;
         text-align: center;
     }
-    .p2 .content_area,.p3 .content_area{
+
+    .p2 .content_area, .p3 .content_area {
         top: 30%;
     }
-    .mobile_view{
+
+    .mobile_view {
         height: 380px;
         overflow: hidden;
         left: 50%;
         top: 100px;
         margin-left: -263px;
     }
-    .mobile_function_tab{
+
+    .mobile_function_tab {
         margin: 400px auto 0;
         width: 360px;
     }
-    .feature .item{
-        padding: 15px 14px;
-    }
-    .p3 .content_area{
+
+    .p3 .content_area {
         flex-direction: column;
         text-align: center;
     }
-    .title{
+
+    .title {
         position: relative;
     }
-    .pay{
+
+    .pay {
         display: none;
     }
-    .cards li{
+
+    .cards li {
         margin: auto;
     }
 }

@@ -135,8 +135,8 @@
                    </div><!--순위-->
                    <h2 class="text txtsr mt40">
                        <p class="ranking">간편 송금 압도적 <strong>1위</strong></p>
-                       <p class="ranking">누적 다운로드 <strong>2,300만</strong></p>
-                       <p class="ranking">누적 거래액 <strong>36조 원</strong></p>
+                       <p class="ranking">누적 다운로드 <strong class="counter1">0만</strong></p>
+                       <p class="ranking">누적 거래액 <strong class="counter2">0조 원</strong></p>
                        <p class="ranking">출시 이래 보안사고 <strong>0건</strong><a href="#none" class="security">토스의 보안 &gt;</a></p>
                    </h2>
                    <div class="terms mt40">2019년 9월 기준</div>
@@ -169,18 +169,27 @@
                             </div>
                         </div><!--mobile-->
                         <div class="mobile_function_tab mt40">
-                            <ul class="feature">
-                                <li class="item active">계좌간편복사</li>
-                                <li class="item">더치페이</li>
-                                <li class="item">자동이체</li>
-                                <li class="item">QR결제</li>
-                            </ul>
-                            <div class="description">
-                                <p class="con active">계좌 번호를 복사하기만 하면 자동으로 입력됩니다.</p>
-                                <p class="con">더치페이할 때도 직접 계산하지 않고 쉽게 주고받으세요.</p>
-                                <p class="con">정기적으로 돈을 보내야 하시나요? <br>자동이체도 이젠 간편하게 토스!</p>
-                                <p class="con">현금을 받기 위해 일일이 계좌번호를 불러주고 계신가요? <br>QR코드를 발급받아 1초 만에 받아보세요.
-                                </p>
+                            <div class="tab">
+                                <button class="tablinks" onclick="ourService(event, 'Copy')">계좌간편복사</button>
+                                <button class="tablinks" onclick="ourService(event, 'Pay')">더치페이</button>
+                                <button class="tablinks" onclick="ourService(event, 'Transfer')">자동이체</button>
+                                <button class="tablinks" onclick="ourService(event, 'Qr')">QR결제</button>
+                            </div>
+
+                            <div id="Copy" class="tabcontent">
+                                <p>계좌 번호를 복사하기만 하면 자동으로 입력됩니다.</p>
+                            </div>
+
+                            <div id="Pay" class="tabcontent">
+                                <p>더치페이할 때도 직접 계산하지 않고 쉽게 주고받으세요.</p>
+                            </div>
+
+                            <div id="Transfer" class="tabcontent">
+                                <p>정기적으로 돈을 보내야 하시나요? <br>자동이체도 이젠 간편하게 토스!</p>
+                            </div>
+
+                            <div id="Qr" class="tabcontent">
+                                <p>현금을 받기 위해 일일이 계좌번호를 불러주고 계신가요? <br>QR코드를 발급받아 1초 만에 받아보세요.</p>
                             </div>
                         </div>
                     </div>
@@ -252,9 +261,11 @@
 </footer>
 
 
-<script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="jquery.counterup.js"></script>
 
-</script>
+
 
 </body>
 </html>
