@@ -352,15 +352,21 @@ li {
 }
 
 .screens {
-
+    overflow: hidden;
 }
 
-.screens img {
+.screens .item {
     position: absolute;
-    left: 126px;
+    /*left: 126px;*/
+    left: 402px;
     top: 99px;
     width: 274px;
     height: auto;
+    display: none;
+}
+.screens .item.on {
+    display: block;
+    left: 126px;
 }
 
 .p3 {
