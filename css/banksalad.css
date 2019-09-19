@@ -619,7 +619,7 @@ a {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background: url(./img/arr_black.svg) no-repeat 95% 50%; /* 화살표 모양의 이미지 */
+    background: url(./img/arr-black.svg) no-repeat 95% 50%; /* 화살표 모양의 이미지 */
     border: none;
     border-bottom: 2px solid #000;
     border-radius: inherit;
