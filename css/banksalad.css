@@ -561,11 +561,12 @@ a {
 
 .pension_cont {
     background: #f7f7f7;
+    padding-bottom: 30px;
 }
 
 .pension_count {
     text-align: center;
-    padding: 15px 0 25px;
+    padding: 20px 0 25px;
     color: #fff;
 }
 
@@ -583,8 +584,9 @@ a {
 .pension_tab li {
     background: #f7f7f7;
     border: 1px solid #ccc;
-    padding: 5px 10px;
+    padding: 0 10px;
     border-radius: 3px;
+    line-height: 25px;
 }
 
 .pension_tab li:last-of-type {
@@ -592,7 +594,6 @@ a {
 }
 
 .pension_tab li a {
-    font-weight: 300;
     font-size: 12px;
 }
 
@@ -606,16 +607,114 @@ a {
 
 .get_pension {
     color: #000;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: 300;
+    display: block;
+    margin: 40px 0;
 }
 
 .select_pension {
     width: 115px;
     display: inline;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(./img/arr_black.svg) no-repeat 95% 50%; /* 화살표 모양의 이미지 */
+    border: none;
+    border-bottom: 2px solid #000;
+    border-radius: inherit;
+    background-color: #f7f7f7;
+    font-weight: bold;
 }
-.expect_pension{
+
+.result_value {
+    display: flex;
+    margin-top: 13px;
+    justify-content: center;
+}
+
+.result_value strong {
+    margin: auto 0;
+    margin-left: 5px;
+}
+
+.expect_pension {
     display: block;
+    background: #fff;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    font-weight: bold;
+    width: 100px;
+    padding: 8px;
 }
+
+.commodity {
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 16px;
+    font-size: 14px;
+    background: #fff;
+}
+.commodity:last-of-type{
+    margin-bottom: 0;
+}
+.tip_box {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 0;
+}
+
+.product_box_top {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.company_logo_img {
+    border: 1px solid #ccc;
+    width: 50px;
+    height: 50px;
+}
+.company_logo_img img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.product_name {
+    margin-left: 8px;
+}
+
+.product_name span {
+    display: block;
+    font-size: 12px;
+    color: #999;
+}
+
+.product_join {
+    margin-left: auto;
+}
+
+.product_join button {
+    padding: 8px 28px;
+    border-radius: 5px;
+    background: #198f53;
+    color: #fff;
+    font-size: 12px;
+}
+
+.product_box_bottom {
+    display: flex;
+    font-size: 13px;
+}
+
+.product_box_bottom p {
+    margin-left: 10px;
+}
+
+.structure {
+    color: #198f53;
+    font-weight: 600;
+}
+
 .sum_asset_box {
     display: flex;
     padding: 10px 0;
