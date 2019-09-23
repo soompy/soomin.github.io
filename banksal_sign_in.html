@@ -7,7 +7,7 @@
     <title>뱅크샐러드 로그인</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/banksalad.css" rel="stylesheet">
-
+    <script src="js/banksal.js"></script>
 </head>
 
 <body>
@@ -33,7 +33,7 @@
                         <input type="password" id="loginPw" name="password" placeholder="비밀번호를 입력해 주세요.">
                     </div>
 
-                    <button type="submit" disabled="disabled" class="login_btn">
+                    <button type="submit" disabled="disabled" class="login_btn" id="login">
                         로그인
                         <div class="loader"></div>
                     </button>
@@ -51,6 +51,10 @@
                             <a href="#">비밀번호 찾기</a>
                         </div>
                     </div>
+                    <p class="err text-center">
+                        <!--에러영역-->
+                        다시 입력해주세요.
+                    </p>
                 </form>
 
                 <div class="easy_login">

@@ -471,6 +471,9 @@ a,a:hover{
 
 
 /*layer*/
+.dn{
+    display: none;
+}
 .layer{
     width: 100%;
     display: none;

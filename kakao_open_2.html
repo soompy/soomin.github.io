@@ -12,6 +12,8 @@
 
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="./js/bs_layer.js"></script>
+
 </head>
 
 <body>
@@ -133,15 +135,14 @@
     </div>
 
     <div class="join_btn active">
-      <a href="#">정기예금 가입하기</a>
+      <a href="#" id="join">정기예금 가입하기</a>
     </div><!--next_btn-->
   </div><!--main-->
 
   <!--layer-->
-  <div class="layer ly_fade">
-    <div class="ly_bg">
-    </div>
-      <div class="ask_join">
+  <div class="layer ly_fade" id="layer">
+    <div class="ly_bg" id="ly_bg"></div>
+      <div class="ask_join" id="ask_join">
         <div class="confirm">
           <h3 class="text-center fz20 bold">카카오뱅크 정기예금을 <br> 가입하시겠어요?</h3>
           <ul class="join">
@@ -160,7 +161,7 @@
           </ul>
         </div>
         <ul class="check_btn">
-          <li><a href="#" class="no">아니요</a></li>
+          <li><a href="#" class="no" id="no">아니오</a></li>
           <li><a href="#" class="ys">예</a></li>
         </ul>
       </div> <!--ask_join-->
@@ -172,16 +173,14 @@
 
 
 <script>
-
+/*
     var ly = $(".layer");
     // var lybg = $(".ly_bg");
 
     $(".join_btn a").on("click",function () {
         ly.css({display: "block"});
     })
-
-
-  
+*/
 </script>
 
 </body>

@@ -655,9 +655,11 @@ a {
     font-size: 14px;
     background: #fff;
 }
-.commodity:last-of-type{
+
+.commodity:last-of-type {
     margin-bottom: 0;
 }
+
 .tip_box {
     font-size: 14px;
     font-weight: 600;
@@ -674,7 +676,8 @@ a {
     width: 50px;
     height: 50px;
 }
-.company_logo_img img{
+
+.company_logo_img img {
     max-width: 100%;
     max-height: 100%;
 }
@@ -726,6 +729,11 @@ a {
 
 .sum_asset_box span {
     text-align: right;
+}
+
+.err {
+    font-size: 14px;
+    color: #fc3c35;
 }
 
 /*푸터*/
