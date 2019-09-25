@@ -247,7 +247,8 @@ li {
 }
 
 .page .wrapper {
-    max-width: 1024px;
+    position: relative;
+    width: 1024px;
     margin: 0 auto;
 }
 
@@ -478,7 +479,6 @@ li {
     font-weight: 300;
 }
 
-
 /*반응형*/
 @media (max-width: 1100px) {
     .banner_view .header_wrap {
@@ -505,6 +505,7 @@ li {
         background: #fff;
         top: 0;
         transition: top .3s ease 0s;
+        z-index: 20;
     }
 
     .header_wrap .gnb_g .gnb_s {
@@ -581,6 +582,10 @@ li {
         box-sizing: border-box;
     }
 
+    .p0, .p1, .p2, .p3, .pn {
+        height: 100vh;
+    }
+
     .content_area {
         width: 100%;
         padding: 0 16px;
@@ -624,6 +629,7 @@ li {
 
     .terms {
         text-align: right;
+        font-size: 14px;
     }
 
     .main_title {
