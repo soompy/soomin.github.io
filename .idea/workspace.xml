@@ -32,15 +32,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="6053" />
-          <entry key="html" value="4183" />
+          <entry key="css" value="6262" />
+          <entry key="html" value="4442" />
           <entry key="js" value="698" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="6053" />
-          <entry key="HTML" value="4124" />
+          <entry key="CSS" value="6262" />
+          <entry key="HTML" value="4383" />
           <entry key="JavaScript" value="698" />
           <entry key="Svelte" value="59" />
         </counts>
@@ -72,14 +72,17 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/toss_ui.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
-                  <caret line="129" column="26" lean-forward="true" selection-start-line="129" selection-start-column="26" selection-end-line="129" selection-end-column="26" />
+                <state relative-caret-position="624">
+                  <caret line="292" column="40" selection-start-line="292" selection-start-column="27" selection-end-line="292" selection-end-column="40" />
                   <folding>
                     <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#header#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#img#0;n#a#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#img#0;n#a#2;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="e#9378#9382#0" expanded="true" />
+                    <element signature="e#15923#15931#0" expanded="true" />
+                    <element signature="e#16107#16115#0" expanded="true" />
+                    <element signature="e#16142#16150#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -92,8 +95,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/toss_ui.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="788">
-                  <caret line="632" column="21" selection-start-line="632" selection-start-column="21" selection-end-line="632" selection-end-column="21" />
+                <state relative-caret-position="366">
+                  <caret line="462" column="13" selection-start-line="462" selection-start-column="13" selection-end-line="462" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -111,7 +114,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>content_area</find>
       <find>article</find>
       <find>귀찮지만</find>
       <find>pn</find>
@@ -141,6 +143,7 @@
       <find>.page .wrapper</find>
       <find>.content_area</find>
       <find>.header_wrap .header_fixed_group</find>
+      <find>content_area</find>
     </findStrings>
     <replaceStrings>
       <replace>2019-05</replace>
@@ -182,7 +185,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1140" />
+    <option name="x" value="1139" />
     <option name="y" value="-1457" />
     <option name="width" value="2452" />
     <option name="height" value="1376" />
@@ -287,10 +290,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70619000" />
+    <option name="totallyTimeSpent" value="71689000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1140" y="-1457" width="2452" height="1376" extended-state="0" />
+    <frame x="1139" y="-1457" width="2452" height="1376" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.080213904" />
@@ -367,22 +370,25 @@
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/phrase.rnc" />
     <entry file="file://$PROJECT_DIR$/toss_ui.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="129" column="26" lean-forward="true" selection-start-line="129" selection-start-column="26" selection-end-line="129" selection-end-column="26" />
+        <state relative-caret-position="624">
+          <caret line="292" column="40" selection-start-line="292" selection-start-column="27" selection-end-line="292" selection-end-column="40" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#header#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#2;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#9378#9382#0" expanded="true" />
+            <element signature="e#15923#15931#0" expanded="true" />
+            <element signature="e#16107#16115#0" expanded="true" />
+            <element signature="e#16142#16150#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/toss_ui.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="788">
-          <caret line="632" column="21" selection-start-line="632" selection-start-column="21" selection-end-line="632" selection-end-column="21" />
+        <state relative-caret-position="366">
+          <caret line="462" column="13" selection-start-line="462" selection-start-column="13" selection-end-line="462" selection-end-column="13" />
         </state>
       </provider>
     </entry>

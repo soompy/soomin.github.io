@@ -447,8 +447,40 @@ li {
     /*<img src="" alt="토스결제 비밀번호 입력 이미지">*/
 }
 
+#footer {
+    background: #22293e;
+    color: #fff;
+}
+
+#footer .inner {
+    width: 1100px;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.info_list {
+    display: flex;
+    width: 540px;
+}
+
+.info_list li {
+    flex: 1;
+}
+
+.info_list strong {
+    font-weight: 600;
+    color: #eee;
+}
+
+.sub_info_list li {
+    margin: 15px 0 0;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
 /*반응형*/
-@media (max-width: 1200px) {
+@media (max-width: 1100px) {
     .banner_view .header_wrap {
         height: 171px;
     }
@@ -474,7 +506,8 @@ li {
         top: 0;
         transition: top .3s ease 0s;
     }
-    .header_wrap .gnb_g .gnb_s{
+
+    .header_wrap .gnb_g .gnb_s {
         position: relative;
         top: 0;
     }
@@ -522,7 +555,8 @@ li {
     .header_wrap .gnb_g .gnb_li {
         text-align: left;
     }
-    .header_wrap .gnb_g .gnb_li:first-child{
+
+    .header_wrap .gnb_g .gnb_li:first-child {
         margin-left: 0;
     }
 
@@ -556,7 +590,7 @@ li {
         width: 100%;
     }
 
-    .down_btn h2{
+    .down_btn h2 {
         font-size: 30px;
         line-height: 45px;
     }
@@ -628,12 +662,16 @@ li {
     }
 
     .cards li {
-        margin-bottom: 12px;
         width: 260px;
-        margin: auto;
+        margin: 0 auto 12px;
     }
 
     .particle img {
         width: 100%;
     }
+
+    #footer .inner {
+        padding: 40px 16px;
+    }
+
 }
