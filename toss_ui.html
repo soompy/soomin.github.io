@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <title>parallax 구현</title>
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/toss_ui.css" rel="stylesheet">
@@ -17,13 +19,12 @@
     <script type="text/javascript" src="js/counter.js"></script>
 </head>
 
-<body>
 
 <header class="header_wrap">
     <div class="header_fixed_group">
         <div class="header_tit_area">
             <h1 class="title_header">
-                <a href="/"><img src="/img/logo_toss.svg" alt="toss"></a>
+                <a href="/"><img src="./img/logo_toss.svg" alt="toss" width="96"></a>
             </h1>
             <div class="header_toggle">
                 <a class="menu-trigger" href="#">
@@ -37,46 +38,47 @@
             <div class="gnb_area">
                 <ul class="gnb_g">
                     <li class="gnb_li">
-                        <a href="/fs" class="isMobile">태양광 시작하기</a>
+                        <a href="/faq" class="isMobile">FAQ</a>
                         <div class="gnb_s">
                             <ul class="gnb_s_lst">
-                                <li class="gnb_s_li "><a href="/fs">발전사업 타당성검토</a></li>
-                                <li class="gnb_s_li "><a href="/owners">Owners Program</a></li>
-                                <li class="gnb_s_li "><a href="/house">단독주택 태양광</a></li>
-                                <li class="gnb_s_li "><a href="/apartment">아파트 태양광</a></li>
+                                <li class="gnb_s_li "><a href="/">자주 묻는 질문</a></li>
+                                <li class="gnb_s_li "><a href="/">송금</a></li>
+                                <li class="gnb_s_li "><a href="/">이용방법</a></li>
+                                <li class="gnb_s_li "><a href="/">보안</a></li>
                             </ul>
                         </div>
                     </li>
                     <li class="gnb_li">
-                        <a href="/consulting" class="isMobile">사업개발</a>
+                        <a href="/center" class="isMobile">공인인증센터</a>
                         <div class="gnb_s">
                             <ul class="gnb_s_lst">
-                                <li class="gnb_s_li "><a href="/consulting">사업자문</a></li>
-                                <li class="gnb_s_li "><a href="/finance">태양광 금융</a></li>
-                                <li class="gnb_s_li "><a href="/product">모듈/인버터</a></li>
+                                <li class="gnb_s_li "><a href="/">공인 인증서 보내기</a></li>
                             </ul>
                         </div>
                     </li>
                     <li class="gnb_li">
-                        <a href="/exchange" class="isMobile">에너지솔루션</a>
+                        <a href="/service" class="isMobile">토스보험서비스</a>
                         <div class="gnb_s">
                             <ul class="gnb_s_lst">
-                                <li class="gnb_s_li "><a href="/exchange">전력중개</a></li>
-                                <li class="gnb_s_li "><a href="/league">발전왕</a></li>
-                                <li class="gnb_s_li "><a href="/dr">DR(수요거래)</a></li>
+                                <li class="gnb_s_li "><a href="/">토스 보험</a></li>
+                                <li class="gnb_s_li "><a href="/">언론 속의 토스 보험 서비스</a></li>
+                                <li class="gnb_s_li "><a href="/">가입안내</a></li>
                             </ul>
                         </div>
                     </li>
                     <li class="gnb_li">
-                        <a href="/company" class="isMobile">솔라커넥트</a>
+                        <a href="/company" class="isMobile">회사소개</a>
                         <div class="gnb_s">
                             <ul class="gnb_s_lst">
-                                <li class="gnb_s_li "><a href="/company">회사소개</a></li>
-                                <li class="gnb_s_li "><a href="/recruit">인재채용</a></li>
-                                <li class="gnb_s_li "><a href="/notice">공지사항</a></li>
-                                <li class="gnb_s_li "><a href="/news-letter">뉴스레터</a></li>
+                                <li class="gnb_s_li "><a href="/">회사소개</a></li>
+                                <li class="gnb_s_li "><a href="/">인재채용</a></li>
+                                <li class="gnb_s_li "><a href="/">공지사항</a></li>
+                                <li class="gnb_s_li "><a href="/">언론 속의 토스</a></li>
                             </ul>
                         </div>
+                    </li>
+                    <li class="gnb_li">
+                        <a href="/eng" class="isMobile">ENG</a>
                     </li>
                     <li class="g_user_btn first"><a href="/users/sign_in">로그인</a></li>
                     <li class="g_user_btn"><a href="/users/sign_up">회원가입</a></li>
@@ -89,13 +91,15 @@
 </header>
 
 
+<body>
+
 <div id="container">
     <div class="content">
         <div class="all">
 
             <div class="page psr p0">
                 <div class="wrapper" id="p0_size">
-                    <div class="down_btn">
+                    <div class="down_btn content_area">
                         <h2>내 모든 돈을, <br>토스에서 간편하게.</h2>
                         <div class="download mt40">
                             <a href="#none" class="gotodown googleplay mr20">
@@ -112,6 +116,7 @@
                             </a>
                         </div>
                     </div>
+
                     <div class="btn">
                         <img src="https://static.toss.im/web-general/homepage/static/images/down-arrow.png" alt="내용 보기">
                     </div>
@@ -121,8 +126,7 @@
             <div class="page psr p1">
                 <div class="wrapper" id="p1_size">
                     <div class="particle">
-                        <img alt="" src="https://static.toss.im/web-general/homepage/static/images/legacy/particle.png"
-                             aria-hidden="true">
+                        <img alt="" src="https://static.toss.im/web-general/homepage/static/images/legacy/particle.png" aria-hidden="true" width="100%">
                     </div><!--폭죽 이미지-->
                     <div class="article">
                         <a target="_blank"
@@ -225,7 +229,7 @@
                     <div class="content_area">
                         <div class="title">
                             <h2 class="main_title">카드 조회는 어렵지만 <br>토스는 쉽습니다</h2>
-                            <p class="con mt40">내가 가진 모든 카드의 총 사용 금액을 한 눈에 확인하세요.</p>
+                            <p class="con mt40">내가 가진 모든 카드의 <br>총 사용 금액을 한 눈에 확인하세요.</p>
                         </div>
                         <div class="charge">
                             <div class="pay">
