@@ -125,13 +125,6 @@ li {
     text-decoration: none;
 }
 
-.header_wrap .gnb_g_site {
-    position: absolute;
-    right: 8px;
-    top: -33px;
-    z-index: 600;
-}
-
 .header_wrap .gnb_g_site li {
     display: inline-block;
 }
@@ -170,9 +163,8 @@ li {
     width: 100%;
 }
 
-.banner {
+.p0 {
     position: relative;
-    background: #eee;
     height: -webkit-fill-available;
     background-repeat: no-repeat;
     background-position: 0 0;
@@ -200,6 +192,7 @@ li {
     border-radius: 12px;
     padding: 15px 25px;
     color: #fff;
+    text-decoration: none;
 }
 
 .btn {
@@ -233,7 +226,7 @@ li {
     }
 }
 
-.p1, .p2, .p3, .pn {
+.p0, .p1, .p2, .p3, .pn {
     visibility: visible;
     -webkit-transform: translateY(0) scale(1);
     opacity: 1;
@@ -244,7 +237,8 @@ li {
     position: relative;
     padding: 240px 0;
     height: -webkit-fill-available;
-    background-attachment: fixed
+    background-attachment: fixed;
+    height: 50vh;
 }
 
 .p1 .wrapper {
@@ -285,19 +279,26 @@ li {
 
 .security {
     font-size: 20px;
-    border: 1px solid #333;
+    border: 1px solid #666;
     padding: 10px 15px;
     text-align: center;
-    border-radius: 30px;
+    border-radius: 20px;
     margin-left: 20px;
     color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.security:hover {
+    background: #2446c8;
+    color: #fff;
 }
 
 .main_title {
     font-size: 48px;
     font-weight: 300;
     color: #333;
-    line-height: 60px;
+    line-height: 45px;
 }
 
 .content_area {
@@ -364,6 +365,7 @@ li {
     height: auto;
     display: none;
 }
+
 .screens .item.on {
     display: block;
     left: 126px;
@@ -404,11 +406,14 @@ li {
     margin-bottom: 10px;
     padding: 20px;
     width: 340px;
+    background: #fff;
 }
 
 .about_card {
     margin-left: 20px;
     margin-top: auto;
+    background: #fff;
+    margin-bottom: 10px;
 }
 
 .about_card p {
@@ -548,9 +553,7 @@ li {
     }
 
     .security {
-        display: inline-block;
-        padding: 0;
-        height: 30px;
+        height: 20px;
         font-size: 14px;
         line-height: 30px;
     }
@@ -595,6 +598,10 @@ li {
     }
 
     .cards li {
-        margin: auto;
+        margin: 0 auto 12px;
+    }
+
+    .particle img {
+        width: 100%;
     }
 }
