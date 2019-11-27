@@ -18,13 +18,13 @@
 .vi {
     padding: 250px 0;
     height: 600px;
-    background: url(../img/inrome.jpg) 50% 70% no-repeat;
+    background: url(../img/inrome.png) 50% 70% no-repeat;
     background-size: cover;
 }
 
 .here{
-    background: #fff;
-    padding: 10px 0;
+    color: #fff;
+    text-shadow: 1px 1px 1px #999;
 }
 
 .start_btn {
@@ -42,10 +42,9 @@
 
 .u_line {
     display: inline;
-    background: #fbbc05;
     width: 100%;
     height: 100%;
-    padding: 0 10px;
+    font-size: 24px;
     word-break: keep-all;
 }
 
@@ -78,14 +77,14 @@
 }
 
 .goal{
-    background: #34a853;
-    text-shadow: 1px 1px 1px #666;
+    border: solid 1px #e0e0e0;
     word-break: keep-all;
 }
+
 .work{
-    background: #4285f4;
-    text-shadow: 1px 1px 1px #666;
+    border: solid 1px #e0e0e0;
     word-break: keep-all;
+    margin-left: -1px;
 }
 
 
@@ -102,7 +101,6 @@
 
     .here,.u_line {
         font-size: 25px;
-        padding: 0;
         word-break: keep-all;
     }
 
@@ -111,6 +109,11 @@
         height: 45px;
         right: 20px;
         line-height: 45px;
+    }
+
+    .work{
+        margin-top: -1px;
+        margin-left: 0;
     }
 }
 
