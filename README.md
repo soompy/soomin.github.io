@@ -1,5 +1,5 @@
 ### SMLEE Works.
-웹 퍼블리셔 1년 6개월 차 지원자 이수민의 2019년 포트폴리오 작업물 모음 페이지입니다.&#128525;
+웹 퍼블리셔 1년 6개월 차 지원자 이수민의 2019년 포트폴리오 작업물 모음 페이지입니다. &#128525;
 <br><br>
 <u>제가 제시하는 포트폴리오 보는 포인트입니다!!</u>
 <br>
@@ -11,10 +11,10 @@
 <br>
 ##### I'm SMLEE
 저에 대해 알고 싶나요?? ->
-[이수민 자기소개 페이지입니다.](https://soompy.github.io/pf19.github.io/about.html)
+[이수민 자기소개 페이지입니다.](https://soompy.github.io/pf19.github.io/about.html) 🙂
 
 <br>
-##### 2019 마크업 작업물 리스트
+##### 2019 마크업 작업물 리스트 💪
 1. [직방 리뉴얼](https://soompy.github.io/pf19.github.io/renewal.html)
   반응형 / bootstrap4 / html / css / javascript / jQuery
   
@@ -27,11 +27,11 @@
   반응형 / bootstrap4 / html / css / javascript / jQuery
   
 <br>
-##### UI개발 페이지
+##### UI개발 페이지 💪
 [UI개발 with vanillaJS 페이지](https://soompy.github.io/pf19.github.io/vanilla.html)  
   
 <br>
-##### VUE 연습 페이지
+##### VUE 연습 페이지 💪
 [VUE 연습 페이지](https://soompy.github.io/pf19.github.io/vue.html)
 
 감사합니다.
