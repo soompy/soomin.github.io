@@ -1,16 +1,8 @@
 $(document).ready(function () {
-    //modal();
-    //range();
+   //range();
     paging();
     moving();
 });
-
-
-function modal() {
-    $("#myBtn").click(function () {
-        $("#myModal").modal();
-    });
-}
 
 function range() {
     $("#slider-range").slider({

@@ -1,243 +1,9 @@
-/*메뉴*/
-.header_wrap {
-    width: 100%;
-    background: #fff;
+/* 공통 */
+a{
+    color: #333;
 }
-
-.header_tit_area {
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 16px;
-    z-index: 500;
-}
-
-.header_lst_area {
-    position: relative;
-    border-bottom: 1px solid #f7f7f7;
-    background: #fff;
-}
-
-.title_header {
-    padding: 12px 0 0;
-    font-size: 0;
-    line-height: 0;
-}
-
-.gnb_area {
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 16px;
-}
-
-.gnb_g {
-    display: flex;
-}
-
-.gnb_s {
-    position: absolute;
-    top: 53px;
-    left: 0;
-    width: 100%;
-    height: 53px;
-    visibility: hidden;
-}
-
-.gnb li {
-    text-align: center;
-}
-
-.gnb_li > a {
-    display: inline-block;
-    padding: 8px 14px;
-    line-height: 36px;
-    color: #1a1a1a;
-    font-size: 14px;
-    text-decoration: none;
-}
-
-.gnb_li > a:after {
-    display: none;
-}
-
-.gnb_li small {
-    font-size: 12px;
-    color: #999;
-}
-.gnb_area_bg{
-    position: absolute;
-    left: 0;
-    bottom: -53px;
-    right: 0;
-    background: #fff;
-    width: 100%;
-    height: 53px;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-}
-.gnb_s_lst{
-    position: absolute;
-    left: 0;
-    top: 0;
-    display: flex;
-}
-
-.gnb_s li a {
-    text-decoration: none;
-    font-size: 14px;
-    padding: 8px 14px;
-    text-align: center;
-}
-
-.join {
-    position: absolute;
-    right: 230px;
-    top: 50%;
-    margin-top: -13px;
-    display: flex;
-}
-
-.join a {
-    font-size: 14px;
-    border: 1px solid #999;
-    background: #fff;
-    padding: 5px 8px;
-}
-
-.join a:last-child {
-    margin-left: -2px;
-}
-
-.contact {
-    display: inline-block;
-    position: absolute;
-    right: 0;
-    top: 0;
-    margin-top: 13px;
-    background: #ff3300;
-    color: #fff;
-    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.05);
-    border-radius: 12px;
-    padding: 6px 12px;
-    font-size: 12px;
-}
-
-/*햄버거메뉴*/
-.header_toggle {
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    width: 24px;
-    height: 24px;
-    padding: 4px;
-    z-index: 30;
-}
-
-/*푸터*/
-#footer {
-    background: #333;
-    color: #ccc;
-}
-
-.footer_inner {
-    width: 1200px;
-    margin: auto;
-}
-
-.footer_top {
-    display: flex;
-    padding: 30px 0;
-}
-
-.footer_nav {
-    display: flex;
-    flex: 2;
-}
-
-.footer_nav a {
-    color: #ccc;
-    flex: 1;
-    text-align: center;
-    margin: auto 0;
-}
-
-.footer_search_box {
-    display: flex;
-    margin-left: auto;
-    flex: 1;
-}
-
-.footer_search_box input {
-    margin-left: auto;
-    padding: 8px 10px;
-    width: 280px;
-    border: 1px solid #999;
-    background: #333;
-    color: #ccc;
-}
-
-.search_enter_btn {
-    display: block;
-    border: 1px solid #999;
-    text-align: center;
-    margin: auto 0;
-    padding: 10px 30px;
-    color: #ccc;
-    margin-left: -1px;
-    background: #333;
-}
-
-.footer_info {
-    display: flex;
-}
-
-.cp_info {
-    flex: 2;
-}
-
-.cp_info li {
-    flex: 1;
-    line-height: 22px;
-}
-
-.sns {
-    margin-left: auto;
-}
-
-.sns a {
-    float: left;
-    display: block;
-    width: 50px;
-    height: 50px;
-    text-indent: -9999px;
-    background-image: url(../img/sns.png);
-    background-repeat: no-repeat;
-}
-
-.sns a:nth-child(1) {
-    background-position: 0 0;
-}
-
-.sns a:nth-child(2) {
-    background-position: 0 0;
-}
-
-.sns a:nth-child(3) {
-    background-position: 0 0;
-}
-
-.sns a:nth-child(4) {
-    background-position: 0 0;
-}
-
-.sns a:nth-child(5) {
-    background-position: 0 0;
-}
-
-.copyright {
-    font-weight: bold;
-    line-height: 3;
-    margin: 20px 0;
+a:hover{
+    color: #333;
 }
 
 /*비주얼*/
@@ -245,10 +11,10 @@
     position: relative;
     width: 100%;
     height: 500px;
-    /*background-image: url(//s.zigbang.com/v1/web/main/main_2018.png);*/
-    background-position: 50% 0;
+    background-image: url(../img/bg_zb.png);
+    background-position: 50% 65%;
     background-repeat: no-repeat;
-    background: #e0e0e0;
+    background-size: cover;
 }
 
 .inner_vi {
@@ -262,6 +28,7 @@
     position: relative;
     display: flex;
     padding: 20px 40px;
+    margin-bottom: 0;
 }
 
 .type_tab li {
@@ -319,7 +86,7 @@
     width: 85%;
     height: 45px;
     padding: 10px;
-    border: 2px solid #000;
+    border: 1px solid #666;
 }
 
 .search_btn {
@@ -329,14 +96,14 @@
     width: 15%;
     height: 45px;
     padding: 10px;
-    border: 2px solid #000;
+    border: 1px solid #666;
     margin-left: -3px;
 }
 
 .area_common {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 70px 16px 80px;
+    padding: 40px 16px 40px;
 }
 
 /*청약단지 - con1*/
@@ -348,11 +115,12 @@
 .apart_tab li {
     line-height: 2;
     text-align: center;
+    color: #333;
 }
 
 .apart_tab li.active {
-    color: navy;
-    border-bottom: 1px solid navy;
+    color: orange;
+    border-bottom: 1px solid orange;
 }
 
 .apart_list {
@@ -395,8 +163,8 @@
 
 .apart_list strong {
     display: block;
-    color: navy;
-    font-size: 16px;
+    color: #ff3300;
+    font-size: 14px;
     font-weight: bold;
 }
 
@@ -468,6 +236,7 @@
     float: left;
     border: 1px solid #ccc;
     border-radius: 5px;
+    height: 164px;
 }
 
 .find .bg {
@@ -497,7 +266,7 @@
 }
 
 .pag li a {
-    padding: 10px 12px 5px;
+    padding: 10px 3px 5px;
     text-align: center;
     font-weight: bold;
     color: #999;
@@ -554,7 +323,7 @@
     line-height: 1.5;
 }
 
-.market_price a {
+.market_price a { 
     display: block;
     font-size: 14px;
     border: 1px solid #666;
@@ -578,21 +347,22 @@
     clear: both;
     content: '';
     height: 47px;
-    border-bottom: 1px solid navy;
+    border-bottom: 1px solid orange;
+    margin-bottom: 15px;
 }
 
 .modal_check_tab li {
     float: left;
     font-size: 16px;
-    padding: 15px 20px;
+    padding: 11px 20px;
     font-weight: bold;
     text-align: center;
     cursor: pointer;
 }
 
 .modal_check_tab li.active {
-    background: navy;
-    color: #fff;
+    background: orange;
+    color: #333;
 }
 
 .select_content {
@@ -630,7 +400,7 @@
 
 .select_structure {
     float: left;
-    height: 35px;
+    height: auto;
     margin-right: 10px;
 }
 
@@ -639,11 +409,13 @@
     width: 100px;
     border: 1px solid #ccc;
     text-align: center;
-    padding: 10.5px;
+    padding: 7.1px 10.5px;
+    margin-left: -1px;
+    margin-bottom: -1px;
 }
 
 .select_structure li.on {
-    background: yellow;
+    background: orange;
 }
 
 .select_structure li:last-child {
@@ -690,89 +462,6 @@ body {
 
 /*반응형*/
 @media (max-width: 1200px) {
-    .header_tit_area {
-        height: 64px;
-    }
-
-    .header_lst_area {
-        height: 1px;
-        visibility: hidden;
-    }
-
-    .gnb_g {
-        display: block;
-    }
-
-    .gnb_area {
-        padding: 0;
-    }
-
-    .gnb_li > a {
-        display: block;
-        border-bottom: 1px solid #f7f7f7;
-    }
-
-    .gnb_li > a:after {
-        display: block;
-        clear: both;
-        content: '';
-        position: absolute;
-        right: 17px;
-        top: 18px;
-        background-image: url(/img/menu_down.svg);
-        background-repeat: no-repeat;
-        background-position: 50% 50%;
-        width: 12px;
-        height: 12px;
-        z-index: 30;
-    }
-
-    .gnb_s {
-        position: relative;
-    }
-
-    .gnb_s {
-        visibility: hidden;
-        height: 0;
-    }
-
-    .gnb_s li {
-        background: #f7f7f7;
-    }
-
-    .gnb_s li a {
-        padding: 12px 14px;
-    }
-
-    .contact {
-        font-size: 12px;
-        margin-top: -45px;
-        right: 16px;
-    }
-
-    .join {
-        width: 100%;
-        left: 0;
-        top: 100%;
-        display: block;
-        z-index: 30;
-    }
-
-    .join a {
-        padding: 12px 14px;
-        border: none;
-        border-bottom: 1px solid #f7f7f7;
-        line-height: 25px;
-    }
-
-    .join a:last-child {
-        margin: 0;
-    }
-
-    .visual {
-        padding: 0 20px;
-    }
-
     .inner_vi {
         width: 100%;
     }
@@ -787,6 +476,21 @@ body {
 
     .vi_search_wrap{
         display: none;
+    }
+    
+    /* 청약단지 con-1 */
+    .apt_search {
+        flex-direction: column;
+        flex-flow: inherit;
+    }
+
+    /* modal 스타일 */
+    .modal_check_tab {
+        height: 44px;
+    }
+
+    .modal_check_tab li {
+        font-size: 14px;
     }
 
     /*swiper 적용 부분*/
@@ -806,5 +510,5 @@ body {
     .market_price a {
         margin: 8px 0;
         text-align: center;
-    }
+    }    
 }

@@ -23,6 +23,7 @@
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="./js/renewal.js"></script>
+    <script src="./js/zb_effect.js"></script>
 
 
     <style>
@@ -39,15 +40,8 @@
 <header class="header_wrap">
     <div class="header_tit_area">
         <h1 class="title_header">
-            <a href="/"><img src="./img/logo_r.jpg" alt="직방" width="100px" style="display: none"></a>
+            <a href="#"><img src="img/logo_r.jpg" alt="직방" width="100px"></a>
         </h1>
-        <div class="header_toggle">
-            <a class="menu-trigger" href="#">
-                <span></span>
-                <span></span>
-                <span></span>
-            </a>
-        </div><!--모바일 햄버거 메뉴-->
     </div>
 
     <div class="header_lst_area">
@@ -101,8 +95,55 @@
             </ul>
             <a href="#" class="contact">중개사무소 가입 및 광고문의</a>
         </div>
-        <div class="gnb_area_bg" style="display: none"></div>
+        <div class="gnb_area_bg"></div>
     </div><!--메뉴 리스트-->
+
+    <nav>
+            <!-- <ul>
+                <li><a href="#">아파트 <small>(매매/전월세/신축분양)</small></a></li>
+                <li><a href="#">빌라, 투룸+ <small>(매매/전월세)</small></a></li>
+                <li><a href="#">원룸 <small>(전/월세)</small></a></li>
+                <li><a href="#">오피스텔/도시형생활주택 <small>(전/월세)</small></a></li>
+            </ul> -->
+            <div class="button">
+                <a class="btn-open" href="#"></a>
+            </div>
+            </nav>
+            <div class="overlay">
+                <div class="wrap">
+                    <ul class="wrap-nav">
+                        <li><a href="#">아파트 <small>(매매/전월세/신축분양)</small></a>
+                            <ul>
+                                <li><a href="#">매매&#47;전&#183;월세</a></li>
+                                <li><a href="#">신축분양</a></li>
+                                <li><a href="#">인구흐름</a></li>
+                                <li><a href="#">우리집 내놓기</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">빌라, 투룸+ <small>(매매/전월세)</small></a>
+                            <ul>
+                                <li><a href="#">빌라, 투룸 찾기</a></li>
+                                <li><a href="#">찜한 매물</a></li>
+                                <li><a href="#">빌라 내놓기(전월세만)</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">원룸 <small>(전/월세)</small></a>
+                            <ul>
+                                <li><a href="#">방 찾기</a></li>
+                                <li><a href="#">찜한 매물</a></li>
+                                <li><a href="#">방 내놓기(전월세만)</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">오피스텔/도시형생활주택 <small>(전/월세)</small></a>
+                            <ul>
+                                <li><a href="#">오피스텔 찾기</a></li>
+                                <li><a href="#">찜한 매물</a></li>
+                                <li><a href="#">오피스텔 내놓기(전월세만)</a></li>
+                            </ul>
+                        </li>
+                    </ul>                
+                </div>
+            </div>
 </header>
 <!--헤더-->
 
@@ -130,7 +171,7 @@
 
 <section class="content">
     <div class="area_common">
-        <div class="row">
+        <div class="row apt_search">
             <div class="col-sm-8">
                 <div class="apart_tab">
                     <ul class="row nav nav-tabs" role="tablist">
@@ -193,7 +234,7 @@
                 </ul>
             </div>
         </div>
-        <button type="button" class="btn btn-info btn-lg" id="myBtn">Open Modal</button>
+        <button type="button" class="btn btn-info btn-lg btn-danger btn-primary" data-toggle="modal" data-target="#exampleModalLong">상세보기</button>
     </div>
 
     <!--<div class="swiper-area" id="swiper-sell">-->
@@ -431,18 +472,15 @@
                 <h3>강북구</h3>
                 <p>월간 시세 변동 추이(1m당 시세)</p>
             </div>
-            <a href="#">통계자료 자세히 보기 &gt;</a>
+            <button type="button" class="btn btn-warning" style="height: 37px;margin-left: auto">통계자료 자세히 보기 &gt;</button>
         </div>
         <div id="chartdiv"></div>
     </div>
-
-
-    <a href="#" class="top_btn">top</a>
-
 </section>
 
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
-<div class="modal fade" id="myModal" role="dialog">
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -476,25 +514,35 @@
                                     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">제주도</a></li>
                                 </ul>
                             </div>
+                            <div class="btn-group">
+                                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Right-aligned menu
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                      <button class="dropdown-item" type="button">Action</button>
+                                      <button class="dropdown-item" type="button">Another action</button>
+                                      <button class="dropdown-item" type="button">Something else here</button>
+                                    </div>
+                                  </div>
                             <div class="dropdown">
-                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
+                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2"
                                         data-toggle="dropdown" aria-expanded="true">
                                     지역구
                                     <span class="caret"></span>
                                 </button>
-                                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
                                     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
                                     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a>
                                     </li>
                                 </ul>
                             </div>
                             <div class="dropdown">
-                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
+                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu3"
                                         data-toggle="dropdown" aria-expanded="true">
                                     읍/면/동
                                     <span class="caret"></span>
                                 </button>
-                                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu3">
                                     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
                                     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a>
                                     </li>
@@ -510,12 +558,12 @@
                                 <li>오피스텔</li>
                             </ul>
                             <div class="dropdown">
-                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
+                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu4"
                                         data-toggle="dropdown" aria-expanded="true">
                                     전체 아파트
                                     <span class="caret"></span>
                                 </button>
-                                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu4">
                                     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">A아파트</a></li>
                                     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">B아파트</a></li>
                                 </ul>
@@ -566,7 +614,7 @@
                         <div class="classify">시세</div>
                         <div class="select_area">
                             <!--이런건 어떻게 만드는거..-->
-                            <ul class="select_structure" style="height: 70px;">
+                            <ul class="select_structure">
                                 <li class="on">전체</li>
                                 <li>~1억</li>
                                 <li>1억</li>
@@ -590,11 +638,11 @@
                     </div>
                 </div>
             </div><!--modal-body-->
-
+    
             <div class="modal-footer">
-                <button type="button">조회</button>
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button">초기화</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+                <button type="button" class="btn btn-outline-danger">조회</button>
+                <button type="button" class="btn btn-outline-danger">초기화</button>
             </div>
         </div>
     </div>
@@ -631,11 +679,11 @@
                 <li class="copyright">Copyright © ZIGBANG. All Rights Reserved.</li>
             </ul>
             <div class="sns">
-                <a href="#">페이스북</a>
-                <a href="#">유튜브</a>
-                <a href="#">네이버블로그</a>
-                <a href="#">네이버포스트</a>
-                <a href="#">카카오스토리</a>
+                <a href="#" class="fb">페이스북</a>
+                <a href="#" class="yt">유튜브</a>
+                <a href="#" class="ig">인스타그램</a>
+                <a href="#" class="nb">네이버블로그</a>
+                <a href="#" class="ks">카카오스토리</a>
             </div>
         </div>
     </div>
