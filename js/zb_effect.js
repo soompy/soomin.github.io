@@ -1,35 +1,24 @@
-(function () {
-    // 모바일메뉴
-    $(document).ready(function () {
-        $(".button a").click(function () {
-            $(".overlay").fadeToggle(200);
-            $(this).toggleClass('btn-open').toggleClass('btn-close');
-        });
+(function(){
+    // 헤더
+    // .gnb_li에 hover했을때, 
+    // .gnb_area_bg와 해당 gnb_s가
+    // 나타나도록 visibility: visible;값을
+    // 준다.
+    var gnbLi = document.querySelectorAll('.gnb_li');
+    var gnbS = document.querySelectorAll('.gnb_s');
+    var gnbBg = document.querySelector('.gnb_area_bg');
+
+    gnbLi.forEach(hover => {
+        if(hover){
+            gnbBg.style.visibility = 'visible';
+        }else{
+            gnbBg.style.visibility = 'hidden';
+        }
     });
-    $('.overlay').on('click', function () {
-        $(".overlay").fadeToggle(200);
-        $(".button a").toggleClass('btn-open').toggleClass('btn-close');
-        open = false;
-    });
+
 })();
 
 
-(function (topFunction) {
-    // top 버튼 기능
-    var mybutton = document.getElementById('myBtn');
-  
-    window.onscroll = function (){scrollFunction()};
+(function(m_menu){
 
-    function scrollFunction() {
-        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-            mybutton.style.display = 'block';
-        } else {
-            mybutton.style.display = 'none';            
-        }
-    }
-
-    function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
 })();

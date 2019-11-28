@@ -1,8 +1,8 @@
 /* 공통 */
-a{
+body a{
     color: #333;
 }
-a:hover{
+body a:hover{
     color: #333;
 }
 
@@ -107,21 +107,6 @@ a:hover{
 }
 
 /*청약단지 - con1*/
-.apart_tab {
-    font-size: 20px;
-    color: #666;
-}
-
-.apart_tab li {
-    line-height: 2;
-    text-align: center;
-    color: #333;
-}
-
-.apart_tab li.active {
-    color: orange;
-    border-bottom: 1px solid orange;
-}
 
 .apart_list {
     padding: 30px 0;
@@ -129,6 +114,7 @@ a:hover{
 
 .apart_list li {
     float: left;
+    margin-bottom: 10px;
 }
 
 .apart_list img {
@@ -478,10 +464,34 @@ body {
         display: none;
     }
     
-    /* 청약단지 con-1 */
+    /* con1 */
     .apt_search {
         flex-direction: column;
         flex-flow: inherit;
+    }
+
+    .check_list {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    .sell_title {
+        font-size: 16px;
+    }
+
+    .apart_list span {
+        font-size: 14px;
+    }
+
+    .nav-tabs .nav-link {
+        font-size: 18px;
+        color: #333;
+    }
+
+    /* con2 */
+    .market_price {
+        display: flex;
+        flex-direction: inherit;
     }
 
     /* modal 스타일 */

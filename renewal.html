@@ -36,12 +36,17 @@
 
 <body>
 
-
 <header class="header_wrap">
     <div class="header_tit_area">
         <h1 class="title_header">
             <a href="#"><img src="img/logo_r.jpg" alt="직방" width="100px"></a>
         </h1>
+        <button onclick='m_menu();' class='hamburger1'>
+            <span class='bar1'></span>
+            <span class='bar2'></span>
+            <span class='bar3'></span>
+            <span class="hideme">Website navigation</span>
+        </button>
     </div>
 
     <div class="header_lst_area">
@@ -97,18 +102,8 @@
         </div>
         <div class="gnb_area_bg"></div>
     </div><!--메뉴 리스트-->
-
-    <nav>
-            <!-- <ul>
-                <li><a href="#">아파트 <small>(매매/전월세/신축분양)</small></a></li>
-                <li><a href="#">빌라, 투룸+ <small>(매매/전월세)</small></a></li>
-                <li><a href="#">원룸 <small>(전/월세)</small></a></li>
-                <li><a href="#">오피스텔/도시형생활주택 <small>(전/월세)</small></a></li>
-            </ul> -->
-            <div class="button">
-                <a class="btn-open" href="#"></a>
-            </div>
-            </nav>
+         
+    <nav class="mobile_menu">
             <div class="overlay">
                 <div class="wrap">
                     <ul class="wrap-nav">
@@ -172,59 +167,63 @@
 <section class="content">
     <div class="area_common">
         <div class="row apt_search">
-            <div class="col-sm-8">
-                <div class="apart_tab">
-                    <ul class="row nav nav-tabs" role="tablist">
-                        <li class="col-sm-6 active" role="presentation"><a href="#home" aria-controls="home" role="tab"
-                                                                           data-toggle="tab">인기단지</a></li>
-                        <li class="col-sm-6" role="presentation"><a href="#profile" aria-controls="profile" role="tab"
-                                                                    data-toggle="tab">맞춤단지</a></li>
-                    </ul>
-                </div>
-                <div class="tab-content">
-                    <ul class="apart_list row tab-pane active" role="tabpanel" id="home">
-                        <li class="col-sm-4">
-                            <img src="img/sell_apt_01.jpg" alt="단지 이미지">
-                            <p class="sell_title"><em>분양중</em>여의도 아리스타</p>
-                            <span>서울특별시 영등포구 당산동</span>
-                            <strong>분양가 1억9700 ~</strong>
-                        </li>
-                        <li class="col-sm-4">
-                            <img src="img/sell_apt_02.jpg" alt="단지 이미지">
-                            <p class="sell_title"><em>분양중</em>서충주 신도시 시그니처시티</p>
-                            <span>충청북도 충주시 주덕읍</span>
-                            <strong>분양가 9023 ~ </strong>
-                        </li>
-                        <li class="col-sm-4">
-                            <img src="img/sell_apt_03.jpg" alt="단지 이미지">
-                            <p class="sell_title"><em>청약중</em>명동 M퍼스트 플레이스(시행사 보유분 특별분양)</p>
-                            <span>서울특별시 중구 충무로2가</span>
-                            <strong>분양가 2억2480 ~ </strong>
-                        </li>
-                    </ul>
-                    <ul class="apart_list row tab-pane" role="tabpanel" id="profile">
-                        <li class="col-sm-4">
-                            <img src="img/sell_apt_04.jpg" alt="단지 이미지">
-                            <p class="sell_title"><em>분양중</em>여의도 아리스타</p>
-                            <span>서울특별시 영등포구 당산동</span>
-                            <strong>분양가 1억9700 ~</strong>
-                        </li>
-                        <li class="col-sm-4">
-                            <img src="img/sell_apt_05.jpg" alt="단지 이미지">
-                            <p class="sell_title"><em>분양중</em>서충주 신도시 시그니처시티</p>
-                            <span>충청북도 충주시 주덕읍</span>
-                            <strong>분양가 9023 ~ </strong>
-                        </li>
-                        <li class="col-sm-4">
-                            <img src="img/sell_apt_06.jpg" alt="단지 이미지">
-                            <p class="sell_title"><em>청약중</em>명동 M퍼스트 플레이스(시행사 보유분 특별분양)</p>
-                            <span>서울특별시 중구 충무로2가</span>
-                            <strong>분양가 2억2480 ~ </strong>
-                        </li>
-                    </ul>
-                </div>
+            <div class="col-md-8">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                              <a class="nav-link active" id="popular-tab" data-toggle="tab" href="#popular" role="tab" aria-controls="popular" aria-selected="true">인기단지</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" id="ordered-tab" data-toggle="tab" href="#ordered" role="tab" aria-controls="ordered" aria-selected="false">맞춤단지</a>
+                            </li>       
+                          </ul>
+                          <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="popular" role="tabpanel" aria-labelledby="popular-tab">
+                                <ul class="apart_list row tab-pane active" role="tabpanel" id="popular">
+                                        <li class="col-sm-4">
+                                            <img src="img/sell_apt_01.jpg" alt="단지 이미지">
+                                            <p class="sell_title"><em>분양중</em>여의도 아리스타</p>
+                                            <span>서울특별시 영등포구 당산동</span>
+                                            <strong>분양가 1억9700 ~</strong>
+                                        </li>
+                                        <li class="col-sm-4">
+                                            <img src="img/sell_apt_02.jpg" alt="단지 이미지">
+                                            <p class="sell_title"><em>분양중</em>서충주 신도시 시그니처시티</p>
+                                            <span>충청북도 충주시 주덕읍</span>
+                                            <strong>분양가 9023 ~ </strong>
+                                        </li>
+                                        <li class="col-sm-4">
+                                            <img src="img/sell_apt_03.jpg" alt="단지 이미지">
+                                            <p class="sell_title"><em>청약중</em>명동 M퍼스트 플레이스(시행사 보유분 특별분양)</p>
+                                            <span>서울특별시 중구 충무로2가</span>
+                                            <strong>분양가 2억2480 ~ </strong>
+                                        </li>
+                                    </ul>
+                            </div>
+                            <div class="tab-pane fade" id="ordered" role="tabpanel" aria-labelledby="ordered-tab">
+                                <ul class="apart_list row tab-pane" role="tabpanel" id="ordered">
+                                        <li class="col-sm-4">
+                                            <img src="img/sell_apt_04.jpg" alt="단지 이미지">
+                                            <p class="sell_title"><em>청약중</em>강남 힐스테이트</p>
+                                            <span>서울특별시 강남구 서초동</span>
+                                            <strong>분양가 2억3700 ~</strong>
+                                        </li>
+                                        <li class="col-sm-4">
+                                            <img src="img/sell_apt_05.jpg" alt="단지 이미지">
+                                            <p class="sell_title"><em>분양중</em>과천 지식정보타운</p>
+                                            <span>경기도 과천시</span>
+                                            <strong>분양가 9억1023 ~ </strong>
+                                        </li>
+                                        <li class="col-sm-4">
+                                            <img src="img/sell_apt_06.jpg" alt="단지 이미지">
+                                            <p class="sell_title"><em>청약중</em>청라 라피아노</p>
+                                            <span>경기도 김포시</span>
+                                            <strong>분양가 4억2200 ~ </strong>
+                                        </li>
+                                    </ul>
+                            </div>
+                          </div>                             
             </div>
-            <div class="col-sm-4">
+            <div class="col-md-4">
                 <ul class="check_list">
                     <li>부동산 세금계산기<em>&gt;</em></li>
                     <li>빠른 시세조회<em>&gt;</em></li>
@@ -472,13 +471,15 @@
                 <h3>강북구</h3>
                 <p>월간 시세 변동 추이(1m당 시세)</p>
             </div>
-            <button type="button" class="btn btn-warning" style="height: 37px;margin-left: auto">통계자료 자세히 보기 &gt;</button>
+            <button type="button" class="btn btn-warning" style="display: flex;height: 37px;margin-left: auto">통계자료 자세히 보기 &gt;</button>
         </div>
         <div id="chartdiv"></div>
     </div>
 </section>
 
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<p class="float-right">
+    <a href="#" class="top_btn text-center zb_top">Top</a>
+</p>
 
 <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
     <div class="modal-dialog">
@@ -514,16 +515,7 @@
                                     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">제주도</a></li>
                                 </ul>
                             </div>
-                            <div class="btn-group">
-                                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                      Right-aligned menu
-                                    </button>
-                                    <div class="dropdown-menu dropdown-menu-right">
-                                      <button class="dropdown-item" type="button">Action</button>
-                                      <button class="dropdown-item" type="button">Another action</button>
-                                      <button class="dropdown-item" type="button">Something else here</button>
-                                    </div>
-                                  </div>
+                           
                             <div class="dropdown">
                                 <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2"
                                         data-toggle="dropdown" aria-expanded="true">
