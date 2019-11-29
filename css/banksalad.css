@@ -1,114 +1,134 @@
-.bold{
+.bold {
     font-weight: bold;
 }
-h4,p{
+
+h4, p {
     margin: 0;
 }
-ul{
+
+ul {
     margin: 0;
     padding: 0;
 }
-li{
+
+li {
     list-style: none;
 }
-.pd{
+
+a {
+    color: #000;
+}
+
+.pd {
     padding: 10px 15px;
 }
-.pd_lr_15{
+
+.pd_lr_15 {
     padding: 0 15px;
 }
+
 /*뱅셀 인덱스*/
-.bs_wrap{
+.bs_wrap {
     max-width: 530px;
     margin: auto;
-    border: 1px solid #000;
+    border: 1px solid #e0e0e0;
 }
-#nav{
+
+#nav {
     display: none;
 }
 
-.sec_budget{
+.sec_budget {
     display: flex;
 }
-.sec_budget li{
+
+.sec_budget li {
     flex: 1;
     text-align: center;
     padding: 8px;
 }
-.sec_budget li.active{
+
+.sec_budget li.active {
     border-bottom: 2px solid #333;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
-.text-right{
+
+.text-right {
     text-align: right;
 }
 
-.cont{
+.cont {
     width: 100%;
 }
-.inner{
+
+.inner {
     padding: 0 15px;
 }
-.sum_asset{
+
+.sum_asset {
     position: relative;
-    background: #ccc;
+    background: #17bd85;
     color: #fff;
-    padding: 25px 15px;
+    padding: 55px 16px 30px;
 }
-.sum_asset span,.sum_asset strong{
+
+.sum_asset span, .sum_asset strong {
     display: block;
     font-size: 20px;
 }
-.sum_asset span{
+
+.sum_asset span {
     font-size: 13px;
 }
-.add_asset{
+
+.add_asset {
     position: absolute;
     top: 25px;
     right: 15px;
-    background: darkslategrey;
-    border-radius: 15px;
-    font-size: 10px;
-    padding: 3px 7px;
+    background: #28363a;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px 12px;
     color: #fff;
 }
 
-.score{
+.score {
     display: flex;
-    padding: 20px 15px;
+    padding: 15px 16px;
     justify-content: center;
     align-items: center;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
 }
-.score h4{
+
+.score h4 {
     flex: 1;
-    font-size: 16px;
+    font-size: 14px;
 }
-.score strong{
+
+.score strong {
     flex: 3;
     text-align: right;
 }
-.cash_flow{
-    display: flex;
-    padding: 20px 15px;
-    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.1);
-}
-.score h4{
 
+.cash_flow {
+    display: flex;
+    padding: 15px 16px;
+    font-size: 14px;
 }
-.cash_flow strong{
+
+.cash_flow strong {
     flex: 1;
 }
-.cash_flow strong:last-child{
+
+.cash_flow strong:last-child {
     text-align: right;
 }
 
-
-.money_flow{
-
-}
-.flow_top{
+.flow_top {
     display: block;
     clear: both;
     content: '';
@@ -118,97 +138,159 @@ li{
     font-size: 12px;
     color: #666;
 }
-.flow_top h4{
+
+.flow_top h4 {
     float: left;
     font-size: 12px;
 }
-.sum_cash{
+
+.sum_cash {
     float: right;
 }
 
-
-.depo{
-
+.depo {
+    font-size: 14px;
 }
-.depo li{
+
+.depo li {
     display: flex;
     padding: 10px 15px;
 }
-.depo li:nth-child(odd){
+
+.depo li:nth-child(odd), .depo li:last-of-type {
     border-bottom: 1px solid #ccc;
 }
-.depo li div{
+
+.depo li div {
     flex: 1;
 }
-.depo li div:last-child{
+
+.depo li div:last-child {
     text-align: right;
 }
-.depo li p{
-    font-size: 14px;
+
+.depo li p {
+    font-size: 12px;
 }
-.depo li span{
+
+.depo li span {
     display: block;
 }
-.depo li a{
+
+.depo li a {
     display: block;
-    font-size: 13px;
-    color: #ccc;
+    font-size: 12px;
+    color: #999;
 }
-
-
-
 
 /*뱅크셀러드 가계부*/
-.data{
-
-}
-.list{
+.list {
     display: flex;
 }
-.list li{
+
+.list_li {
+    display: inline-block;
     flex: 1;
     text-align: center;
     border: 1px solid #999;
     background: #fff;
-}
-.list li:nth-child(n+1){
+    padding: 5px;
     margin-left: -1px;
 }
-.list li.active{
-    background: #eee;
+
+.list_li.active{
+    background: #17bd85;
+    color: #fff;
+    text-shadow: 1px 1px 1px #999;
 }
-.state{
+
+.list li:nth-child(n+1) {
+    margin-left: -1px;
+}
+
+/* 달력 */
+.state.cal_state{
+    display: block;
+}
+.cal_top{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.cal{
+    text-align: center; 
+}
+
+.cal_tit{
+    border: 1px solid #999;
+    background: #eee;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+}
+
+table.calendar{
+    border: 1px solid #ccc;
+    display: inline-table;
+    text-align: left;
+}
+
+table.calendar td{
+    vertical-align: top;
+    border: 1px solid #ccc;
+    width: 100px;
+}
+
+.state {
     display: flex;
     font-size: 12px;
     padding-top: 15px;
 }
-.state dl{
+
+.state:first-of-type {
+    display: block;
+}
+
+.list_checkbox {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.list_checkbox dl {
     flex: 1;
 }
-.state dd{
+
+.list_checkbox dd {
     font-weight: bold;
     font-size: 14px;
 }
 
-.money_book{
+.money_book {
     font-size: 14px;
 }
-.money_book li span{
+
+.money_book li span {
     display: inline;
     padding: 5px 15px;
     border-radius: 20px;
-    background: deepskyblue;
+    background: #17bd85;
     color: #fff;
+    text-shadow: 1px 1px 1px #999;
     width: 150px;
     font-size: 12px;
 }
-.money_book li div:nth-child(2){
+
+.money_book li div:nth-child(2) {
     flex: 2;
 }
-.state dl{
+
+.state dl {
     margin: 0;
 }
-.state input{
+
+.state input {
     vertical-align: middle;
     margin-right: 5px;
 }
@@ -219,25 +301,29 @@ li{
     height: 220px;
 }
 
-
 /*my금융*/
-.chart{
+.chart {
     width: auto;
 }
-.top_fin_box{
+
+.top_fin_box {
     background: #666;
     color: #eee;
 }
-.grade{
+
+.grade {
     display: flex;
 }
-#chartdiv{
+
+#chartdiv {
     font: 1;
 }
-.my_fin_box{
+
+.my_fin_box {
     font: 1;
 }
-.my_fin_btn{
+
+.my_fin_btn {
     background: #999;
     padding: 3px 10px;
     text-align: center;
@@ -246,49 +332,472 @@ li{
     margin-top: 20px;
     display: block;
 }
-.maintain{
+
+.maintain {
     background: #333;
     border-radius: 7px;
     padding: 10px;
 }
-.maintain a{
+
+.maintain a {
     display: block;
     color: #eee;
 }
 
+/*뱅셀 로그인 */
+.close_box {
+    display: flex;
+}
 
+.close_box h1 {
+    margin-left: auto;
+    margin-top: -15px;
+}
 
+.login_layout {
+    display: block;
+    padding: 16px 40px 40px;
+    vertical-align: middle;
+    white-space: normal;
+    background: #fff;
+    margin-top: 16px;
+}
 
+.login_title {
+    font-size: 30px;
+    font-weight: 500;
+    padding: 25px 0 40px;
+    line-height: 42px;
+}
 
+.underline {
+    background-image: linear-gradient(180deg, transparent 65%, #cfe9ff 0);
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
 
+.sign_in_form {
+    font-size: 14px;
+}
 
-.top_banner{
+.sign_in_form label {
+    display: block;
+    font-size: 12px;
+    color: #666;
+}
+
+.sign_in_form label:last-of-type {
+    display: none;
+    margin: 12px 0;
+}
+
+.sign_in_form input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0;
+    width: 100%;
+}
+
+.sign_in_form input:last-of-type {
+    margin: 8px 0;
+}
+
+.login_form button {
+    width: 100%;
+    padding: 8px 0;
+    font-size: 14px;
+    margin: 12px 0;
+}
+
+.login_form button:disabled,
+.login_form button[disabled] {
+    border: 1px solid #ccc;
+    color: #999;
+}
+
+.login_form .login_btn:hover {
+    background: #17bd85;
+    border: 1px solid #17bd85;
+    border: none;
+    color: #fff;
+    text-shadow: 0 1px 1px #c0c0c0;
+}
+
+/*로딩효과*/
+.loader {
+    margin: 5px auto;
+    height: 20px;
+    width: 20px;
+    border: 3px solid #fff;
+    border-right-color: #fc3c35;
+    border-top-color: #fc3c35;
+    border-radius: 100%;
+    -webkit-animation: spin 800ms infinite linear;
+    animation: spin 800ms infinite linear;
+    display: none;
+}
+
+@-webkit-keyframes "spin" {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes "spin" {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+.sign_in_status input[id="keepLogin"] {
+    display: none;
+}
+
+.sign_in_status .ico_check {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #666;
+    border-radius: 50%;
+}
+
+.sign_in_status a {
+    color: #000;
+}
+
+.inp_chk .inp_radio:checked + .lab_g .ico_check, .inp_chk.checked .inp_radio + .lab_g .ico_check {
+    background-image: url(http://t1.daumcdn.net/tistory_admin/static/top/pcrtn/img_top_190306.png);
+    background-position: 61% 24%;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+
+.easy_login {
+    font-size: 14px;
+}
+
+.easy_login button {
+    margin: 5px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+.simple_title {
+    position: relative;
     text-align: center;
-    padding: 20px 0;
+    color: #ccc;
+    background-color: #fff;
+    margin: 50px 0 15px;
 }
-.top_banner h2{
-    font-size: 24px;
+
+.simple_title:before {
+    display: block;
+    clear: both;
+    content: '';
+    background: #ccc;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    top: 50%;
 }
-.net_asset{
-    font-size: 20px;
+
+.simple_title span {
+    position: relative;
+    background-color: #fff;
+    display: inline-block;
+    padding: 0 10px;
+    z-index: 20;
 }
-.sum_asset_box{
+
+.kakao_login {
+    background: #fee614;
+}
+
+.kakao_login:hover {
+    text-shadow: 0 1px 1px #c0c0c0;
+}
+
+.facebook_login {
+    background: #2e4485;
+    color: #fff;
+}
+
+.facebook_login:hover {
+    text-shadow: 0 1px 1px #c0c0c0;
+}
+
+.txt_lab {
+    vertical-align: top;
+}
+
+.sign_in_status input[id="keepLogin"]:checked + label {
+
+}
+
+.sign_in_status:last-of-type {
+    margin-left: auto;
+    color: #000;
+}
+
+.login_status {
+    display: flex;
+    font-size: 12px;
+}
+
+.service_policy {
+    margin: 8px 0;
+    font-size: 12px;
+    color: #999;
+    word-break: keep-all;
+}
+
+.service_policy a {
+    color: #999;
+    font-weight: bold;
+}
+
+/*배너영역*/
+.bs_main_menu {
+    display: flex;
+    background: #17bd85;
+}
+
+.bs_main_menu li {
+    flex: 1;
+    text-align: center;
+    color: #1e7e34;
+    border-bottom: 1px solid #1e7e34;
+    padding: 8px 0;
+}
+
+.bs_main_menu li:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.bs_main_menu li a {
+    color: #1e7e34;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.bs_main_menu li:hover a {
+    color: #fff;
+}
+
+.pension_cont {
+    background: #f7f7f7;
+    padding-bottom: 30px;
+}
+
+.pension_count {
+    text-align: center;
+    padding: 20px 0 25px;
+    color: #fff;
+}
+
+.pension_count .inner {
+    font-size: 14px;
+    text-shadow: 0 1px 1px #999;
+}
+
+.pension_tab {
+    display: flex;
+    margin: 0 auto;
+    width: 130px;
+}
+
+.pension_tab li {
+    background: #f7f7f7;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    border-radius: 3px;
+    line-height: 25px;
+}
+
+.pension_tab li:last-of-type {
+    margin-left: -2px;
+}
+
+.pension_tab li a {
+    font-size: 12px;
+}
+
+.pension_tab .disabled {
+    background: #e0e0e0;
+}
+
+.pension_tab .disabled a {
+    color: #999;
+}
+
+.get_pension {
+    color: #000;
+    font-size: 16px;
+    font-weight: 300;
+    display: block;
+    margin: 40px 0;
+}
+
+.select_pension {
+    width: 115px;
+    display: inline;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(./img/arr-black.svg) no-repeat 95% 50%; /* 화살표 모양의 이미지 */
+    border: none;
+    border-bottom: 2px solid #000;
+    border-radius: inherit;
+    background-color: #f7f7f7;
+    font-weight: bold;
+}
+
+.result_value {
+    display: flex;
+    margin-top: 13px;
+    justify-content: center;
+}
+
+.result_value strong {
+    margin: auto 0;
+    margin-left: 5px;
+}
+
+.expect_pension {
+    display: block;
+    background: #fff;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    font-weight: bold;
+    width: 100px;
+    padding: 8px;
+}
+
+.commodity {
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 16px;
+    font-size: 14px;
+    background: #fff;
+}
+.commodity:last-of-type{
+    margin-bottom: 0;
+}
+.tip_box {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 0;
+}
+
+.product_box_top {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.company_logo_img {
+    border: 1px solid #ccc;
+    width: 50px;
+    height: 50px;
+}
+.company_logo_img img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.product_name {
+    margin-left: 8px;
+}
+
+.product_name span {
+    display: block;
+    font-size: 12px;
+    color: #999;
+}
+
+.product_join {
+    margin-left: auto;
+}
+
+.product_join button {
+    padding: 8px 28px;
+    border-radius: 5px;
+    background: #198f53;
+    color: #fff;
+    font-size: 12px;
+}
+
+.product_box_bottom {
+    display: flex;
+    font-size: 13px;
+}
+
+.product_box_bottom p {
+    margin-left: 10px;
+}
+
+.structure {
+    color: #198f53;
+    font-weight: 600;
+}
+
+.sum_asset_box {
     display: flex;
     padding: 10px 0;
 }
-.sum_asset_box strong,.sum_asset_box span{
+
+.sum_asset_box strong, .sum_asset_box span {
     flex: 1;
 }
-.sum_asset_box span{
+
+.sum_asset_box span {
     text-align: right;
 }
 
+/*푸터*/
+.footer {
 
+}
 
+.footer_list {
+    display: flex;
+    margin-top: 40px;
+}
 
+.footer_list li {
+    flex: 1;
+    padding: 10px 0;
+    background: #f7f7f7;
+}
 
+.footer_list li:hover {
+    background: #eee;
+}
 
+.footer_list li a {
+    margin: auto 0;
+}
 
+.footer_list li img {
+    display: block;
+    margin: 0 auto;
+    width: 30px;
+}
 
-
-
+.footer_list li span {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #000;
+}

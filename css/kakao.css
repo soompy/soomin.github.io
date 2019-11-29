@@ -47,6 +47,7 @@ a,a:hover{
     max-width: 530px;
     margin: auto;
     padding: 0;
+<<<<<<< HEAD
     border: 1px solid #999;
 }
 
@@ -54,6 +55,10 @@ a,a:hover{
 
 
 
+=======
+}
+
+>>>>>>> fintech
 .bankbook{
     background: #eee;
 }
@@ -78,7 +83,11 @@ a,a:hover{
     height: 100%;
 }
 .bank_deposit{
+<<<<<<< HEAD
     background: darkgray;
+=======
+    background: #54668e;
+>>>>>>> fintech
     color: #fff;
     font-size: 12px;
     padding: 50px 30px;
@@ -110,7 +119,11 @@ a,a:hover{
 .request a{
     display: block;
     width: 100%;
+<<<<<<< HEAD
     background: #ccc;
+=======
+    background: #fee61e;
+>>>>>>> fintech
     padding: 10px;
     text-align: center;
     font-size: 16px;
@@ -196,7 +209,11 @@ a,a:hover{
     color: #868e96;
 }
 .next_btn.active {
+<<<<<<< HEAD
     background: yellow;
+=======
+    background: #fee61e;
+>>>>>>> fintech
 }
 .next_btn.active a{
     color: #333;
@@ -370,7 +387,11 @@ a,a:hover{
     padding: 40px 0 30px;
 }
 .deposit_account,.deposit_index{
+<<<<<<< HEAD
     background: navy;
+=======
+    background: #54668e;
+>>>>>>> fintech
     color: #fff;
 }
 .deposit_index{
