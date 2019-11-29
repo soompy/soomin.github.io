@@ -117,12 +117,7 @@ a {
 .cash_flow {
     display: flex;
     padding: 15px 16px;
-    /*box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.1);*/
     font-size: 14px;
-}
-
-.score h4 {
-
 }
 
 .cash_flow strong {
@@ -131,10 +126,6 @@ a {
 
 .cash_flow strong:last-child {
     text-align: right;
-}
-
-.money_flow {
-
 }
 
 .flow_top {
@@ -193,10 +184,6 @@ a {
 }
 
 /*뱅크셀러드 가계부*/
-.data {
-
-}
-
 .list {
     display: flex;
 }
