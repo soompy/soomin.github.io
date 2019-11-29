@@ -201,19 +201,59 @@ a {
     display: flex;
 }
 
-.list li {
+.list_li {
+    display: inline-block;
     flex: 1;
     text-align: center;
     border: 1px solid #999;
     background: #fff;
+    padding: 5px;
+    margin-left: -1px;
+}
+
+.list_li.active{
+    background: #17bd85;
+    color: #fff;
+    text-shadow: 1px 1px 1px #999;
 }
 
 .list li:nth-child(n+1) {
     margin-left: -1px;
 }
 
-.list li.active {
+/* 달력 */
+.state.cal_state{
+    display: block;
+}
+.cal_top{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.cal{
+    text-align: center; 
+}
+
+.cal_tit{
+    border: 1px solid #999;
     background: #eee;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+}
+
+table.calendar{
+    border: 1px solid #ccc;
+    display: inline-table;
+    text-align: left;
+}
+
+table.calendar td{
+    vertical-align: top;
+    border: 1px solid #ccc;
+    width: 100px;
 }
 
 .state {
@@ -222,11 +262,20 @@ a {
     padding-top: 15px;
 }
 
-.state dl {
+.state:first-of-type {
+    display: block;
+}
+
+.list_checkbox {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.list_checkbox dl {
     flex: 1;
 }
 
-.state dd {
+.list_checkbox dd {
     font-weight: bold;
     font-size: 14px;
 }
@@ -239,8 +288,9 @@ a {
     display: inline;
     padding: 5px 15px;
     border-radius: 20px;
-    background: deepskyblue;
+    background: #17bd85;
     color: #fff;
+    text-shadow: 1px 1px 1px #999;
     width: 150px;
     font-size: 12px;
 }

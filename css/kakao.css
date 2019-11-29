@@ -47,12 +47,7 @@ a,a:hover{
     max-width: 530px;
     margin: auto;
     padding: 0;
-    border: 1px solid #999;
 }
-
-
-
-
 
 .bankbook{
     background: #eee;
@@ -78,7 +73,7 @@ a,a:hover{
     height: 100%;
 }
 .bank_deposit{
-    background: darkgray;
+    background: #54668e;
     color: #fff;
     font-size: 12px;
     padding: 50px 30px;
@@ -110,7 +105,7 @@ a,a:hover{
 .request a{
     display: block;
     width: 100%;
-    background: #ccc;
+    background: #fee61e;
     padding: 10px;
     text-align: center;
     font-size: 16px;
@@ -370,7 +365,7 @@ a,a:hover{
     padding: 40px 0 30px;
 }
 .deposit_account,.deposit_index{
-    background: navy;
+    background: #54668e;
     color: #fff;
 }
 .deposit_index{
