@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>parallax 구현</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/toss_ui.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/prefixfree.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/counter.js"></script>
+</head>
+
+
+<header class="header_wrap">
+    <div class="header_fixed_group">
+        <div class="header_tit_area">
+            <h1 class="title_header">
+                <a href="/"><img src="./img/logo_toss.svg" alt="toss" width="96"></a>
+            </h1>
+            <div class="header_toggle">
+                <a class="menu-trigger" href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+        </div>
+        <div class="header_lst_area">
+            <div class="gnb_area">
+                <ul class="gnb_g">
+                    <li class="gnb_li">
+                        <a href="/faq" class="isMobile">FAQ</a>
+                        <div class="gnb_s">
+                            <ul class="gnb_s_lst">
+                                <li class="gnb_s_li "><a href="/">자주 묻는 질문</a></li>
+                                <li class="gnb_s_li "><a href="/">송금</a></li>
+                                <li class="gnb_s_li "><a href="/">이용방법</a></li>
+                                <li class="gnb_s_li "><a href="/">보안</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="gnb_li">
+                        <a href="/center" class="isMobile">공인인증센터</a>
+                        <div class="gnb_s">
+                            <ul class="gnb_s_lst">
+                                <li class="gnb_s_li "><a href="/">공인 인증서 보내기</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="gnb_li">
+                        <a href="/service" class="isMobile">토스보험서비스</a>
+                        <div class="gnb_s">
+                            <ul class="gnb_s_lst">
+                                <li class="gnb_s_li "><a href="/">토스 보험</a></li>
+                                <li class="gnb_s_li "><a href="/">언론 속의 토스 보험 서비스</a></li>
+                                <li class="gnb_s_li "><a href="/">가입안내</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="gnb_li">
+                        <a href="/company" class="isMobile">회사소개</a>
+                        <div class="gnb_s">
+                            <ul class="gnb_s_lst">
+                                <li class="gnb_s_li "><a href="/">회사소개</a></li>
+                                <li class="gnb_s_li "><a href="/">인재채용</a></li>
+                                <li class="gnb_s_li "><a href="/">공지사항</a></li>
+                                <li class="gnb_s_li "><a href="/">언론 속의 토스</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="gnb_li">
+                        <a href="/eng" class="isMobile">ENG</a>
+                    </li>
+                    <li class="g_user_btn first"><a href="/users/sign_in">로그인</a></li>
+                    <li class="g_user_btn"><a href="/users/sign_up">회원가입</a></li>
+                </ul>
+                <ul class="gnb_g_user"></ul>
+            </div>
+            <div class="gnb_area_bg" style="display: none"></div>
+        </div>
+    </div>
+</header>
+
+
+<body>
+
+<div id="container">
+    <div class="content">
+        <div class="all">
+
+            <div class="page psr p0">
+                <div class="wrapper" id="p0_size">
+                    <div class="down_btn">
+                        <h2>내 모든 돈을, <br>토스에서 간편하게.</h2>
+                        <div class="download mt40">
+                            <a href="#none" class="gotodown googleplay mr20">
+                                <img alt="구글 플레이"
+                                     src="https://static.toss.im/web-general/homepage/static/images/googleplay.png"
+                                     srcset="https://static.toss.im/web-general/homepage/static/images/googleplay@2x.png 2x, https://static.toss.im/web-general/homepage/static/images/googleplay@3x.png 3x">
+                                Google Play
+                            </a>
+                            <a href="#none" class="gotodown appstore">
+                                <img alt="애플 앱 스토어"
+                                     src="https://static.toss.im/web-general/homepage/static/images/apple-white.png"
+                                     srcset="https://static.toss.im/web-general/homepage/static/images/apple-white@2x.png 2x, https://static.toss.im/web-general/homepage/static/images/apple-white@3x.png 3x">
+                                App Store
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn">
+                    <img src="https://static.toss.im/web-general/homepage/static/images/down-arrow.png" alt="내용 보기">
+                </div>
+            </div>
+
+            <div class="page psr p1">
+                <div class="wrapper" id="p1_size">
+                    <div class="particle">
+                        <img alt="" src="https://static.toss.im/web-general/homepage/static/images/legacy/particle.png" aria-hidden="true" width="100%">
+                    </div><!--폭죽 이미지-->
+                    <div class="article">
+                        <a target="_blank"
+                           href="https://news.naver.com/main/read.nhn?mode=LSD&amp;mid=sec&amp;sid1=105&amp;oid=277&amp;aid=0004340770">
+                            <img class="cert_image mr20" width="200"
+                                 src="https://static.toss.im/web-general/homepage/static/images/legacy/cert03.png"
+                                 alt="전세계 100대 핀테크기업 28위" data-sr-id="2"
+                                 style="; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: all 0.25s ease 0s, -webkit-transform 0.7s cubic-bezier(0.0, 0.0, 0.2, 1) 0.00015s, opacity 0.7s cubic-bezier(0.0, 0.0, 0.2, 1) 0.00015s; transition: all 0.25s ease 0s, transform 0.7s cubic-bezier(0.0, 0.0, 0.2, 1) 0.00015s, opacity 0.7s cubic-bezier(0.0, 0.0, 0.2, 1) 0.00015s; ">
+                        </a>
+                        <a target="_blank" href="http://platum.kr/archives/72304">
+                            <img class="cert_image mr20" width="200"
+                                 src="https://static.toss.im/web-general/homepage/static/images/legacy/cert01.png"
+                                 alt="2016 구글플레이스토어 올해의 앱" data-sr-id="3"
+                                 style="; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: all 0.25s ease 0s, -webkit-transform 0.7s cubic-bezier(0.0, 0.0, 0.2, 1) 0.00015s, opacity 0.7s cubic-bezier(0.0, 0.0, 0.2, 1) 0.00015s; transition: all 0.25s ease 0s, transform 0.7s cubic-bezier(0.0, 0.0, 0.2, 1) 0.00015s, opacity 0.7s cubic-bezier(0.0, 0.0, 0.2, 1) 0.00015s; ">
+                        </a>
+                        <a target="_blank" href="http://www.edaily.co.kr/news/news_detail.asp?newsId=01558006615931872">
+                            <img class="cert_image" width="200"
+                                 src="https://static.toss.im/web-general/homepage/static/images/legacy/cert02.png"
+                                 alt="25개 금융앱 해킹방어수준 종합 1위" data-sr-id="4"
+                                 style="; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: all 0.25s ease 0s, -webkit-transform 0.7s cubic-bezier(0.0, 0.0, 0.2, 1) 0.00015s, opacity 0.7s cubic-bezier(0.0, 0.0, 0.2, 1) 0.00015s; transition: all 0.25s ease 0s, transform 0.7s cubic-bezier(0.0, 0.0, 0.2, 1) 0.00015s, opacity 0.7s cubic-bezier(0.0, 0.0, 0.2, 1) 0.00015s; ">
+                        </a>
+                    </div><!--순위-->
+                    <h2 class="text txtsr mt40">
+                        <p class="ranking">간편 송금 압도적 <strong>1위</strong></p>
+                        <p class="ranking">누적 다운로드 <strong class="counter1">0만</strong></p>
+                        <p class="ranking">누적 거래액 <strong class="counter2">0조 원</strong></p>
+                        <p class="ranking">출시 이래 보안사고 <strong>0건</strong><a href="#none" class="security">토스의 보안
+                            &gt;</a></p>
+                    </h2>
+                    <div class="terms mt40">2019년 9월 기준</div>
+                </div>
+            </div><!-- 첫 번째 영역-->
+
+
+            <div class="page psr pn">
+                <div class="wrapper" id="pn_size">
+                    <div class="card_box">
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="page psr p2">
+                <div class="wrapper" id="p2_size">
+                    <div class="content_area">
+                        <h2 class="main_title">송금은 귀찮지만 <br>토스는 쉽습니다</h2>
+                        <div class="mobile_view">
+                            <div class="iphone_frame">
+                                <img class="" width="526"
+                                     src="https://static.toss.im/web-general/homepage/static/images/legacy/p1_device.png"
+                                     alt="아이폰 목업이미지">
+                            </div><!--아이폰 틀-->
+                            <div class="screens">
+                                <img class="item" style="z-index: 3;"
+                                     src="https://static.toss.im/web-general/homepage/static/images/legacy/3.0/p1-screen01.png"
+                                     alt="토스 계좌정보 자동 복사 붙여넣기 화면">
+                                <img class="item"
+                                     src="https://static.toss.im/web-general/homepage/static/images/legacy/3.0/p1-screen02.png"
+                                     alt="토스 더치페이 화면" style="z-index: 1;">
+                                <img class="item"
+                                     src="https://static.toss.im/web-general/homepage/static/images/legacy/3.0/p1-screen03.png"
+                                     alt="토스 자동이체 화면" style="z-index: 1;">
+                                <img class="item"
+                                     src="https://static.toss.im/web-general/homepage/static/images/legacy/3.0/p1-screen04.jpg"
+                                     alt="토스 QR결제 화면" style="z-index: 2;">
+                            </div>
+                        </div><!--mobile-->
+                        <div class="mobile_function_tab mt40">
+                            <div class="tab">
+                                <button class="tablinks" onclick="ourService(event, 'Copy')">계좌간편복사</button>
+                                <button class="tablinks" onclick="ourService(event, 'Pay')">더치페이</button>
+                                <button class="tablinks" onclick="ourService(event, 'Transfer')">자동이체</button>
+                                <button class="tablinks" onclick="ourService(event, 'Qr')">QR결제</button>
+                            </div>
+
+                            <div id="Copy" class="tabcontent">
+                                <p>계좌 번호를 복사하기만 하면 자동으로 입력됩니다.</p>
+                            </div>
+
+                            <div id="Pay" class="tabcontent">
+                                <p>더치페이할 때도 직접 계산하지 않고 쉽게 주고받으세요.</p>
+                            </div>
+
+                            <div id="Transfer" class="tabcontent">
+                                <p>정기적으로 돈을 보내야 하시나요? <br>자동이체도 이젠 간편하게 토스!</p>
+                            </div>
+
+                            <div id="Qr" class="tabcontent">
+                                <p>현금을 받기 위해 일일이 계좌번호를 불러주고 계신가요? <br>QR코드를 발급받아 1초 만에 받아보세요.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- 두 번째 영역-->
+
+
+            <div class="page psr p3">
+                <div class="wrapper" id="p3_size">
+                    <div class="content_area">
+                        <div class="title">
+                            <h2 class="main_title">카드 조회는 어렵지만 <br>토스는 쉽습니다</h2>
+                            <p class="con mt40">내가 가진 모든 카드의 <br>총 사용 금액을 한 눈에 확인하세요.</p>
+                        </div>
+                        <div class="charge">
+                            <div class="pay">
+                                <span>이번 달 카드값</span>
+                                <strong>2,237,000원</strong>
+                            </div>
+                            <ul class="cards mt40">
+                                <li>
+                                    <img width="82"
+                                         src="https://static.toss.im/web-general/homepage/static/images/legacy/card/card_01.png"
+                                         alt="현대카드 M2 Edition">
+                                    <div class="about_card">
+                                        <p>현대카드 M2 Edition</p>
+                                        <strong>836,800원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img width="82"
+                                         src="https://static.toss.im/web-general/homepage/static/images/legacy/card/card_01.png"
+                                         alt="현대카드 M2 Edition">
+                                    <div class="about_card">
+                                        <p>현대카드 M2 Edition</p>
+                                        <strong>836,800원</strong>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img width="82"
+                                         src="https://static.toss.im/web-general/homepage/static/images/legacy/card/card_01.png"
+                                         alt="현대카드 M2 Edition">
+                                    <div class="about_card">
+                                        <p>현대카드 M2 Edition</p>
+                                        <strong>836,800원</strong>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- 3 번째 영역-->
+
+        </div><!--all-->
+
+    </div>
+</div>
+
+
+<footer id="footer">
+    <div class="inner">
+        <ul class="info_list">
+            <li>
+                <strong>안내</strong>
+                <ul class="sub_info_list">
+                    <li>공지사항</li>
+                    <li>자주 묻는 질문</li>
+                    <li>계정 일시 잠금</li>
+                    <li>공고</li>
+                </ul>
+            </li>
+            <li>
+                <strong>토스팀</strong>
+                <ul class="sub_info_list">
+                    <li>토스 블로그</li>
+                    <li>언론&middot;미디어</li>
+                </ul>
+            </li>
+            <li>
+                <strong>기타 문의</strong>
+                <ul class="sub_info_list">
+                    <li>비즈니스&middot;제휴</li>
+                    <li>마케팅&middot;PR</li>
+                </ul>
+            </li>
+            <li>
+                <strong>고객센터</strong>
+                <ul class="sub_info_list">
+                    <li>전화: <strong>1599-4905</strong>(24시간 연중무휴)</li>
+                    <li>이메일: <strong>support@toss.im</strong></li>
+                    <li>카카오톡: <strong>@toss</strong></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="jquery.counterup.js"></script>
+
+
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        direction: 'vertical',
+        loop: true,
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        scrollbar: '.swiper-scrollbar',
+    })
+
+</script>
+
+
+</body>
+</html>

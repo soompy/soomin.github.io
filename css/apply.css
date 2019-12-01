@@ -104,7 +104,7 @@
         word-break: keep-all;
     }
 
-    .top_btn {
+    .top_btn,.top_btn:hover {
         width: 45px;
         height: 45px;
         right: 20px;
