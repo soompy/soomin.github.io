@@ -8,6 +8,12 @@
 <script>
 export default {
   name: 'App'
+  methods: {
+    sum (a, b) {
+      const result = a + b
+      return result
+    }
+  }
 }
 </script>
 
@@ -21,3 +27,6 @@ export default {
   margin-top: 60px;
 }
 </style>
+
+
+
