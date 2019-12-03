@@ -1,12 +1,58 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>vue-pjt</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>vue-pjt</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/vue_style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="app">
+    <div class="product">
+      <div class="product-image">
+        <img v-bind:src="image" alt="" width="400px">
+      </div>
+      <div class="product-info">
+        <h1>{{ title }}</h1>
+        <!-- <p v-if="inStock">In Stock</p> -->
+        <p v-if="inventory > 10">In Stock</p>
+        <p v-else-if="inventory <= 10 && inventory > 0">Almost sold out!</p>
+        <p v-else>Out of Stock</p>
+
+        <ul>
+          <li v-for="detail in details">{{ detail }}</li>
+        </ul>
+
+        <div v-for="(variant, index) in variants" :key="variant.variantId" class="color-box"
+          :style="{ backgroundColor: variant.variantColor }">
+          <p @mouseover="updatedProduct(index)">{{ variant.variantColor }}</p>
+
+          <!-- @click
+            @mouseover
+            @submit
+            @keyup.enter -->
+
+          <!-- 5까지 들음 -->
+        </div>
+
+        <!-- <button v-on:click="cart += 1">Add to Cart</button> -->
+        <button v-on:click="addToCart" :disabled="!inStock" :class="{ disabledButton: !inStock }">Add to Cart</button>
+
+        <div class="cart">
+          <p>Cart({{cart}})</p>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <!-- built files will be auto injected -->
+
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="src/mainPage.js"></script>
+</body>
+
 </html>
