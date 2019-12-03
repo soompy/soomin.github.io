@@ -1,5 +1,49 @@
+#app{
+    padding: 30px;
+}
+
+.cart{
+    display: flex;
+}
+
+.product-image,.product-info{
+    float: left;
+    width: 50%;
+    margin: 0;
+}
+.cart p{
+    display: inline-block;
+    border: 1px solid #999;
+    padding: 10px 20px;
+    margin-left: auto;
+}
+
 .color-box{
     width: 40px;
     height: 40px;
     margin-top: 5px;
+}
+
+button{
+    background: #007bff;
+    color: #fff;
+    border: 1px solid #999;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.disabledButton{
+    background: #d8d8d8;
+    color: #999;
+}
+
+.review-form{
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+#review{
+    display: block;
+    width: 100%;
+    resize: none;
 }

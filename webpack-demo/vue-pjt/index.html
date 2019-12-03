@@ -10,46 +10,17 @@
 </head>
 
 <body>
+
+  <div class="nav-bar"></div>
   <div id="app">
-    <div class="product">
-      <div class="product-image">
-        <img v-bind:src="image" alt="" width="400px">
-      </div>
-      <div class="product-info">
-        <h1>{{ title }}</h1>
-        <!-- <p v-if="inStock">In Stock</p> -->
-        <p v-if="inventory > 10">In Stock</p>
-        <p v-else-if="inventory <= 10 && inventory > 0">Almost sold out!</p>
-        <p v-else>Out of Stock</p>
-
-        <ul>
-          <li v-for="detail in details">{{ detail }}</li>
-        </ul>
-
-        <div v-for="(variant, index) in variants" :key="variant.variantId" class="color-box"
-          :style="{ backgroundColor: variant.variantColor }">
-          <p @mouseover="updatedProduct(index)">{{ variant.variantColor }}</p>
-
-          <!-- @click
-            @mouseover
-            @submit
-            @keyup.enter -->
-
-          <!-- 5까지 들음 -->
-        </div>
-
-        <!-- <button v-on:click="cart += 1">Add to Cart</button> -->
-        <button v-on:click="addToCart" :disabled="!inStock" :class="{ disabledButton: !inStock }">Add to Cart</button>
-
-        <div class="cart">
-          <p>Cart({{cart}})</p>
-        </div>
-
-
-      </div>
+    <!-- <product></product>
+    <product></product>
+    <product></product> -->
+    <div class="cart">
+      <p>Cart({{ cart.length }})</p>
     </div>
+    <product :premium="premium" @add-to-cart='updateCart'></product>
   </div>
-  <!-- built files will be auto injected -->
 
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
   <script src="src/mainPage.js"></script>
