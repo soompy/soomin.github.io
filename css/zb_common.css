@@ -70,8 +70,9 @@
     display: block;
 }
 
-.gnb li {
+.gnb_li {
     text-align: center;
+    line-height: 50px;
 }
 
 .gnb_li > a {
@@ -96,6 +97,7 @@
     color: #999;
 }
 .gnb_area_bg{
+    display: none;
     position: absolute;
     left: 0;
     bottom: -53px;
@@ -104,9 +106,13 @@
     width: 100%;
     height: 53px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-    visibility: hidden;
     z-index: 5;
 }
+
+.gnb_area_bg.on{
+    display: block;
+}
+
 .gnb_s_lst{
     position: absolute;
     left: 0;
