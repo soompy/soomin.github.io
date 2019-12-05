@@ -51,7 +51,7 @@
 <br>
 감사합니다.
 
-Contact
-E-mail: yzsumin@naver.com
+Contact<br>
+E-mail: yzsumin@naver.com<br>
 Phone: 01027631137
 
