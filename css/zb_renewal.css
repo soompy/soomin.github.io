@@ -1,0 +1,525 @@
+/* 공통 */
+body a{
+    color: #333;
+}
+body a:hover{
+    color: #333;
+}
+
+/*비주얼*/
+.visual {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/bg_zb.png);
+    background-position: 50% 65%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inner_vi {
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.type_tab {
+    position: relative;
+    display: flex;
+    padding: 20px 40px;
+    margin-bottom: 0;
+}
+
+.type_tab li {
+    margin-right: 40px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.type_tab li strong {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.type_tab li.active {
+    color: orange;
+    text-shadow: 1px 1px 1px #333;
+}
+
+.vi_search {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.vi_search:before {
+    display: block;
+    clear: both;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #333;
+    opacity: 0.65;
+    width: 100%;
+    height: 100%;
+}
+
+.vi_search_wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 140px;
+}
+
+.search_box {
+    position: relative;
+    width: 100%;
+    height: 45px;
+}
+
+.search_box input {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 85%;
+    height: 45px;
+    padding: 10px;
+    border: 1px solid #666;
+}
+
+.search_btn {
+    position: absolute;
+    right: 2px;
+    bottom: 0;
+    width: 15%;
+    height: 45px;
+    padding: 10px;
+    border: 1px solid #666;
+    margin-left: -3px;
+}
+
+.area_common {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 16px 40px;
+}
+
+/*청약단지 - con1*/
+
+.apart_list {
+    padding: 30px 0;
+}
+
+.apart_list li {
+    float: left;
+    margin-bottom: 10px;
+}
+
+.apart_list img {
+    width: 100%;
+    height: 157px;
+}
+
+.sell_title {
+    font-weight: bold;
+    font-size: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 10px 0 5px;
+}
+
+.sell_title em {
+    display: inline-block;
+    margin-right: 5px;
+    background: orange;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.apart_list span {
+    display: block;
+    color: #666;
+    line-height: 30px;
+}
+
+.apart_list strong {
+    display: block;
+    color: #ff3300;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.check_list li {
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 20px 30px 20px 40px;
+    background: #fff;
+    margin-top: -1px;
+    cursor: pointer;
+}
+
+.check_list li:hover {
+    font-weight: bold;
+}
+
+.check_list em {
+    margin-left: auto;
+}
+
+.check_list li:hover em {
+    -webkit-animation: here;
+    -o-animation: here;
+    animation-name: here;
+    -webkit-animation-duration: 0.5s;
+    -moz-animation-duration: 0.5s;
+    -o-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+}
+
+@keyframes here {
+    0% {
+        padding-right: 6px;
+    }
+    50% {
+        padding-right: 3px;
+    }
+    100% {
+        padding-right: 0;
+    }
+}
+
+/*쉬운 방 찾기 - con2*/
+.sell_con_wrap {
+    position: relative;
+}
+
+.list_wrap {
+    overflow: hidden;
+    width: 100%;
+}
+
+.list_scroll {
+    position: relative;
+    width: 2240px;
+    height: 164px;
+}
+
+.room_list {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.room_list li {
+    width: 185px;
+    margin-right: 16px;
+    float: left;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 164px;
+}
+
+.find .bg {
+    width: 100%;
+    height: 100px;
+}
+
+.find .bg img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.info {
+    padding: 15px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.pag {
+    width: 70px;
+    margin: 20px auto;
+}
+
+.pag li {
+    margin: 0 5px;
+}
+
+.pag li a {
+    padding: 10px 3px 5px;
+    text-align: center;
+    font-weight: bold;
+    color: #999;
+}
+
+.pag li a.active {
+    border-bottom: 2px solid #333;
+    color: #333;
+}
+
+.sell_list_btn li:first-child {
+    position: absolute;
+    left: -25px;
+    top: 50%;
+    margin-top: -25px;
+}
+
+.sell_list_btn li:last-child {
+    position: absolute;
+    right: -25px;
+    top: 50%;
+    margin-top: -25px;
+}
+
+.sell_list_btn li {
+    z-index: 30;
+    border-radius: 50%;
+}
+
+.sell_list_btn li span {
+    display: block;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    font-size: 30px;
+    color: #999;
+    line-height: 38px;
+    box-shadow: 1px 1px 1px 1px #eee;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.sell_list_btn li a:hover {
+    text-decoration: none;
+}
+
+.market_price {
+    display: flex;
+    font-size: 20px;
+}
+
+.market_price p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.market_price a { 
+    display: block;
+    font-size: 14px;
+    border: 1px solid #666;
+    background: #fff;
+    padding: 10px;
+    margin-left: auto;
+}
+
+/*모달*/
+.modal.show .modal-dialog {
+    max-width: 1200px;
+    font-size: 14px;
+}
+
+.modal_select_box {
+
+}
+
+.modal_check_tab {
+    display: block;
+    clear: both;
+    content: '';
+    height: 47px;
+    border-bottom: 1px solid orange;
+    margin-bottom: 15px;
+}
+
+.modal_check_tab li {
+    float: left;
+    font-size: 16px;
+    padding: 11px 20px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.modal_check_tab li.active {
+    background: orange;
+    color: #333;
+}
+
+.select_content {
+    display: flex;
+    padding: 10px 0;
+}
+
+.select_content > div {
+
+}
+
+.dropdown {
+    float: left;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    font-size: 14px;
+}
+
+.classify {
+    flex: 1;
+}
+
+.select_area {
+    flex: 6;
+}
+
+.select_type {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.select_structure {
+    float: left;
+    height: auto;
+    margin-right: 10px;
+}
+
+.select_structure li {
+    float: left;
+    width: 100px;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 7.1px 10.5px;
+    margin-left: -1px;
+    margin-bottom: -1px;
+}
+
+.select_structure li.on {
+    background: orange;
+}
+
+.select_structure li:last-child {
+    margin-left: -1px;
+}
+
+/*swiper*/
+
+#swiper-sell.swiper-area {
+    position: relative;
+    height: 100%;
+    display: none;
+}
+
+body {
+    background-color: #fff;
+}
+
+.swiper-container {
+    width: 1200px;
+    height: 164px;
+    background-color: #fff;
+}
+
+.swiper-slide {
+    width: 185px;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+/*반응형*/
+@media (max-width: 1200px) {
+    .inner_vi {
+        width: 100%;
+    }
+
+    .type_tab {
+        display: none;
+    }
+
+    .area_common {
+        padding: 40px 16px 50px;
+    }
+
+    .vi_search_wrap{
+        display: none;
+    }
+    
+    /* con1 */
+    .apt_search {
+        flex-direction: column;
+        flex-flow: inherit;
+    }
+
+    .check_list {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    .sell_title {
+        font-size: 16px;
+    }
+
+    .apart_list span {
+        font-size: 14px;
+    }
+
+    .nav-tabs .nav-link {
+        font-size: 18px;
+        color: #333;
+    }
+
+    /* con2 */
+    .market_price {
+        display: flex;
+        flex-direction: inherit;
+    }
+
+    /* modal 스타일 */
+    .modal_check_tab {
+        height: 44px;
+    }
+
+    .modal_check_tab li {
+        font-size: 14px;
+    }
+
+    /*swiper 적용 부분*/
+    #swiper-sell.swiper-area {
+        display: block;
+    }
+
+    .swiper-container {
+        width: 100%;
+    }
+
+    .market_price {
+        display: inherit;
+        flex-direction: column;
+    }
+
+    .market_price a {
+        margin: 8px 0;
+        text-align: center;
+    }    
+}

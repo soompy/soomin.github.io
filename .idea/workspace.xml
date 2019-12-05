@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="f5e44250-697b-44b5-ae59-2d8de051c225" name="Default Changelist" comment="" />
 =======
     <list default="true" id="f5e44250-697b-44b5-ae59-2d8de051c225" name="Default Changelist" comment="">
@@ -17,6 +18,19 @@
       <change beforePath="$PROJECT_DIR$/css/banksalad.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/banksalad.css" afterDir="false" />
     </list>
 >>>>>>> fintech
+=======
+    <list default="true" id="f5e44250-697b-44b5-ae59-2d8de051c225" name="Default Changelist" comment="">
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/img/menu_down.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/renewal.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/renewal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/reset.css" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 42e21ff411a07b0bb296e4590f729559ddd157e7
+      <change beforePath="$PROJECT_DIR$/renewal.html" beforeDir="false" afterPath="$PROJECT_DIR$/renewal.html" afterDir="false" />
+    </list>
+>>>>>>> renewal
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +41,7 @@
     <session id="-562371682">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
           <entry key="css" value="8" />
@@ -40,10 +55,19 @@
           <entry key="css" value="8" />
           <entry key="html" value="12" />
 >>>>>>> fintech
+=======
+          <entry key="css" value="14" />
+=======
+          <entry key="css" value="10" />
+>>>>>>> 42e21ff411a07b0bb296e4590f729559ddd157e7
+          <entry key="html" value="5" />
+          <entry key="js" value="6" />
+>>>>>>> renewal
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
           <entry key="CSS" value="8" />
@@ -59,10 +83,19 @@
           <entry key="CSS" value="8" />
           <entry key="HTML" value="12" />
 >>>>>>> fintech
+=======
+          <entry key="CSS" value="14" />
+=======
+          <entry key="CSS" value="10" />
+>>>>>>> 42e21ff411a07b0bb296e4590f729559ddd157e7
+          <entry key="HTML" value="5" />
+          <entry key="JavaScript" value="6" />
+>>>>>>> renewal
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
           <entry key="css" value="2508" />
@@ -76,10 +109,20 @@
           <entry key="css" value="3185" />
           <entry key="html" value="2515" />
 >>>>>>> fintech
+=======
+          <entry key="css" value="3519" />
+          <entry key="html" value="2287" />
+=======
+          <entry key="css" value="2508" />
+          <entry key="html" value="1921" />
+>>>>>>> 42e21ff411a07b0bb296e4590f729559ddd157e7
+          <entry key="js" value="446" />
+>>>>>>> renewal
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
           <entry key="CSS" value="2508" />
@@ -97,10 +140,21 @@
           <entry key="HTML" value="2456" />
           <entry key="Svelte" value="59" />
 >>>>>>> fintech
+=======
+          <entry key="CSS" value="3519" />
+          <entry key="HTML" value="2228" />
+=======
+          <entry key="CSS" value="2508" />
+          <entry key="HTML" value="1862" />
+>>>>>>> 42e21ff411a07b0bb296e4590f729559ddd157e7
+          <entry key="JavaScript" value="446" />
+          <entry key="Svelte" value="59" />
+>>>>>>> renewal
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+<<<<<<< HEAD
 <<<<<<< HEAD
           <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="3" />
@@ -109,10 +163,15 @@
           <entry key="project.open.time.8" value="1" />
           <entry key="project.opened" value="6" />
 =======
+=======
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="3" />
+>>>>>>> renewal
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.opened" value="7" />
+<<<<<<< HEAD
 >>>>>>> bootstrap4
 =======
           <entry key="project.closed" value="6" />
@@ -122,11 +181,14 @@
           <entry key="project.open.time.3" value="1" />
           <entry key="project.opened" value="6" />
 >>>>>>> fintech
+=======
+>>>>>>> renewal
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -241,11 +303,44 @@
                   <folding>
                     <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+=======
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+<<<<<<< HEAD
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/renewal.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="574">
+                  <caret line="95" column="82" lean-forward="true" selection-start-line="95" selection-start-column="82" selection-end-line="95" selection-end-column="82" />
+                  <folding>
+                    <element signature="n#style#0;n#img#0;n#a#0;n#h1#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+=======
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/renewal.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="676">
+                  <caret line="345" lean-forward="true" selection-start-line="345" selection-end-line="345" />
+                  <folding>
+                    <element signature="e#5926#5930#1" expanded="true" />
+                    <element signature="e#5976#5980#1" expanded="true" />
+                    <element signature="e#6029#6033#1" expanded="true" />
+                    <element signature="e#6083#6087#1" expanded="true" />
+                    <element signature="e#6135#6139#1" expanded="true" />
+>>>>>>> 42e21ff411a07b0bb296e4590f729559ddd157e7
+                    <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#span#2;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#ul#0;n#div#1;n#div#4;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+>>>>>>> renewal
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
+<<<<<<< HEAD
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/banksal_index.html">
               <provider selected="true" editor-type-id="text-editor">
@@ -256,9 +351,12 @@
               </provider>
             </entry>
           </file>
+=======
+>>>>>>> renewal
         </leaf>
       </split-first>
       <split-second>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <leaf>
           <file pinned="false" current-in-tab="true">
@@ -274,6 +372,31 @@
                 <state relative-caret-position="505">
                   <caret line="621" column="26" selection-start-line="621" selection-start-column="26" selection-end-line="621" selection-end-column="26" />
 >>>>>>> fintech
+=======
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/renewal.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="665">
+                  <caret line="704" column="20" selection-start-line="704" selection-start-column="20" selection-end-line="704" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/reset.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="326">
+                  <caret line="114" column="3" lean-forward="true" selection-start-line="114" selection-start-column="3" selection-end-line="114" selection-end-column="3" />
+=======
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/renewal.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="474">
+                  <caret line="416" column="4" selection-start-line="416" selection-start-column="1" selection-end-line="416" selection-end-column="4" />
+>>>>>>> 42e21ff411a07b0bb296e4590f729559ddd157e7
+>>>>>>> renewal
                 </state>
               </provider>
             </entry>
@@ -283,6 +406,7 @@
     </splitter>
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -291,6 +415,8 @@
     </option>
 >>>>>>> bootstrap4
   </component>
+=======
+>>>>>>> renewal
   <component name="FindInProjectRecents">
     <findStrings>
       <find>footer</find>
@@ -301,6 +427,7 @@
       <find>list_scro</find>
       <find>m_gnb</find>
       <find>swiper</find>
+<<<<<<< HEAD
 <<<<<<< HEAD
     </findStrings>
     <replaceStrings>
@@ -335,6 +462,20 @@
       <find>button</find>
     </findStrings>
 >>>>>>> fintech
+=======
+      <find>visual</find>
+      <find>a</find>
+      <find>.join</find>
+      <find>로그인</find>
+      <find>after</find>
+=======
+      <find>쉬운 방 찾기</find>
+>>>>>>> 42e21ff411a07b0bb296e4590f729559ddd157e7
+    </findStrings>
+    <replaceStrings>
+      <replace>2019-05</replace>
+    </replaceStrings>
+>>>>>>> renewal
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -343,6 +484,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/common.css" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/css/reset.css" />
 <<<<<<< HEAD
         <option value="$PROJECT_DIR$/js/renewal.js" />
@@ -369,6 +511,15 @@
         <option value="$PROJECT_DIR$/banksal_advice.html" />
         <option value="$PROJECT_DIR$/css/banksalad.css" />
 >>>>>>> fintech
+=======
+        <option value="$PROJECT_DIR$/js/renewal.js" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/css/reset.css" />
+=======
+>>>>>>> 42e21ff411a07b0bb296e4590f729559ddd157e7
+        <option value="$PROJECT_DIR$/css/renewal.css" />
+        <option value="$PROJECT_DIR$/renewal.html" />
+>>>>>>> renewal
       </list>
     </option>
   </component>
@@ -378,6 +529,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   <component name="ProjectFrameBounds">
@@ -404,6 +556,19 @@
     <option name="width" value="1680" />
     <option name="height" value="1027" />
 >>>>>>> fintech
+=======
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1061" />
+    <option name="y" value="-1669" />
+    <option name="width" value="2621" />
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="753" />
+    <option name="y" value="-869" />
+    <option name="width" value="3008" />
+>>>>>>> 42e21ff411a07b0bb296e4590f729559ddd157e7
+    <option name="height" value="1669" />
+>>>>>>> renewal
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -412,6 +577,10 @@
     </navigator>
     <panes>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> renewal
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -420,14 +589,25 @@
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> renewal
             <path>
               <item name="pf19" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
+<<<<<<< HEAD
 >>>>>>> bootstrap4
 =======
+=======
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+>>>>>>> 42e21ff411a07b0bb296e4590f729559ddd157e7
+>>>>>>> renewal
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -440,11 +620,15 @@
               <item name="pf19" type="462c0819:PsiDirectoryNode" />
               <item name="node_modules" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
 >>>>>>> fintech
+=======
+>>>>>>> renewal
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <pane id="ProjectPane">
         <subPane>
@@ -458,6 +642,8 @@
               <item name="pf19" type="462c0819:PsiDirectoryNode" />
               <item name="node_modules" type="462c0819:PsiDirectoryNode" />
 =======
+=======
+>>>>>>> renewal
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -474,7 +660,10 @@
               <item name="pf19" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="img" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+<<<<<<< HEAD
 >>>>>>> fintech
+=======
+>>>>>>> renewal
             </path>
           </expand>
           <select />
@@ -485,15 +674,19 @@
   <component name="PropertiesComponent">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
 >>>>>>> bootstrap4
 =======
 >>>>>>> fintech
+=======
+>>>>>>> renewal
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <key name="CopyFile.RECENT_KEYS">
 <<<<<<< HEAD
@@ -510,15 +703,32 @@
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/img" />
 =======
+=======
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+<<<<<<< HEAD
+>>>>>>> renewal
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$" />
     </key>
+<<<<<<< HEAD
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/css" />
 >>>>>>> fintech
     </key>
+=======
+=======
+>>>>>>> 42e21ff411a07b0bb296e4590f729559ddd157e7
+>>>>>>> renewal
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -546,11 +756,15 @@
       <workItem from="1563333796892" duration="128000" />
       <workItem from="1564713513300" duration="4530000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> renewal
       <workItem from="1565536564499" duration="3172000" />
       <workItem from="1566400625845" duration="2640000" />
       <workItem from="1566737670101" duration="5025000" />
       <workItem from="1567047118537" duration="39000" />
       <workItem from="1567047212273" duration="1531000" />
+<<<<<<< HEAD
 <<<<<<< HEAD
       <workItem from="1567474510110" duration="1607000" />
 =======
@@ -565,10 +779,15 @@
       <workItem from="1568787305600" duration="605000" />
       <workItem from="1568863482404" duration="39000" />
 >>>>>>> fintech
+=======
+      <workItem from="1567474510110" duration="1607000" />
+      <workItem from="1568691219975" duration="2590000" />
+>>>>>>> renewal
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="29671000" />
@@ -589,13 +808,27 @@
 >>>>>>> bootstrap4
 =======
     <option name="totallyTimeSpent" value="27824000" />
+=======
+    <option name="totallyTimeSpent" value="39576000" />
+=======
+    <option name="totallyTimeSpent" value="30294000" />
+>>>>>>> 42e21ff411a07b0bb296e4590f729559ddd157e7
+>>>>>>> renewal
   </component>
   <component name="ToolWindowManager">
     <frame x="753" y="-1669" width="3008" height="1669" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09608303" />
 >>>>>>> fintech
+=======
+<<<<<<< HEAD
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08336123" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.07164379" />
+>>>>>>> 42e21ff411a07b0bb296e4590f729559ddd157e7
+>>>>>>> renewal
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -609,6 +842,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.20855615" />
 =======
       <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21116044" />
@@ -616,6 +850,9 @@
 =======
       <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.1851617" />
 >>>>>>> fintech
+=======
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21116044" />
+>>>>>>> renewal
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -633,6 +870,9 @@
   <component name="editorHistoryManager">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> renewal
     <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -641,6 +881,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2346">
@@ -648,6 +889,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> renewal
     <entry file="file://$PROJECT_DIR$/js/helloworld.js" />
     <entry file="file://$PROJECT_DIR$/js/portal.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -676,6 +919,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/css/renewal.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="543">
@@ -683,6 +927,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> renewal
     <entry file="file://$PROJECT_DIR$/js/renewal.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -697,6 +943,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/renewal.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
@@ -823,15 +1070,54 @@
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="114" column="3" lean-forward="true" selection-start-line="114" selection-start-column="3" selection-end-line="114" selection-end-column="3" />
+=======
+    <entry file="file://$PROJECT_DIR$/css/renewal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="416" column="4" selection-start-line="416" selection-start-column="1" selection-end-line="416" selection-end-column="4" />
+>>>>>>> 42e21ff411a07b0bb296e4590f729559ddd157e7
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renewal.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="574">
+          <caret line="95" column="82" lean-forward="true" selection-start-line="95" selection-start-column="82" selection-end-line="95" selection-end-column="82" />
+=======
+        <state relative-caret-position="676">
+          <caret line="345" lean-forward="true" selection-start-line="345" selection-end-line="345" />
+>>>>>>> 42e21ff411a07b0bb296e4590f729559ddd157e7
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#h1#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#1;n#div#4;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+>>>>>>> renewal
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/css/banksalad.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="505">
           <caret line="621" column="26" selection-start-line="621" selection-start-column="26" selection-end-line="621" selection-end-column="26" />
 >>>>>>> fintech
+=======
+    <entry file="file://$PROJECT_DIR$/css/renewal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="704" column="20" selection-start-line="704" selection-start-column="20" selection-end-line="704" selection-end-column="20" />
+>>>>>>> renewal
         </state>
       </provider>
     </entry>

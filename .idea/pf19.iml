@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <module type="RUBY_MODULE" version="4">
 =======
 <module type="WEB_MODULE" version="4">
 >>>>>>> fintech
+=======
+<module type="RUBY_MODULE" version="4">
+>>>>>>> renewal
   <component name="ModuleRunConfigurationManager">
     <shared />
   </component>
   <component name="NewModuleRootManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <content url="file://$MODULE_DIR$" />
 =======
@@ -17,6 +22,9 @@
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
     </content>
 >>>>>>> fintech
+=======
+    <content url="file://$MODULE_DIR$" />
+>>>>>>> renewal
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
