@@ -1,12 +1,8 @@
+
 ### SMLEE Works. 😍
 웹 퍼블리셔 1년 6개월 차 지원자 이수민의 2019년 포트폴리오 작업물 모음 페이지입니다.
 <br><br>
-<u><strong>제가 제시하는 포트폴리오 보는 포인트입니다!!</strong></u>
-<br>
-1. <strong>마크업</strong>에 중점을 둔 직방리뉴얼, 카카오뱅크 모바일 웹, 토스페이지와
-2. <strong>자바스크립트</strong>를 이용한 웹 페이지 동적기능 효과에 중점을 둔 UI개발 페이지
-3. <strong>VUE</strong>를 사용한 연습 페이지
-
+<u><strong>개발에 적합한 마크업 구조를 지향합니다.<br>부트스트랩을 사용하여 하드코딩 하였습니다.</strong></u>
 
 <br>
 ##### I'm SMLEE
@@ -15,24 +11,47 @@
 
 <br>
 ##### 2019 마크업 작업물 리스트 💪
-1. [직방 리뉴얼](https://soompy.github.io/pf19.github.io/renewal.html)
+1. [직방 리뉴얼](https://soompy.github.io/pf19.github.io/zigbang.html)
   반응형 / bootstrap4 / html / css / javascript / jQuery
-  
-  
-2. [카카오뱅크 모바일 웹 마크업](https://soompy.github.io/pf19.github.io/banksal_index.html)
-  반응형 / bootstrap4 / html / css / javascript / jQuery
-  
-  
-3. [패럴렉스 페이지](https://soompy.github.io/pf19.github.io/banksal_index.html)
+   
+2. [뱅크샐러드 모바일 웹 마크업 - 로그인](https://soompy.github.io/pf19.github.io/banksal_sign_in.html)<br>
+   [뱅크샐러드 모바일 웹 마크업 - 가계부](https://soompy.github.io/pf19.github.io/banksal_book.html)<br>
+   [뱅크샐러드 모바일 웹 마크업 - 금융비서](https://soompy.github.io/pf19.github.io/banksal_advice.html)<br>
   반응형 / bootstrap4 / html / css / javascript / jQuery
   
 <br>
-##### UI개발 페이지 💪
-[UI개발 with vanillaJS 페이지](https://soompy.github.io/pf19.github.io/vanilla.html)  
+##### 2018 포트폴리오 리스트 💪
+1. [서율시청 반응형 리뉴얼](https://github.com/soompy/pf18.github.io/tree/master/seoul) - 총 4페이지
+  반응형 / html / css / javascript / jQuery / photoshop / illustrator
+2. [현대중공업 반응형 리뉴얼](https://github.com/soompy/pf18.github.io/tree/master/hyundai) - 총 1페이지
+  반응형 / html / css / javascript / jQuery / photoshop / illustrator
+3. [뉴발란스 반응형 원페이지 리뉴얼](https://github.com/soompy/pf18.github.io/tree/master/newbalance) - 총 1페이지
+  반응형 / html / css / javascript / jQuery / photoshop / illustrator
   
 <br>
-##### VUE 연습 페이지 💪
-[VUE 연습 페이지](https://soompy.github.io/pf19.github.io/vue.html)
+##### 2017 포트폴리오 리스트 💪
+1. [자이 리뉴얼](https://github.com/soompy/pf17.github.io/tree/master/xi) - 총 4페이지
+  html / css / javascript / jQuery / photoshop / illustrator
+2. [디올 반응형 리뉴얼](https://github.com/soompy/pf17.github.io/tree/master/dior) - 총 1페이지
+  반응형 / html / css / javascript / jQuery / photoshop / illustrator
+3. [중앙대학교 반응형 리뉴얼](https://github.com/soompy/pf17.github.io/tree/master/cau) - 총 16페이지
+  반응형 / html / css / javascript / jQuery / photoshop / illustrator
+4. [교보문고 반응형 리뉴얼](https://github.com/soompy/pf17.github.io/tree/master/kyobo) - 총 1페이지
+  반응형 / html / css / javascript / jQuery / photoshop / illustrator  
+5. [국립극장 반응형 리뉴얼](https://github.com/soompy/pf17.github.io/tree/master/ntok) - 총 3페이지
+  반응형 / html / css / javascript / jQuery / photoshop / illustrator
+6. [맥도날드 반응형 리뉴얼](https://github.com/soompy/pf17.github.io/tree/master/mcdonalds) - 총 1페이지
+  반응형 / html / css / javascript / jQuery / photoshop / illustrator
+7. [SPC 반응형 리뉴얼](https://github.com/soompy/pf17.github.io/tree/master/spc) - 총 7페이지
+  반응형 / html / css / javascript / jQuery / photoshop / illustrator
+8. [덩케르크 반응형 프로모션 페이지](https://github.com/soompy/pf17.github.io/tree/master/dunkirk) - 총 1페이지
+  반응형 / html / css / javascript / jQuery / photoshop / illustrator   
 
+  
+<br>
 감사합니다.
-by SMLEE!!
+
+Contact
+E-mail: yzsumin@naver.com
+Phone: 01027631137
+
