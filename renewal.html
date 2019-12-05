@@ -16,19 +16,12 @@
     <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script> -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-    <!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="jquery-3.4.1.min.js"></script>
-
     <script src="./js/renewal.js"></script>
-    <script src="./js/zb_layout.js"></script>
-
+    <script src="./js/zb_effect.js"></script>
 
     <style>
         #chartdiv {
@@ -45,7 +38,7 @@
         <h1 class="title_header">
             <a href="#"><img src="img/logo_r.jpg" alt="직방" width="100px"></a>
         </h1>
-        <button onclick='m_menu();' class='hamburger1'>
+        <button id="hamburger1" onclick='m_menu();' class='hamburger1'>
             <span class='bar1'></span>
             <span class='bar2'></span>
             <span class='bar3'></span>
@@ -58,12 +51,12 @@
             <ul class="gnb_g">
                 <li class="gnb_li">
                     <a href="#">아파트 <small>(매매/전월세/신축분양)</small> </a>
-                    <div class="gnb_s">
+                    <div class="gnb_s on">
                         <ul class="gnb_s_lst">
-                            <li class="gnb_s_li"><a href="">매매/전·월세</a></li>
-                            <li class="gnb_s_li"><a href="">신축분양</a></li>
-                            <li class="gnb_s_li"><a href="">인구흐름</a></li>
-                            <li class="gnb_s_li"><a href="">우리집 내놓기</a></li>
+                            <li class="gnb_s_li"><a href="#">매매/전·월세</a></li>
+                            <li class="gnb_s_li"><a href="#">신축분양</a></li>
+                            <li class="gnb_s_li"><a href="#">인구흐름</a></li>
+                            <li class="gnb_s_li"><a href="#">우리집 내놓기</a></li>
                         </ul>
                     </div>
                 </li>
@@ -71,9 +64,9 @@
                     <a href="#">빌라, 투룸+ <small>(매매/전월세)</small> </a>
                     <div class="gnb_s">
                         <ul class="gnb_s_lst">
-                            <li class="gnb_s_li"><a href="">빌라, 투룸 찾기</a></li>
-                            <li class="gnb_s_li"><a href="">찜한 매물</a></li>
-                            <li class="gnb_s_li"><a href="">빌라 내놓기(전월세만)</a></li>
+                            <li class="gnb_s_li"><a href="#">빌라, 투룸 찾기</a></li>
+                            <li class="gnb_s_li"><a href="#">찜한 매물</a></li>
+                            <li class="gnb_s_li"><a href="#">빌라 내놓기(전월세만)</a></li>
                         </ul>
                     </div>
                 </li>
@@ -81,9 +74,9 @@
                     <a href="#">원룸 <small>(전/월세)</small> </a>
                     <div class="gnb_s">
                         <ul class="gnb_s_lst">
-                            <li class="gnb_s_li"><a href="">방 찾기</a></li>
-                            <li class="gnb_s_li"><a href="">찜한 매물</a></li>
-                            <li class="gnb_s_li"><a href="">방 내놓기(전월세만)</a></li>
+                            <li class="gnb_s_li"><a href="#">방 찾기</a></li>
+                            <li class="gnb_s_li"><a href="#">찜한 매물</a></li>
+                            <li class="gnb_s_li"><a href="#">방 내놓기(전월세만)</a></li>
                         </ul>
                     </div>
                 </li>
@@ -91,9 +84,9 @@
                     <a href="#">오피스텔/도시형생활주택 <small>(전/월세)</small> </a>
                     <div class="gnb_s">
                         <ul class="gnb_s_lst">
-                            <li class="gnb_s_li"><a href="">오피스텔 찾기</a></li>
-                            <li class="gnb_s_li"><a href="">찜한 매물</a></li>
-                            <li class="gnb_s_li"><a href="">오피스텔 내놓기(전월세만)</a></li>
+                            <li class="gnb_s_li"><a href="#">오피스텔 찾기</a></li>
+                            <li class="gnb_s_li"><a href="#">찜한 매물</a></li>
+                            <li class="gnb_s_li"><a href="#">오피스텔 내놓기(전월세만)</a></li>
                         </ul>
                     </div>
                 </li>
@@ -108,7 +101,7 @@
     </div><!--메뉴 리스트-->
          
     <nav class="mobile_menu">
-            <div class="overlay">
+            <div id="overlay" class="overlay">
                 <div class="wrap">
                     <ul class="wrap-nav">
                         <li><a href="#">아파트 <small>(매매/전월세/신축분양)</small></a>
@@ -159,8 +152,8 @@
 
             <div class="search_box">
                 <input type="text" class="active" placeholder="원하는 지역명, 지하철역, 단지명(아파트명)을 입력해주세요" class="active">
-                <input type="text" placeholder="원하는 지역명, 지하철역을 입력해주세요">
-                <input type="text" placeholder="원하는 지역명, 지하철역을 입력해주세요">
+                <input type="text" placeholder="원하는 지역명, 지하철역, 빌라(투룸)명을 입력해주세요">
+                <input type="text" placeholder="원하는 지역명, 지하철역, 원룸명을 입력해주세요">
                 <input type="text" placeholder="원하는 지역명, 지하철역, 오피스텔명을 입력해주세요">
                 <button class="search_btn">찾기</button>
             </div>
@@ -432,37 +425,14 @@
             </div>
         </div>
 
-
-        <div class="pag">
+        <!-- <div class="pag">
             <nav>
                 <ul class="pagination">
                     <li><a href="#" onclick="return false;" class="active">1</a></li>
                     <li><a href="#" onclick="return false;">2</a></li>
                 </ul>
             </nav>
-        </div>
-
-        <!--<nav aria-label="Page navigation example">-->
-            <!--<ul class="pagination justify-content-center">-->
-                <!--<li class="page-item disabled">-->
-                    <!--<a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>-->
-                <!--</li>-->
-                <!--<li class="page-item"><a class="page-link" href="#">1</a></li>-->
-                <!--<li class="page-item"><a class="page-link" href="#">2</a></li>-->
-                <!--<li class="page-item"><a class="page-link" href="#">3</a></li>-->
-                <!--<li class="page-item">-->
-                    <!--<a class="page-link" href="#">Next</a>-->
-                <!--</li>-->
-            <!--</ul>-->
-        <!--</nav>-->
-
-
-
-
-
-
-
-
+        </div> -->
     </div>
 
     <div class="area_common">
@@ -527,9 +497,8 @@
                                     <span class="caret"></span>
                                 </button>
                                 <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
-                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
-                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a>
-                                    </li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">지역구1</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">지역구2</a></li>
                                 </ul>
                             </div>
                             <div class="dropdown">
@@ -539,8 +508,9 @@
                                     <span class="caret"></span>
                                 </button>
                                 <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu3">
-                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
-                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">읍</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">면</a>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">동</a>
                                     </li>
                                 </ul>
                             </div>

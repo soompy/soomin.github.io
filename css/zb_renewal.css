@@ -263,10 +263,6 @@ body a:hover{
     color: #333;
 }
 
-.sell_list_btn {
-
-}
-
 .sell_list_btn li:first-child {
     position: absolute;
     left: -25px;
@@ -282,20 +278,25 @@ body a:hover{
 }
 
 .sell_list_btn li {
-    width: 45px;
-    height: 45px;
-    background: #fff;
-    border-radius: 50%;
     z-index: 30;
+    border-radius: 50%;
 }
 
 .sell_list_btn li span {
-    text-align: center;
     display: block;
+    width: 45px;
+    height: 45px;
+    text-align: center;
     font-size: 30px;
     color: #999;
-    line-height: 50px;
+    line-height: 38px;
+    box-shadow: 1px 1px 1px 1px #eee;
+    border-radius: 50%;
+    background-color: #fff;
+}
 
+.sell_list_btn li a:hover {
+    text-decoration: none;
 }
 
 .market_price {
