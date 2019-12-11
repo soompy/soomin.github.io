@@ -21,7 +21,7 @@
   
 <br>
 ##### 2018 포트폴리오 리스트 💪
-1. [서율시청 반응형 리뉴얼](https://github.com/soompy/pf18.github.io/tree/master/seoul) - 총 4페이지
+1. [서울시청 반응형 리뉴얼](https://github.com/soompy/pf18.github.io/tree/master/seoul) - 총 4페이지
   반응형 / html / css / javascript / jQuery / photoshop / illustrator
 2. [현대중공업 반응형 리뉴얼](https://github.com/soompy/pf18.github.io/tree/master/hyundai) - 총 1페이지
   반응형 / html / css / javascript / jQuery / photoshop / illustrator
