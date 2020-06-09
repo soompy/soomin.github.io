@@ -13,8 +13,8 @@
 
 ##### 2020 마크업 작업물 리스트 💪
 1. 바나프레소 웹/모바일 웹 <br>
-[웹 반응형](https://soompy.github.io/banapresso_order_vue.github.io/) <br>
-[모바일 반응형](https://soompy.github.io/pjt2020_2nd_nuxt.github.io/) <br>
+[웹 반응형](https://github.com/soompy/banapresso_order_vue.github.io) <br>
+[모바일 반응형](https://github.com/soompy/pjt2020_2nd_nuxt.github.io) <br>
 반응형/html / css / javascript / Vue / Nuxt
 
 ##### 2019 마크업 작업물 리스트 💪
