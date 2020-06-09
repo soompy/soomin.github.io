@@ -9,12 +9,14 @@
 저에 대해 알고 싶나요?? ->
 [이수민 자기소개 페이지입니다.](https://soompy.github.io/pf19.github.io/apply.html) 🙂
 
+<br>
+
 ##### 2020 마크업 작업물 리스트 💪
 1. [바나프레소 웹/모바일 웹]
-
+[웹 반응형] (https://soompy.github.io/banapresso-order-vue.github.io/)
+[모바일 반응형] (https://soompy.github.io/pjt2020_2nd_nuxt.github.io/)
 반응형/html / css / javascript / Vue / Nuxt
 
-<br>
 ##### 2019 마크업 작업물 리스트 💪
 1. [직방 리뉴얼](https://soompy.github.io/pf19.github.io/zigbang.html)
   반응형 / bootstrap4 / html / css / javascript / jQuery
