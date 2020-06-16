@@ -285,13 +285,13 @@
 
     <div class="cont">
       <div class="data pd">
-        <div class="list">
-          <button class="list_li active" onclick="openTab(event,'tab1')">내역</button>
-          <button class="list_li" onclick="openTab(event,'tab2')">달력</button>
-          <button class="list_li" onclick="openTab(event,'tab3')">통계</button>
-          <button class="list_li" onclick="openTab(event,'tab4')">예산</button>
-        </div>
-        <div id="tab1" class="state" style="display: inherit">
+        <ul class="list_tab">
+          <li>내역</li>
+          <li>달력</li>
+          <li>통계</li>
+          <li>예산</li>
+        </ul>
+        <div id="tab1" class="state">
           <div class="list_checkbox">
             <dl>
               <dt>
@@ -400,7 +400,6 @@
                 </div>
               </li>
             </ul>
-
           </div>
         </div>
 
@@ -418,7 +417,7 @@
           <div id="chartdiv"></div>
         </div>
 
-        <div id="tab4" class="state" style="display: initial;">
+        <div id="tab4" class="state">
           <div class="sum_asset">
             <span>사용자의 순자산</span>
             <strong>400,000,000원</strong>
@@ -483,7 +482,6 @@
             </ul>
           </div>
         </div>
-
       </div>
     </div>
     <!--cont-->

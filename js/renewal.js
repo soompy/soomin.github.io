@@ -12,15 +12,17 @@ function gnb() {
     $(".gnb_area_bg").removeClass("on");
     $(".gnb_s").removeClass("on");
     
+    $(".header_lst_area").mouseleave(function(e){
+        $(".gnb_area_bg").removeClass("on");
+        $(".gnb_s").removeClass("on");
+    })
+
     $(".gnb_li > a").hover(function(e){
         $(".gnb_area_bg").addClass("on");
         $(this).next(".gnb_s").addClass("on");
     })
 
-    $(".header_lst_area").mouseleave(function(e){
-        $(".gnb_area_bg").removeClass("on");
-        $(".gnb_s").removeClass("on");
-    })
+    
 }
 
 
@@ -86,12 +88,8 @@ function listBtn() {
     })
 }
 
-
-function mGnb(){
-    $(".hamburger1").click(function(){
-        $(".overlay").addClass("overlay_show");
-        $(".hamburger1").click(function(){
-            $(".overlay").removeClass("overlay_show");
-        })
-    })
+function mNav(){
+    var overlay = document.getElementById('overlayBox');
+    overlay.classList.toggle('active');
+   
 }

@@ -29,6 +29,9 @@ a {
 
 /*뱅셀 인덱스*/
 .bs_wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
     max-width: 530px;
     margin: auto;
     border: 1px solid #e0e0e0;
@@ -38,12 +41,16 @@ a {
     display: none;
 }
 
+#footer {
+    margin-top: auto;
+}
+
 .sec_budget {
     display: flex;
 }
 
 .sec_budget li {
-    flex: 1;
+    flex: 1 1 auto;
     text-align: center;
     padding: 8px;
 }
@@ -105,7 +112,7 @@ a {
 }
 
 .score h4 {
-    flex: 1;
+    flex: 1 1 auto;
     font-size: 14px;
 }
 
@@ -121,7 +128,7 @@ a {
 }
 
 .cash_flow strong {
-    flex: 1;
+    flex: 1 1 auto;
 }
 
 .cash_flow strong:last-child {
@@ -162,7 +169,7 @@ a {
 }
 
 .depo li div {
-    flex: 1;
+    flex: 1 1 auto;
 }
 
 .depo li div:last-child {
@@ -184,21 +191,22 @@ a {
 }
 
 /*뱅크셀러드 가계부*/
-.list {
+.list_tab {
     display: flex;
 }
 
-.list_li {
+.list_tab li {
     display: inline-block;
-    flex: 1;
+    flex: 1 1 auto;
     text-align: center;
     border: 1px solid #999;
     background: #fff;
     padding: 5px;
     margin-left: -1px;
+    cursor: pointer;
 }
 
-.list_li.active{
+.list_tab li.active{
     background: #17bd85;
     color: #fff;
     text-shadow: 1px 1px 1px #999;
@@ -245,12 +253,9 @@ table.calendar td{
 
 .state {
     display: flex;
+    flex-direction: column;
     font-size: 12px;
     padding-top: 15px;
-}
-
-.state:first-of-type {
-    display: block;
 }
 
 .list_checkbox {
@@ -259,7 +264,7 @@ table.calendar td{
 }
 
 .list_checkbox dl {
-    flex: 1;
+    flex: 1 1 auto;
 }
 
 .list_checkbox dd {
@@ -575,7 +580,7 @@ table.calendar td{
 }
 
 .bs_main_menu li {
-    flex: 1;
+    flex: 1 1 auto;
     text-align: center;
     color: #1e7e34;
     border-bottom: 1px solid #1e7e34;
@@ -758,7 +763,7 @@ table.calendar td{
 }
 
 .sum_asset_box strong, .sum_asset_box span {
-    flex: 1;
+    flex: 1 1 auto;
 }
 
 .sum_asset_box span {
@@ -776,7 +781,7 @@ table.calendar td{
 }
 
 .footer_list li {
-    flex: 1;
+    flex: 1 1 auto;
     padding: 10px 0;
     background: #f7f7f7;
 }

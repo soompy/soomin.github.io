@@ -284,18 +284,18 @@
 }
 
 /*overlay*/
-.overlay {
+#overlayBox {
 	visibility: hidden;
     position:fixed;
     left: 0;
-	top:0;
-	height:100%;
-	width:100%;
-	background:#333;
+	top:  0;
+	height: 100vh;
+	width: 100%;
+	background:#fff;
 	overflow:auto;
 	z-index:99;
 }
-.overlay_show{
+#overlayBox.active{
     visibility: visible;
 }
 .wrap {
@@ -341,11 +341,26 @@
 	color:#e9e9e9;
 }
 .wrap ul.wrap-nav ul li a {
-    color:#f0f0f0;
+    color:#1a1a1a;
     font-size: 14px;
 }
 .wrap ul.wrap-nav ul li a:hover {
 	color:orange;
+}
+.closeBtn{
+    display: block;
+    position: absolute;
+    right: 5%;
+    top: 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 4px 10px;
+    border-radius: 10px;
+    background: transparent;
+    z-index: 200;
+}
+.closeBtn:hover{
+    color: #fff;
 }
 
 /*푸터*/
@@ -367,19 +382,19 @@
 
 .footer_nav {
     display: flex;
-    flex: 2;
+    flex: 1 1 auto;
 }
 
 .footer_nav a {
     color: #ccc;
-    flex: 1;
+    flex: 1 1 auto;
     margin: auto 0;
 }
 
 .footer_search_box {
     display: flex;
     margin-left: auto;
-    flex: 1;
+    flex: 1 1 auto;
 }
 
 .footer_search_box input {
@@ -540,10 +555,6 @@
 
     .hamburger1 {
         display: block;
-    }
-
-    .overlay {
-        z-index: 100;
     }
 
     .wrap ul.wrap-nav>li {

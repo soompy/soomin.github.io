@@ -7,9 +7,8 @@
           content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>직방renewal</title>
-    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="/resources/demos/style.css">
+    <!-- <link rel="stylesheet" href="/resources/demos/style.css"> -->
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/zb_renewal.css" rel="stylesheet">
     <link href="css/zb_common.css" rel="stylesheet">
@@ -21,7 +20,6 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="jquery-3.4.1.min.js"></script>
     <script src="./js/renewal.js"></script>
-    <!-- <script src="./js/zb_effect.js"></script> -->
 
     <style>
         #chartdiv {
@@ -38,7 +36,7 @@
         <h1 class="title_header">
             <a href="#"><img src="img/logo_r.jpg" alt="직방" width="100px"></a>
         </h1>
-        <button id="hamburger1" onclick='m_menu();' class='hamburger1'>
+        <button id="hamburger1" onclick="mNav()" class='hamburger1'>
             <span class='bar1'></span>
             <span class='bar2'></span>
             <span class='bar3'></span>
@@ -100,8 +98,8 @@
         <div class="gnb_area_bg on"></div>
     </div><!--메뉴 리스트-->
          
-    <nav class="mobile_menu">
-            <div id="overlay" class="overlay">
+    <nav class="mobile_menu">        
+            <div id="overlayBox" onclick="mNav()" class="">
                 <div class="wrap">
                     <ul class="wrap-nav">
                         <li><a href="#">아파트 <small>(매매/전월세/신축분양)</small></a>
