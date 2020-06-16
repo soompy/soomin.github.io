@@ -13,7 +13,7 @@
 <br>
 
 ##### 2020 마크업 작업물은 여기로 와주세요. <br>
-[2020 작업물 위치] (https://soompy.github.io/pf20.github.io/)
+[2020 작업물 위치](https://soompy.github.io/pf20.github.io/)
 
 <br>
 
