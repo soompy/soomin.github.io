@@ -11,17 +11,17 @@
 
 <br>
 
-##### 2020 마크업 작업물은 여기로 와주세요. [2020 작업물 위치입니다.](https://soompy.github.io/pf20.github.io/)
+##### 2020 웹퍼블리싱 작업물은 여기로 와주세요. [2020 작업물 위치입니다.](https://soompy.github.io/pf20.github.io/)
 
 <br>
 
-##### 2019 마크업 작업물 리스트 💪
+##### 2019 웹퍼블리싱 작업물 리스트 💪
 1. [직방 리뉴얼](https://soompy.github.io/pf19.github.io/zigbang.html)
   반응형 / bootstrap4 / html / css / javascript / jQuery
    
-2. [뱅크샐러드 모바일 웹 마크업 - 로그인](https://soompy.github.io/pf19.github.io/banksal_sign_in.html)<br>
-   [뱅크샐러드 모바일 웹 마크업 - 가계부](https://soompy.github.io/pf19.github.io/banksal_book.html)<br>
-   [뱅크샐러드 모바일 웹 마크업 - 금융비서](https://soompy.github.io/pf19.github.io/banksal_advice.html)<br>
+2. [뱅크샐러드 모바일 웹퍼블리싱 - 로그인](https://soompy.github.io/pf19.github.io/banksal_sign_in.html)<br>
+   [뱅크샐러드 모바일 웹퍼블리싱 - 가계부](https://soompy.github.io/pf19.github.io/banksal_book.html)<br>
+   [뱅크샐러드 모바일 웹퍼블리싱 - 금융비서](https://soompy.github.io/pf19.github.io/banksal_advice.html)<br>
   반응형 / bootstrap4 / html / css / javascript / jQuery
   
 <br>
