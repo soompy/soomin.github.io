@@ -1,4 +1,4 @@
-### SMLEE Works. 😍
+### SMLEE Works. 
 
 웹 퍼블리셔 3년 1개월 차 지원자 이수민의 2017~2019년 포트폴리오 작업물 모음 페이지입니다.
 <br><br>
@@ -7,21 +7,46 @@
 <br>
 ##### I'm SMLEE
 저에 대해 알고 싶나요?? ->
-[이수민 자기소개 페이지입니다.](https://soompy.github.io/pf19.github.io/apply.html) 🙂
+[이수민 자기소개 페이지입니다.](https://soompy.github.io/soomin.github.io/apply.html) 🙂
 
 <br>
 
-##### 2020 웹퍼블리싱 작업물은 여기로 와주세요. [2020 작업물 위치입니다.](https://soompy.github.io/pf20.github.io/)
+##### 2023 개인 작업물 💪
+1. [Nuxt nyomnyom]()<br>
+2. [Vite Choonsik Lover]<br>
+3. [Gsap 인터렉티브 웹]<br>
+<br>
+
+##### 2021 개인 작업물 💪
+
+1. [JYP 리뉴얼 웹퍼블리싱 - 메인](https://soompy.github.io/frontendworks21_jyp.github.io/)<br>
+   [JYP 리뉴얼 웹퍼블리싱 - 오디션](https://soompy.github.io/frontendworks21_jyp.github.io/audition.html)<br>
+   [JYP 리뉴얼 웹퍼블리싱 - 회사소개](https://soompy.github.io/frontendworks21_jyp.github.io/company.html)<br>
+   [JYP 리뉴얼 웹퍼블리싱 - 화보](https://soompy.github.io/frontendworks21_jyp.github.io/gallery.html)<br>
+    반응형 / html / scss / css / javascript 
+
+2. [CJ 리뉴얼 웹퍼블리싱 - 메인](https://soompy.github.io/frontendworks21_cj.github.io/)<br>
+    반응형 / html / scss / css / javascript 
 
 <br>
 
-##### 2019 웹퍼블리싱 작업물 리스트 💪
+##### 2020 Vue 개인 작업물 💪
 
-1. [직방 리뉴얼](https://soompy.github.io/pf19.github.io/zigbang.html)
+1. [Vue로 구현한 헬스케어 웹뷰](https://github.com/soompy/pf20-vue-healthcare)<br>
+    vue / scss / css
+
+2. [Nuxt로 구현한 바나프레소 웹뷰](https://github.com/soompy/pjt2020_2nd_nuxt.github.io/tree/master)<br>
+    vue / scss / css
+
+<br>
+
+##### 2019 웹퍼블리싱 개인 작업물 리스트 💪
+
+1. [직방 리뉴얼](https://soompy.github.io/soomin.github.io/zigbang.html)
    반응형 / bootstrap4 / html / css / javascript / jQuery
-2. [뱅크샐러드 모바일 웹퍼블리싱 - 로그인](https://soompy.github.io/pf19.github.io/banksal_sign_in.html)<br>
-   [뱅크샐러드 모바일 웹퍼블리싱 - 가계부](https://soompy.github.io/pf19.github.io/banksal_book.html)<br>
-   [뱅크샐러드 모바일 웹퍼블리싱 - 금융비서](https://soompy.github.io/pf19.github.io/banksal_advice.html)<br>
+2. [뱅크샐러드 모바일 웹퍼블리싱 - 로그인](https://soompy.github.io/soomin.github.io/banksal_sign_in.html)<br>
+   [뱅크샐러드 모바일 웹퍼블리싱 - 가계부](https://soompy.github.io/soomin.github.io/banksal_book.html)<br>
+   [뱅크샐러드 모바일 웹퍼블리싱 - 금융비서](https://soompy.github.io/soomin.github.io/banksal_advice.html)<br>
    반응형 / bootstrap4 / html / css / javascript / jQuery
 
 <br>
