@@ -1,8 +1,12 @@
 ### SMLEE Works. 
 
-웹 퍼블리셔 3년 1개월 차 지원자 이수민의 2017~2019년 포트폴리오 작업물 모음 페이지입니다.
+웹 퍼블리셔 6년차 지원자 이수민의 2017~2023년 포트폴리오 작업물 모음 페이지입니다.
 <br><br>
-<u><strong>개발에 적합한 마크업 구조를 지향합니다.<br>부트스트랩을 사용하여 하드코딩 하였습니다.</strong></u>
+<u>
+  <strong>개발에 적합한 마크업 구조를 지향합니다.</strong><br>
+  <strong>인터렉티브한 웹 표현이 가능합니다.</strong><br>
+  <strong>Vue와 Nuxt로 컴포넌트화 작업이 가능합니다.</strong><br>
+</u>
 
 <br>
 ##### I'm SMLEE
@@ -13,8 +17,8 @@
 
 ##### 2023 개인 작업물 💪
 1. [Nuxt nyomnyom]()<br>
-2. [Vite Choonsik Lover]<br>
-3. [Gsap 인터렉티브 웹]<br>
+2. [Vite Choonsik Lover]()<br>
+3. [Gsap 인터렉티브 웹]()<br>
 <br>
 
 ##### 2021 개인 작업물 💪
@@ -50,36 +54,44 @@
    반응형 / bootstrap4 / html / css / javascript / jQuery
 
 <br>
+
 ##### 2018 포트폴리오 리스트 💪
-1. [서울시청 반응형 리뉴얼](https://github.com/soompy/pf18.github.io/tree/master/seoul) - 총 4페이지
-  반응형 / html / css / javascript / jQuery / photoshop / illustrator
-2. [현대중공업 반응형 리뉴얼](https://github.com/soompy/pf18.github.io/tree/master/hyundai) - 총 1페이지
-  반응형 / html / css / javascript / jQuery / photoshop / illustrator
-3. [뉴발란스 반응형 원페이지 리뉴얼](https://github.com/soompy/pf18.github.io/tree/master/newbalance) - 총 1페이지
+
+1. [서울시청 반응형 리뉴얼](https://github.com/soompy/pf18.github.io/tree/master/seoul) - 총 4페이지<br>
+  반응형 / html / css / javascript / jQuery / photoshop / illustrator<br>
+2. [현대중공업 반응형 리뉴얼](https://github.com/soompy/pf18.github.io/tree/master/hyundai) - 총 1페이지<br>
+  반응형 / html / css / javascript / jQuery / photoshop / illustrator<br>
+3. [뉴발란스 반응형 원페이지 리뉴얼](https://github.com/soompy/pf18.github.io/tree/master/newbalance) - 총 1페이지<br>
   반응형 / html / css / javascript / jQuery / photoshop / illustrator
   
 <br>
+
 ##### 2017 포트폴리오 리스트 💪
-1. [자이 리뉴얼](https://github.com/soompy/pf17.github.io/tree/master/xi) - 총 4페이지
-  html / css / javascript / jQuery / photoshop / illustrator
-2. [디올 반응형 리뉴얼](https://github.com/soompy/pf17.github.io/tree/master/dior) - 총 1페이지
-  반응형 / html / css / javascript / jQuery / photoshop / illustrator
-3. [중앙대학교 반응형 리뉴얼](https://github.com/soompy/pf17.github.io/tree/master/cau) - 총 16페이지
-  반응형 / html / css / javascript / jQuery / photoshop / illustrator
-4. [교보문고 반응형 리뉴얼](https://github.com/soompy/pf17.github.io/tree/master/kyobo) - 총 1페이지
-  반응형 / html / css / javascript / jQuery / photoshop / illustrator  
-5. [국립극장 반응형 리뉴얼](https://github.com/soompy/pf17.github.io/tree/master/ntok) - 총 3페이지
-  반응형 / html / css / javascript / jQuery / photoshop / illustrator
-6. [맥도날드 반응형 리뉴얼](https://github.com/soompy/pf17.github.io/tree/master/mcdonalds) - 총 1페이지
-  반응형 / html / css / javascript / jQuery / photoshop / illustrator
-7. [SPC 반응형 리뉴얼](https://github.com/soompy/pf17.github.io/tree/master/spc) - 총 7페이지
-  반응형 / html / css / javascript / jQuery / photoshop / illustrator
-8. [덩케르크 반응형 프로모션 페이지](https://github.com/soompy/pf17.github.io/tree/master/dunkirk) - 총 1페이지
+
+1. [자이 리뉴얼](https://github.com/soompy/pf17.github.io/tree/master/xi) - 총 4페이지<br>
+  html / css / javascript / jQuery / photoshop / illustrator<br>
+2. [디올 반응형 리뉴얼](https://github.com/soompy/pf17.github.io/tree/master/dior) - 총 1페이지<br>
+  반응형 / html / css / javascript / jQuery / photoshop / illustrator<br>
+3. [중앙대학교 반응형 리뉴얼](https://github.com/soompy/pf17.github.io/tree/master/cau) - 총 16페이지<br>
+  반응형 / html / css / javascript / jQuery / photoshop / illustrator<br>
+4. [교보문고 반응형 리뉴얼](https://github.com/soompy/pf17.github.io/tree/master/kyobo) - 총 1페이지<br>
+  반응형 / html / css / javascript / jQuery / photoshop / illustrator<br>
+5. [국립극장 반응형 리뉴얼](https://github.com/soompy/pf17.github.io/tree/master/ntok) - 총 3페이지<br>
+  반응형 / html / css / javascript / jQuery / photoshop / illustrator<br>
+6. [맥도날드 반응형 리뉴얼](https://github.com/soompy/pf17.github.io/tree/master/mcdonalds) - 총 1페이지<br>
+  반응형 / html / css / javascript / jQuery / photoshop / illustrator<br>
+7. [SPC 반응형 리뉴얼](https://github.com/soompy/pf17.github.io/tree/master/spc) - 총 7페이지<br>
+  반응형 / html / css / javascript / jQuery / photoshop / illustrator<br>
+8. [덩케르크 반응형 프로모션 페이지](https://github.com/soompy/pf17.github.io/tree/master/dunkirk) - 총 1페이지<br>
   반응형 / html / css / javascript / jQuery / photoshop / illustrator
 
-<br>
+<br><br>
+
 감사합니다.
 
-Contact<br>
+<br><br>
+
+📲Contact<br>
+이수민<br>
 E-mail: yzsumin@naver.com<br>
 Phone: 01027631137
